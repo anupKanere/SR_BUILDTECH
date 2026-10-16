@@ -5,6 +5,11 @@ import { motion } from 'framer-motion'
 import { useInView } from 'react-intersection-observer'
 import { Container } from '@/components/ui/Container'
 
+const staticParticles = Array.from({ length: 20 }, (_, i) => ({
+  left: ((i * 17 + 13) % 94) + 3,
+  top: ((i * 23 + 7) % 90) + 5,
+}))
+
 export function TransformAnimation() {
   const [ref, inView] = useInView({ triggerOnce: false, threshold: 0.3 })
 
@@ -303,24 +308,24 @@ export function TransformAnimation() {
             </div>
 
             {/* Floating Particles */}
-            {[...Array(20)].map((_, i) => (
+            {staticParticles.map((pos, i) => (
               <motion.div
                 key={i}
                 className="absolute w-1 h-1 bg-primary rounded-full"
                 style={{
-                  left: `${Math.random() * 100}%`,
-                  top: `${Math.random() * 100}%`,
+                  left: `${pos.left}%`,
+                  top: `${pos.top}%`,
                 }}
                 animate={{
                   y: [0, -100, 0],
                   opacity: [0, 1, 0],
-                  scale: [0, 1.5, 0]
+                  scale: [0, 1.5, 0],
                 }}
                 transition={{
                   duration: 5,
                   repeat: Infinity,
                   delay: i * 0.3,
-                  ease: 'easeInOut'
+                  ease: 'easeInOut',
                 }}
               />
             ))}

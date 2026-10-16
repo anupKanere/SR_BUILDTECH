@@ -1,0 +1,132 @@
+{
+  "categories": [
+    {
+      "id": "residential",
+      "label": "Residential Projects",
+      "tagline": "Crafting bespoke luxury villas, modern residences, and architectural living spaces with uncompromising attention to detail."
+    },
+    {
+      "id": "commercial",
+      "label": "Commercial Projects",
+      "tagline": "Delivering cutting-edge commercial complexes, corporate headquarters, and institutional infrastructure engineered for longevity."
+    }
+  ],
+  "photos": {
+    "residential": [
+      {
+        "id": "res-1",
+        "imageUrl": "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=1600&q=85",
+        "thumbnailUrl": "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=800&q=80",
+        "alt": "Modern luxury residential villa with glass facade and illuminated reflection pool",
+        "aspect": "landscape"
+      },
+      {
+        "id": "res-2",
+        "imageUrl": "https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?auto=format&fit=crop&w=1600&q=85",
+        "thumbnailUrl": "https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?auto=format&fit=crop&w=800&q=80",
+        "alt": "Contemporary multi-level residence with landscaped grounds and architectural exterior lighting",
+        "aspect": "landscape"
+      },
+      {
+        "id": "res-3",
+        "imageUrl": "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?auto=format&fit=crop&w=1600&q=85",
+        "thumbnailUrl": "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?auto=format&fit=crop&w=800&q=80",
+        "alt": "Double-height luxury villa living hall with custom architectural joinery and natural light",
+        "aspect": "landscape"
+      },
+      {
+        "id": "res-4",
+        "imageUrl": "https://images.unsplash.com/photo-1600566753376-12c8ab7fb75b?auto=format&fit=crop&w=1600&q=85",
+        "thumbnailUrl": "https://images.unsplash.com/photo-1600566753376-12c8ab7fb75b?auto=format&fit=crop&w=800&q=80",
+        "alt": "Minimalist modern villa patio and infinity lap pool surrounded by architectural stone walls",
+        "aspect": "landscape"
+      },
+      {
+        "id": "res-5",
+        "imageUrl": "https://images.unsplash.com/photo-1512917774080-9991f1c4c750?auto=format&fit=crop&w=1600&q=85",
+        "thumbnailUrl": "https://images.unsplash.com/photo-1512917774080-9991f1c4c750?auto=format&fit=crop&w=800&q=80",
+        "alt": "Ultra-luxury modern estate with cantilevered balcony and geometric roofline",
+        "aspect": "landscape"
+      },
+      {
+        "id": "res-6",
+        "imageUrl": "https://images.unsplash.com/photo-1600585154526-990dced4db0d?auto=format&fit=crop&w=1600&q=85",
+        "thumbnailUrl": "https://images.unsplash.com/photo-1600585154526-990dced4db0d?auto=format&fit=crop&w=800&q=80",
+        "alt": "Bespoke contemporary master living pavilion with floor-to-ceiling panoramic glass",
+        "aspect": "landscape"
+      },
+      {
+        "id": "res-7",
+        "imageUrl": "https://images.unsplash.com/photo-1613490493576-7fde63acd811?auto=format&fit=crop&w=1600&q=85",
+        "thumbnailUrl": "https://images.unsplash.com/photo-1613490493576-7fde63acd811?auto=format&fit=crop&w=800&q=80",
+        "alt": "Modern hillside luxury residence with warm ambient accent illumination at twilight",
+        "aspect": "landscape"
+      },
+      {
+        "id": "res-8",
+        "imageUrl": "https://images.unsplash.com/photo-1600573472591-ee6b68d14c68?auto=format&fit=crop&w=1600&q=85",
+        "thumbnailUrl": "https://images.unsplash.com/photo-1600573472591-ee6b68d14c68?auto=format&fit=crop&w=800&q=80",
+        "alt": "Seamless indoor-outdoor courtyard integration in modern architectural residence",
+        "aspect": "landscape"
+      }
+    ],
+    "commercial": [
+      {
+        "id": "comm-1",
+        "imageUrl": "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&w=1600&q=85",
+        "thumbnailUrl": "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&w=800&q=80",
+        "alt": "High-rise corporate office tower with modern architectural glass facade reflecting sky",
+        "aspect": "landscape"
+      },
+      {
+        "id": "res-comm-2",
+        "imageUrl": "https://images.unsplash.com/photo-1497366216548-37526070297c?auto=format&fit=crop&w=1600&q=85",
+        "thumbnailUrl": "https://images.unsplash.com/photo-1497366216548-37526070297c?auto=format&fit=crop&w=800&q=80",
+        "alt": "Prestigious corporate atrium and lobby with marble flooring and structural steel framing",
+        "aspect": "landscape"
+      },
+      {
+        "id": "comm-3",
+        "imageUrl": "https://images.unsplash.com/photo-1541888946425-d81bb19240f5?auto=format&fit=crop&w=1600&q=85",
+        "thumbnailUrl": "https://images.unsplash.com/photo-1541888946425-d81bb19240f5?auto=format&fit=crop&w=800&q=80",
+        "alt": "Large-scale commercial structural construction and engineering execution",
+        "aspect": "landscape"
+      },
+      {
+        "id": "comm-4",
+        "imageUrl": "https://images.unsplash.com/photo-1448630360428-65456885c650?auto=format&fit=crop&w=1600&q=85",
+        "thumbnailUrl": "https://images.unsplash.com/photo-1448630360428-65456885c650?auto=format&fit=crop&w=800&q=80",
+        "alt": "Multi-tier commercial complex with contemporary terracotta louver facade",
+        "aspect": "landscape"
+      },
+      {
+        "id": "comm-5",
+        "imageUrl": "https://images.unsplash.com/photo-1577495508048-b635879837f1?auto=format&fit=crop&w=1600&q=85",
+        "thumbnailUrl": "https://images.unsplash.com/photo-1577495508048-b635879837f1?auto=format&fit=crop&w=800&q=80",
+        "alt": "Modern corporate headquarters plaza with glass curtain wall and paved entrance",
+        "aspect": "landscape"
+      },
+      {
+        "id": "comm-6",
+        "imageUrl": "https://images.unsplash.com/photo-1497215728101-856f4ea42174?auto=format&fit=crop&w=1600&q=85",
+        "thumbnailUrl": "https://images.unsplash.com/photo-1497215728101-856f4ea42174?auto=format&fit=crop&w=800&q=80",
+        "alt": "Turnkey commercial tech park workspace with acoustic ceiling and open design",
+        "aspect": "landscape"
+      },
+      {
+        "id": "comm-7",
+        "imageUrl": "https://images.unsplash.com/photo-1504307651254-35680f356dfd?auto=format&fit=crop&w=1600&q=85",
+        "thumbnailUrl": "https://images.unsplash.com/photo-1504307651254-35680f356dfd?auto=format&fit=crop&w=800&q=80",
+        "alt": "Precision industrial facility engineering and pre-engineered structural steel construction",
+        "aspect": "landscape"
+      },
+      {
+        "id": "comm-8",
+        "imageUrl": "https://images.unsplash.com/photo-1513694203232-719a280e022f?auto=format&fit=crop&w=1600&q=85",
+        "thumbnailUrl": "https://images.unsplash.com/photo-1513694203232-719a280e022f?auto=format&fit=crop&w=800&q=80",
+        "alt": "Architectural commercial entrance and retail gallery space with contemporary lighting",
+        "aspect": "landscape"
+      }
+    ]
+  }
+}

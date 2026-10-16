@@ -21,7 +21,7 @@ import { Container } from '@/components/ui/Container'
 import { SectionHeading } from '@/components/ui/SectionHeading'
 import servicesData from '@/data/services.json'
 
-const iconMap: { [key: string]: any } = {
+const iconMap: Record<string, React.ComponentType<{ className?: string; size?: number }>> = {
   building: Building,
   drafting: Pencil,
   calculator: Calculator,
@@ -63,36 +63,38 @@ export function Services() {
                 key={service.id}
                 initial={{ opacity: 0, y: 30 }}
                 animate={inView ? { opacity: 1, y: 0 } : {}}
-                transition={{ delay: index * 0.1, duration: 0.5 }}
+                transition={{ delay: index * 0.08, duration: 0.5 }}
                 className="group"
               >
-                <div className="h-full bg-gradient-to-br from-navy-800 to-navy-900 rounded-2xl p-6 shadow-lg hover:shadow-2xl transition-all duration-300 border border-navy-700 hover:border-primary dark:hover:border-primary hover:-translate-y-2">
-                  {/* Icon */}
-                  <div className="mb-6">
-                    <div className="w-16 h-16 bg-gradient-to-br from-primary to-primary-600 rounded-xl flex items-center justify-center group-hover:scale-110 group-hover:rotate-6 transition-all duration-300 shadow-lg">
-                      <Icon className="text-white" size={32} />
+                <div className="h-full bg-navy-800/80 backdrop-blur-sm rounded-2xl p-6 shadow-lg hover:shadow-2xl transition-all duration-300 border border-white/10 hover:border-primary/50 hover:-translate-y-1.5 flex flex-col justify-between">
+                  <div>
+                    {/* Icon */}
+                    <div className="mb-6">
+                      <div className="w-14 h-14 bg-gradient-to-br from-primary to-primary-600 rounded-xl flex items-center justify-center group-hover:scale-110 group-hover:shadow-lg group-hover:shadow-primary/40 transition-all duration-300 shadow-md">
+                        <Icon className="text-white" size={28} />
+                      </div>
                     </div>
+
+                    {/* Title */}
+                    <h3 className="text-lg md:text-xl font-bold text-white mb-3 group-hover:text-primary transition-colors">
+                      {service.title}
+                    </h3>
+
+                    {/* Description */}
+                    <p className="text-slate-300 text-sm mb-4 leading-relaxed font-normal">
+                      {service.description}
+                    </p>
                   </div>
 
-                  {/* Title */}
-                  <h3 className="text-xl font-bold text-white mb-3 group-hover:text-primary transition-colors">
-                    {service.title}
-                  </h3>
-
-                  {/* Description */}
-                  <p className="text-navy-300 text-sm mb-4 leading-relaxed">
-                    {service.description}
-                  </p>
-
                   {/* Features */}
-                  <ul className="space-y-2">
+                  <ul className="space-y-2 pt-3 border-t border-white/10">
                     {service.features.slice(0, 3).map((feature, idx) => (
                       <li
                         key={idx}
-                        className="text-xs text-navy-500 dark:text-navy-400 flex items-center gap-2"
+                        className="text-xs text-slate-300 flex items-center gap-2"
                       >
-                        <div className="w-1.5 h-1.5 bg-primary rounded-full" />
-                        {feature}
+                        <div className="w-1.5 h-1.5 bg-primary rounded-full flex-shrink-0" />
+                        <span>{feature}</span>
                       </li>
                     ))}
                   </ul>
@@ -111,11 +113,11 @@ export function Services() {
         >
           <div className="bg-gradient-to-r from-primary to-primary-600 rounded-2xl p-12 shadow-2xl">
             <h3 className="text-3xl font-heading font-bold text-white mb-4">
-              Don't See What You Need?
+              Don&apos;t See What You Need?
             </h3>
             <p className="text-white/90 mb-6 max-w-2xl mx-auto">
               We offer customized solutions for unique construction and engineering challenges.
-              Let's discuss your project requirements.
+              Let&apos;s discuss your project requirements.
             </p>
             <button
               onClick={() => {

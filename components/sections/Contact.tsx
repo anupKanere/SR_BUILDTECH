@@ -33,32 +33,32 @@ export function Contact() {
             initial={{ opacity: 0, y: 30 }}
             animate={inView ? { opacity: 1, y: 0 } : {}}
             transition={{ duration: 0.6 }}
-            className="bg-gradient-to-br from-navy to-navy-800 rounded-3xl p-8 md:p-12 shadow-2xl mb-12"
+            className="bg-navy-800/80 backdrop-blur-xl rounded-3xl p-8 md:p-12 shadow-2xl mb-12 border border-white/10"
           >
             <div className="text-center mb-12">
-              <h3 className="text-3xl md:text-4xl font-heading font-bold text-white mb-4">
+              <h3 className="text-2xl md:text-3xl font-heading font-bold text-white mb-3">
                 Contact Information
               </h3>
-              <p className="text-navy-300 text-lg max-w-2xl mx-auto">
-                Get in touch with us for any inquiries or project discussions. We're here to help bring your vision to life.
+              <p className="text-slate-300 text-base md:text-lg max-w-2xl mx-auto font-normal">
+                Get in touch with us for any inquiries or project discussions. We&apos;re here to help bring your architectural vision to life.
               </p>
             </div>
 
-            <div className="grid md:grid-cols-2 gap-8 mb-12">
+            <div className="grid md:grid-cols-2 gap-6 md:gap-8 mb-12">
               {/* Phone */}
               <motion.a
                 href={`tel:${companyData.contact.phone}`}
                 initial={{ opacity: 0, x: -20 }}
                 animate={inView ? { opacity: 1, x: 0 } : {}}
                 transition={{ delay: 0.2 }}
-                className="flex items-center gap-6 bg-white/10 backdrop-blur-sm rounded-2xl p-6 hover:bg-white/20 transition-all group"
+                className="flex items-center gap-5 bg-white/5 border border-white/10 rounded-2xl p-6 hover:bg-white/10 hover:border-primary/40 transition-all group"
               >
-                <div className="w-16 h-16 bg-primary rounded-xl flex items-center justify-center group-hover:scale-110 transition-transform">
-                  <Phone size={32} className="text-white" />
+                <div className="w-14 h-14 bg-primary rounded-xl flex items-center justify-center group-hover:scale-110 transition-transform flex-shrink-0 shadow-lg shadow-primary/30">
+                  <Phone size={28} className="text-white" />
                 </div>
                 <div>
-                  <p className="text-navy-400 text-sm mb-1">Call Us</p>
-                  <p className="text-2xl font-bold text-white">+91 {companyData.contact.phone}</p>
+                  <p className="text-slate-400 text-xs uppercase tracking-wider mb-1 font-semibold">Call Us Directly</p>
+                  <p className="text-xl md:text-2xl font-bold text-white">+91 {companyData.contact.phone}</p>
                 </div>
               </motion.a>
 
@@ -70,14 +70,14 @@ export function Contact() {
                 initial={{ opacity: 0, x: 20 }}
                 animate={inView ? { opacity: 1, x: 0 } : {}}
                 transition={{ delay: 0.3 }}
-                className="flex items-center gap-6 bg-white/10 backdrop-blur-sm rounded-2xl p-6 hover:bg-white/20 transition-all group"
+                className="flex items-center gap-5 bg-white/5 border border-white/10 rounded-2xl p-6 hover:bg-white/10 hover:border-green-500/40 transition-all group"
               >
-                <div className="w-16 h-16 bg-green-500 rounded-xl flex items-center justify-center group-hover:scale-110 transition-transform">
-                  <MessageCircle size={32} className="text-white" />
+                <div className="w-14 h-14 bg-green-500 rounded-xl flex items-center justify-center group-hover:scale-110 transition-transform flex-shrink-0 shadow-lg shadow-green-500/30">
+                  <MessageCircle size={28} className="text-white" />
                 </div>
                 <div>
-                  <p className="text-navy-400 text-sm mb-1">WhatsApp</p>
-                  <p className="text-2xl font-bold text-white">Chat Now</p>
+                  <p className="text-slate-400 text-xs uppercase tracking-wider mb-1 font-semibold">Instant WhatsApp</p>
+                  <p className="text-xl md:text-2xl font-bold text-white">Chat Now</p>
                 </div>
               </motion.a>
 
@@ -87,14 +87,14 @@ export function Contact() {
                 initial={{ opacity: 0, x: -20 }}
                 animate={inView ? { opacity: 1, x: 0 } : {}}
                 transition={{ delay: 0.4 }}
-                className="flex items-center gap-6 bg-white/10 backdrop-blur-sm rounded-2xl p-6 hover:bg-white/20 transition-all group"
+                className="flex items-center gap-5 bg-white/5 border border-white/10 rounded-2xl p-6 hover:bg-white/10 hover:border-primary/40 transition-all group"
               >
-                <div className="w-16 h-16 bg-primary rounded-xl flex items-center justify-center group-hover:scale-110 transition-transform">
-                  <Mail size={32} className="text-white" />
+                <div className="w-14 h-14 bg-primary rounded-xl flex items-center justify-center group-hover:scale-110 transition-transform flex-shrink-0 shadow-lg shadow-primary/30">
+                  <Mail size={28} className="text-white" />
                 </div>
                 <div>
-                  <p className="text-navy-400 text-sm mb-1">Email Us</p>
-                  <p className="text-xl font-bold text-white break-all">{companyData.contact.email}</p>
+                  <p className="text-slate-400 text-xs uppercase tracking-wider mb-1 font-semibold">Email Us</p>
+                  <p className="text-base sm:text-lg font-bold text-white break-all">{companyData.contact.email}</p>
                 </div>
               </motion.a>
 
@@ -103,14 +103,14 @@ export function Contact() {
                 initial={{ opacity: 0, x: 20 }}
                 animate={inView ? { opacity: 1, x: 0 } : {}}
                 transition={{ delay: 0.5 }}
-                className="flex items-center gap-6 bg-white/10 backdrop-blur-sm rounded-2xl p-6"
+                className="flex items-center gap-5 bg-white/5 border border-white/10 rounded-2xl p-6"
               >
-                <div className="w-16 h-16 bg-primary rounded-xl flex items-center justify-center">
-                  <MapPin size={32} className="text-white" />
+                <div className="w-14 h-14 bg-primary rounded-xl flex items-center justify-center flex-shrink-0 shadow-lg shadow-primary/30">
+                  <MapPin size={28} className="text-white" />
                 </div>
                 <div>
-                  <p className="text-navy-400 text-sm mb-1">Location</p>
-                  <p className="text-xl font-bold text-white">{companyData.contact.address}</p>
+                  <p className="text-slate-400 text-xs uppercase tracking-wider mb-1 font-semibold">Office Location</p>
+                  <p className="text-base sm:text-lg font-bold text-white">{companyData.contact.address}</p>
                 </div>
               </motion.div>
             </div>
@@ -120,36 +120,36 @@ export function Contact() {
               initial={{ opacity: 0, y: 20 }}
               animate={inView ? { opacity: 1, y: 0 } : {}}
               transition={{ delay: 0.6 }}
-              className="text-center relative z-10"
+              className="text-center relative z-10 pt-6 border-t border-white/10"
             >
-              <p className="text-white font-semibold mb-6 text-lg">Connect With Us</p>
-              <div className="flex justify-center gap-3">
+              <p className="text-slate-300 font-semibold mb-5 text-sm uppercase tracking-wider">Connect With Us On Social Media</p>
+              <div className="flex justify-center gap-4">
                 <a
                   href={companyData.social.instagram}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="w-12 h-12 bg-white/10 hover:bg-gradient-to-br hover:from-purple-500 hover:to-pink-500 rounded-lg flex items-center justify-center transition-all hover:scale-110 cursor-pointer relative z-10"
+                  className="w-12 h-12 bg-white/10 hover:bg-gradient-to-br hover:from-purple-500 hover:to-pink-500 rounded-xl flex items-center justify-center transition-all hover:scale-110 cursor-pointer"
                   aria-label="Instagram"
                 >
-                  <FaInstagram className="text-white pointer-events-none" size={24} />
+                  <FaInstagram className="text-white pointer-events-none" size={22} />
                 </a>
                 <a
                   href={companyData.social.facebook}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="w-12 h-12 bg-white/10 hover:bg-blue-600 rounded-lg flex items-center justify-center transition-all hover:scale-110 cursor-pointer relative z-10"
+                  className="w-12 h-12 bg-white/10 hover:bg-blue-600 rounded-xl flex items-center justify-center transition-all hover:scale-110 cursor-pointer"
                   aria-label="Facebook"
                 >
-                  <FaFacebook className="text-white pointer-events-none" size={24} />
+                  <FaFacebook className="text-white pointer-events-none" size={22} />
                 </a>
                 <a
                   href={companyData.social.youtube}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="w-12 h-12 bg-white/10 hover:bg-red-600 rounded-lg flex items-center justify-center transition-all hover:scale-110 cursor-pointer relative z-10"
+                  className="w-12 h-12 bg-white/10 hover:bg-red-600 rounded-xl flex items-center justify-center transition-all hover:scale-110 cursor-pointer"
                   aria-label="YouTube"
                 >
-                  <FaYoutube className="text-white pointer-events-none" size={24} />
+                  <FaYoutube className="text-white pointer-events-none" size={22} />
                 </a>
               </div>
             </motion.div>
@@ -161,17 +161,18 @@ export function Contact() {
               initial={{ opacity: 0, y: 20 }}
               animate={inView ? { opacity: 1, y: 0 } : {}}
               transition={{ delay: 0.7 }}
-              className="bg-navy-800/95 backdrop-blur-sm rounded-2xl p-8 shadow-lg border border-gray-200 dark:border-navy-700"
+              className="bg-navy-800/80 backdrop-blur-xl rounded-2xl p-8 shadow-xl border border-white/10"
             >
-              <h4 className="text-2xl font-bold text-white mb-3">Get a Free Consultation</h4>
-              <p className="text-gray-600 dark:text-gray-300 mb-6">
-                Call us or send a WhatsApp message to discuss your project requirements and get expert advice.
+              <h4 className="text-xl md:text-2xl font-bold text-white mb-2">Schedule A Free Consultation</h4>
+              <p className="text-slate-300 text-sm leading-relaxed mb-6 font-normal">
+                Call our engineering specialists or send a WhatsApp message to discuss your architectural drawings, structural requirements, or turnkey construction plans.
               </p>
               <a
                 href={`tel:${companyData.contact.phone}`}
-                className="inline-block bg-primary hover:bg-primary-600 text-white px-6 py-3 rounded-lg font-semibold transition-all hover:scale-105"
+                className="inline-flex items-center gap-2 bg-gradient-to-r from-primary to-primary-600 hover:from-primary-600 hover:to-primary-700 text-white px-6 py-3 rounded-xl font-semibold transition-all hover:scale-105 shadow-lg shadow-primary/30 text-sm"
               >
-                Call Now
+                <Phone size={16} />
+                <span>Call Now (+91 {companyData.contact.phone})</span>
               </a>
             </motion.div>
 
@@ -179,20 +180,21 @@ export function Contact() {
               initial={{ opacity: 0, y: 20 }}
               animate={inView ? { opacity: 1, y: 0 } : {}}
               transition={{ delay: 0.8 }}
-              className="bg-gradient-to-br from-primary/10 to-primary/5 rounded-2xl p-8 border border-primary/20"
+              className="bg-navy-800/80 backdrop-blur-xl rounded-2xl p-8 border border-primary/30"
             >
-              <h4 className="text-2xl font-bold text-white mb-3">Business Hours</h4>
-              <div className="space-y-2 text-gray-600 dark:text-gray-300">
-                <p className="flex justify-between">
-                  <span className="font-semibold">Monday - Saturday:</span>
+              <h4 className="text-xl md:text-2xl font-bold text-white mb-3">Operating Hours</h4>
+              <div className="space-y-3 text-slate-300 text-sm">
+                <p className="flex justify-between items-center pb-2 border-b border-white/10">
+                  <span className="font-semibold text-white">Monday - Saturday:</span>
                   <span>9:00 AM - 7:00 PM</span>
                 </p>
-                <p className="flex justify-between">
-                  <span className="font-semibold">Sunday:</span>
+                <p className="flex justify-between items-center pb-2 border-b border-white/10">
+                  <span className="font-semibold text-white">Sunday:</span>
                   <span>10:00 AM - 5:00 PM</span>
                 </p>
-                <p className="text-sm text-primary font-semibold mt-4">
-                  WhatsApp available 24/7
+                <p className="text-xs text-primary font-semibold pt-1 flex items-center gap-1.5">
+                  <span className="w-2 h-2 rounded-full bg-green-500 animate-pulse" />
+                  <span>WhatsApp support available 24/7 for project inquiries</span>
                 </p>
               </div>
             </motion.div>

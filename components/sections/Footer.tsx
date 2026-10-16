@@ -2,8 +2,7 @@
 
 import React from 'react'
 import Image from 'next/image'
-import { motion } from 'framer-motion'
-import { Phone, Mail, MapPin, ArrowUp } from 'lucide-react'
+import { Phone, Mail, MapPin } from 'lucide-react'
 import { FaInstagram, FaFacebook, FaYoutube } from 'react-icons/fa'
 import { Container } from '@/components/ui/Container'
 import { NAV_LINKS } from '@/lib/constants'
@@ -11,9 +10,6 @@ import companyData from '@/data/company.json'
 import servicesData from '@/data/services.json'
 
 export function Footer() {
-  const scrollToTop = () => {
-    window.scrollTo({ top: 0, behavior: 'smooth' })
-  }
 
   const scrollToSection = (href: string) => {
     const id = href.replace('#', '')
@@ -152,33 +148,17 @@ export function Footer() {
         </div>
 
         {/* Bottom Bar */}
-        <div className="relative z-10 border-t border-navy-700 py-6">
+        <div className="relative z-10 border-t border-white/10 py-6">
           <div className="flex flex-col md:flex-row justify-between items-center gap-4">
-            <p className="text-navy-400 text-sm text-center md:text-left">
+            <p className="text-slate-400 text-sm text-center md:text-left">
               © {new Date().getFullYear()} {companyData.name}. All rights reserved.
             </p>
             <div className="flex gap-6 text-sm">
-              <a href="#" className="text-navy-400 hover:text-primary transition-colors">
-                Privacy Policy
-              </a>
-              <a href="#" className="text-navy-400 hover:text-primary transition-colors">
-                Terms of Service
-              </a>
+              <span className="text-slate-400">Bangalore, Karnataka</span>
             </div>
           </div>
         </div>
       </Container>
-
-      {/* Back to Top Button */}
-      <motion.button
-        onClick={scrollToTop}
-        initial={{ opacity: 0 }}
-        whileInView={{ opacity: 1 }}
-        className="fixed bottom-8 right-8 w-12 h-12 bg-primary hover:bg-primary-600 rounded-full shadow-lg flex items-center justify-center z-50 transition-all hover:scale-110"
-        whileHover={{ y: -5 }}
-      >
-        <ArrowUp size={24} />
-      </motion.button>
     </footer>
   )
 }

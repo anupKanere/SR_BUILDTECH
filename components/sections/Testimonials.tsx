@@ -77,7 +77,7 @@ export function Testimonials() {
                 }}
                 className="w-full"
               >
-                <div className="bg-navy-800 rounded-3xl p-8 md:p-12 shadow-2xl border border-navy-700 relative">
+                <div className="bg-navy-800/80 backdrop-blur-xl rounded-3xl p-8 md:p-12 shadow-2xl border border-white/10 relative">
                   {/* Quote Icon */}
                   <div className="absolute -top-6 left-8 w-12 h-12 bg-primary rounded-full flex items-center justify-center shadow-lg">
                     <Quote className="text-white" size={24} />
@@ -91,23 +91,23 @@ export function Testimonials() {
                   </div>
 
                   {/* Testimonial Text */}
-                  <p className="text-navy-200 text-lg md:text-xl leading-relaxed mb-8 italic">
-                    "{testimonialsData[currentIndex].text}"
+                  <p className="text-slate-200 text-lg md:text-xl leading-relaxed mb-8 italic font-normal">
+                    &ldquo;{testimonialsData[currentIndex].text}&rdquo;
                   </p>
 
                   {/* Client Info */}
                   <div className="flex items-center gap-4">
-                    <div className="w-16 h-16 bg-gradient-to-br from-primary to-primary-600 rounded-full flex items-center justify-center text-white text-2xl font-bold">
+                    <div className="w-14 h-14 bg-gradient-to-br from-primary to-primary-600 rounded-2xl flex items-center justify-center text-white text-xl font-bold shadow-md">
                       {testimonialsData[currentIndex].name.charAt(0)}
                     </div>
                     <div>
                       <h4 className="text-white font-bold text-lg">
                         {testimonialsData[currentIndex].name}
                       </h4>
-                      <p className="text-navy-400 text-sm">
+                      <p className="text-slate-300 text-sm">
                         {testimonialsData[currentIndex].company}
                       </p>
-                      <p className="text-primary text-xs font-semibold">
+                      <p className="text-primary text-xs font-semibold mt-0.5">
                         {testimonialsData[currentIndex].project}
                       </p>
                     </div>
@@ -119,14 +119,14 @@ export function Testimonials() {
             {/* Navigation Buttons */}
             <button
               onClick={prevTestimonial}
-              className="absolute left-0 top-1/2 -translate-y-1/2 -translate-x-4 md:-translate-x-12 w-12 h-12 bg-navy-800 rounded-full shadow-lg flex items-center justify-center text-white hover:bg-primary hover:text-white transition-all hover:scale-110"
+              className="absolute left-0 top-1/2 -translate-y-1/2 -translate-x-4 md:-translate-x-12 w-12 h-12 bg-navy-800/90 border border-white/15 rounded-full shadow-xl flex items-center justify-center text-white hover:bg-primary hover:border-primary transition-all hover:scale-110"
               aria-label="Previous testimonial"
             >
               <ChevronLeft size={24} />
             </button>
             <button
               onClick={nextTestimonial}
-              className="absolute right-0 top-1/2 -translate-y-1/2 translate-x-4 md:translate-x-12 w-12 h-12 bg-navy-800 rounded-full shadow-lg flex items-center justify-center text-white hover:bg-primary hover:text-white transition-all hover:scale-110"
+              className="absolute right-0 top-1/2 -translate-y-1/2 translate-x-4 md:translate-x-12 w-12 h-12 bg-navy-800/90 border border-white/15 rounded-full shadow-xl flex items-center justify-center text-white hover:bg-primary hover:border-primary transition-all hover:scale-110"
               aria-label="Next testimonial"
             >
               <ChevronRight size={24} />
@@ -142,10 +142,10 @@ export function Testimonials() {
                   setDirection(index > currentIndex ? 1 : -1)
                   setCurrentIndex(index)
                 }}
-                className={`h-2 rounded-full transition-all ${
+                className={`h-2 rounded-full transition-all duration-300 ${
                   index === currentIndex
-                    ? 'w-8 bg-primary'
-                    : 'w-2 bg-navy-300 dark:bg-navy-700 hover:bg-primary/50'
+                    ? 'w-8 bg-primary shadow-md shadow-primary/50'
+                    : 'w-2 bg-slate-600 hover:bg-slate-400'
                 }`}
                 aria-label={`Go to testimonial ${index + 1}`}
               />
@@ -157,7 +157,7 @@ export function Testimonials() {
             initial={{ opacity: 0, y: 20 }}
             animate={inView ? { opacity: 1, y: 0 } : {}}
             transition={{ delay: 0.6, duration: 0.6 }}
-            className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-5 gap-4 mt-12"
+            className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-5 gap-3 mt-12"
           >
             {testimonialsData.map((testimonial, index) => (
               <button
@@ -166,16 +166,16 @@ export function Testimonials() {
                   setDirection(index > currentIndex ? 1 : -1)
                   setCurrentIndex(index)
                 }}
-                className={`p-4 rounded-xl transition-all ${
+                className={`p-3.5 rounded-xl border transition-all ${
                   index === currentIndex
-                    ? 'bg-primary text-white shadow-lg scale-105'
-                    : 'bg-navy-800 text-white hover:bg-navy-50 dark:hover:bg-navy-700'
+                    ? 'bg-primary text-white border-primary shadow-lg shadow-primary/30 scale-105'
+                    : 'bg-navy-800/60 border-white/10 text-slate-300 hover:text-white hover:border-white/25'
                 }`}
               >
-                <div className="w-12 h-12 bg-navy-100 dark:bg-navy-700 rounded-full flex items-center justify-center mx-auto mb-2 text-lg font-bold">
+                <div className="w-10 h-10 bg-white/10 rounded-full flex items-center justify-center mx-auto mb-2 text-sm font-bold text-white">
                   {testimonial.name.charAt(0)}
                 </div>
-                <p className="text-xs font-semibold truncate">{testimonial.name}</p>
+                <p className="text-xs font-semibold truncate text-white">{testimonial.name}</p>
               </button>
             ))}
           </motion.div>
