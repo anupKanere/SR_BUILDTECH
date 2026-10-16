@@ -20,15 +20,36 @@ export function Hero() {
       {/* Background Image with Cinematic Gradient Overlay */}
       <div className="absolute inset-0 z-0">
         <div
-          className="absolute inset-0 bg-cover bg-center bg-no-repeat scale-105 transition-transform duration-1000"
+          className="absolute inset-0 bg-cover bg-center bg-no-repeat"
           style={{
-            backgroundImage: `url('https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=2400&q=85')`,
+            backgroundImage: `url('https://images.unsplash.com/photo-1541888946425-d81bb19240f5?q=80&w=2940')`,
           }}
         />
-        {/* Layered cinematic overlays for maximum legibility */}
-        <div className="absolute inset-0 bg-gradient-to-r from-[#0B1120] via-[#0F172A]/90 to-[#0B1120]/75" />
-        <div className="absolute inset-0 bg-gradient-to-t from-[#0B1120] via-transparent to-[#0B1120]/60" />
-        <div className="absolute inset-0 bg-grid-pattern opacity-15" />
+        {/* Layered cinematic overlays for maximum legibility while preserving background imagery */}
+        <div className="absolute inset-0 bg-gradient-to-r from-navy/90 via-navy/80 to-navy/65" />
+        <div className="absolute inset-0 bg-grid-pattern opacity-30" />
+      </div>
+
+      {/* Animated Blueprint Scanning Lines */}
+      <div className="absolute inset-0 z-0 overflow-hidden pointer-events-none">
+        {[...Array(6)].map((_, i) => (
+          <motion.div
+            key={i}
+            className="absolute h-px bg-primary/60 shadow-[0_0_12px_rgba(255,107,0,0.8)]"
+            initial={{ width: 0, left: `${i * 18}%` }}
+            animate={{
+              width: ['0%', '100%', '0%'],
+              left: [`${i * 18}%`, `${(i * 18 + 50) % 100}%`, `${i * 18}%`],
+            }}
+            transition={{
+              duration: 8,
+              delay: i * 0.5,
+              repeat: Infinity,
+              ease: 'linear',
+            }}
+            style={{ top: `${15 + i * 14}%` }}
+          />
+        ))}
       </div>
 
       {/* Subtle Ambient Glow */}

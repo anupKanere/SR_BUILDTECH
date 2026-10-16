@@ -2,7 +2,8 @@
 
 import React, { useState, useEffect } from 'react'
 import { motion, AnimatePresence } from 'framer-motion'
-import { MessageCircle, ArrowUp } from 'lucide-react'
+import { ArrowUp } from 'lucide-react'
+import { FaWhatsapp } from 'react-icons/fa'
 import companyData from '@/data/company.json'
 
 export function WhatsAppButton() {
@@ -50,7 +51,7 @@ export function WhatsAppButton() {
         href={whatsappUrl}
         target="_blank"
         rel="noopener noreferrer"
-        className="relative w-14 h-14 bg-gradient-to-tr from-green-600 to-emerald-500 hover:from-green-500 hover:to-emerald-400 rounded-full shadow-2xl flex items-center justify-center group ring-2 ring-white/20 hover:ring-white/40 transition-all"
+        className="relative w-14 h-14 bg-gradient-to-tr from-[#25D366] to-[#128C7E] hover:from-[#20ba5a] hover:to-[#0f7a6e] rounded-full shadow-2xl flex items-center justify-center group ring-2 ring-white/20 hover:ring-white/40 transition-all"
         initial={{ scale: 0, opacity: 0 }}
         animate={{ scale: 1, opacity: 1 }}
         transition={{ delay: 0.5, duration: 0.5 }}
@@ -58,7 +59,7 @@ export function WhatsAppButton() {
         whileTap={{ scale: 0.95 }}
         aria-label="Chat with us on WhatsApp"
       >
-        <MessageCircle className="text-white drop-shadow-md" size={30} />
+        <FaWhatsapp className="text-white drop-shadow-md" size={32} />
 
         {/* Pulse Ring */}
         <span className="absolute inset-0 rounded-full bg-green-500 animate-ping opacity-25 pointer-events-none" />

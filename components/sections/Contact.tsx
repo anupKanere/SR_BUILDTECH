@@ -3,8 +3,8 @@
 import React from 'react'
 import { motion } from 'framer-motion'
 import { useInView } from 'react-intersection-observer'
-import { Phone, Mail, MapPin, MessageCircle } from 'lucide-react'
-import { FaInstagram, FaFacebook, FaYoutube } from 'react-icons/fa'
+import { FaInstagram, FaFacebook, FaYoutube, FaWhatsapp, FaPhoneAlt } from 'react-icons/fa'
+import { SiGmail, SiGooglemaps } from 'react-icons/si'
 import { Container } from '@/components/ui/Container'
 import { SectionHeading } from '@/components/ui/SectionHeading'
 import companyData from '@/data/company.json'
@@ -51,18 +51,18 @@ export function Contact() {
                 initial={{ opacity: 0, x: -20 }}
                 animate={inView ? { opacity: 1, x: 0 } : {}}
                 transition={{ delay: 0.2 }}
-                className="flex items-center gap-5 bg-white/5 border border-white/10 rounded-2xl p-6 hover:bg-white/10 hover:border-primary/40 transition-all group"
+                className="flex items-center gap-5 bg-white/5 border border-white/10 rounded-2xl p-6 hover:bg-white/10 hover:border-blue-500/50 hover:shadow-lg hover:shadow-blue-500/10 transition-all group"
               >
-                <div className="w-14 h-14 bg-primary rounded-xl flex items-center justify-center group-hover:scale-110 transition-transform flex-shrink-0 shadow-lg shadow-primary/30">
-                  <Phone size={28} className="text-white" />
+                <div className="w-14 h-14 bg-gradient-to-br from-blue-600 via-blue-500 to-cyan-500 rounded-2xl flex items-center justify-center group-hover:scale-110 transition-transform flex-shrink-0 shadow-lg shadow-blue-500/30 ring-1 ring-blue-400/30">
+                  <FaPhoneAlt size={24} className="text-white" />
                 </div>
                 <div>
                   <p className="text-slate-400 text-xs uppercase tracking-wider mb-1 font-semibold">Call Us Directly</p>
-                  <p className="text-xl md:text-2xl font-bold text-white">+91 {companyData.contact.phone}</p>
+                  <p className="text-xl md:text-2xl font-bold text-white group-hover:text-blue-400 transition-colors">+91 {companyData.contact.phone}</p>
                 </div>
               </motion.a>
 
-              {/* WhatsApp */}
+              {/* WhatsApp - Exact Authentic WhatsApp Logo */}
               <motion.a
                 href={`https://wa.me/${companyData.contact.whatsapp}?text=Hello! I'm interested in your construction services.`}
                 target="_blank"
@@ -70,49 +70,52 @@ export function Contact() {
                 initial={{ opacity: 0, x: 20 }}
                 animate={inView ? { opacity: 1, x: 0 } : {}}
                 transition={{ delay: 0.3 }}
-                className="flex items-center gap-5 bg-white/5 border border-white/10 rounded-2xl p-6 hover:bg-white/10 hover:border-green-500/40 transition-all group"
+                className="flex items-center gap-5 bg-white/5 border border-white/10 rounded-2xl p-6 hover:bg-white/10 hover:border-[#25D366]/50 hover:shadow-lg hover:shadow-[#25D366]/10 transition-all group"
               >
-                <div className="w-14 h-14 bg-green-500 rounded-xl flex items-center justify-center group-hover:scale-110 transition-transform flex-shrink-0 shadow-lg shadow-green-500/30">
-                  <MessageCircle size={28} className="text-white" />
+                <div className="w-14 h-14 bg-gradient-to-br from-[#25D366] to-[#128C7E] rounded-2xl flex items-center justify-center group-hover:scale-110 transition-transform flex-shrink-0 shadow-lg shadow-[#25D366]/40 ring-1 ring-[#25D366]/50">
+                  <FaWhatsapp size={32} className="text-white" />
                 </div>
                 <div>
                   <p className="text-slate-400 text-xs uppercase tracking-wider mb-1 font-semibold">Instant WhatsApp</p>
-                  <p className="text-xl md:text-2xl font-bold text-white">Chat Now</p>
+                  <p className="text-xl md:text-2xl font-bold text-white group-hover:text-[#25D366] transition-colors">Chat Now</p>
                 </div>
               </motion.a>
 
-              {/* Email */}
+              {/* Email - Colorful Gmail Logo */}
               <motion.a
                 href={`mailto:${companyData.contact.email}`}
                 initial={{ opacity: 0, x: -20 }}
                 animate={inView ? { opacity: 1, x: 0 } : {}}
                 transition={{ delay: 0.4 }}
-                className="flex items-center gap-5 bg-white/5 border border-white/10 rounded-2xl p-6 hover:bg-white/10 hover:border-primary/40 transition-all group"
+                className="flex items-center gap-5 bg-white/5 border border-white/10 rounded-2xl p-6 hover:bg-white/10 hover:border-red-500/50 hover:shadow-lg hover:shadow-red-500/10 transition-all group"
               >
-                <div className="w-14 h-14 bg-primary rounded-xl flex items-center justify-center group-hover:scale-110 transition-transform flex-shrink-0 shadow-lg shadow-primary/30">
-                  <Mail size={28} className="text-white" />
+                <div className="w-14 h-14 bg-gradient-to-br from-[#EA4335] via-[#FF5722] to-[#E53935] rounded-2xl flex items-center justify-center group-hover:scale-110 transition-transform flex-shrink-0 shadow-lg shadow-red-500/30 ring-1 ring-red-400/30">
+                  <SiGmail size={26} className="text-white" />
                 </div>
                 <div>
                   <p className="text-slate-400 text-xs uppercase tracking-wider mb-1 font-semibold">Email Us</p>
-                  <p className="text-base sm:text-lg font-bold text-white break-all">{companyData.contact.email}</p>
+                  <p className="text-base sm:text-lg font-bold text-white break-all group-hover:text-red-400 transition-colors">{companyData.contact.email}</p>
                 </div>
               </motion.a>
 
-              {/* Location */}
-              <motion.div
+              {/* Location - Google Maps Pin */}
+              <motion.a
+                href={`https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(companyData.contact.address + ' ' + companyData.name)}`}
+                target="_blank"
+                rel="noopener noreferrer"
                 initial={{ opacity: 0, x: 20 }}
                 animate={inView ? { opacity: 1, x: 0 } : {}}
                 transition={{ delay: 0.5 }}
-                className="flex items-center gap-5 bg-white/5 border border-white/10 rounded-2xl p-6"
+                className="flex items-center gap-5 bg-white/5 border border-white/10 rounded-2xl p-6 hover:bg-white/10 hover:border-rose-500/50 hover:shadow-lg hover:shadow-rose-500/10 transition-all group"
               >
-                <div className="w-14 h-14 bg-primary rounded-xl flex items-center justify-center flex-shrink-0 shadow-lg shadow-primary/30">
-                  <MapPin size={28} className="text-white" />
+                <div className="w-14 h-14 bg-gradient-to-br from-[#EA4335] via-[#FBBC05] to-[#34A853] rounded-2xl flex items-center justify-center group-hover:scale-110 transition-transform flex-shrink-0 shadow-lg shadow-rose-500/30 ring-1 ring-amber-400/30">
+                  <SiGooglemaps size={26} className="text-white" />
                 </div>
                 <div>
                   <p className="text-slate-400 text-xs uppercase tracking-wider mb-1 font-semibold">Office Location</p>
-                  <p className="text-base sm:text-lg font-bold text-white">{companyData.contact.address}</p>
+                  <p className="text-base sm:text-lg font-bold text-white group-hover:text-rose-300 transition-colors">{companyData.contact.address}</p>
                 </div>
-              </motion.div>
+              </motion.a>
             </div>
 
             {/* Social Media */}
@@ -171,7 +174,7 @@ export function Contact() {
                 href={`tel:${companyData.contact.phone}`}
                 className="inline-flex items-center gap-2 bg-gradient-to-r from-primary to-primary-600 hover:from-primary-600 hover:to-primary-700 text-white px-6 py-3 rounded-xl font-semibold transition-all hover:scale-105 shadow-lg shadow-primary/30 text-sm"
               >
-                <Phone size={16} />
+                <FaPhoneAlt size={16} />
                 <span>Call Now (+91 {companyData.contact.phone})</span>
               </a>
             </motion.div>

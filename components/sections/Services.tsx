@@ -16,6 +16,7 @@ import {
   Wrench,
   Home as House,
   Building as Building2,
+  ArrowRight,
 } from 'lucide-react'
 import { Container } from '@/components/ui/Container'
 import { SectionHeading } from '@/components/ui/SectionHeading'
@@ -119,15 +120,23 @@ export function Services() {
               We offer customized solutions for unique construction and engineering challenges.
               Let&apos;s discuss your project requirements.
             </p>
-            <button
-              onClick={() => {
+            <a
+              href="#contact"
+              onClick={(e) => {
+                e.preventDefault()
                 const element = document.getElementById('contact')
-                if (element) element.scrollIntoView({ behavior: 'smooth' })
+                if (element) {
+                  element.scrollIntoView({ behavior: 'smooth' })
+                  window.history.pushState(null, '', '#contact')
+                } else {
+                  window.location.href = '#contact'
+                }
               }}
-              className="bg-white text-primary px-8 py-4 rounded-lg font-semibold hover:bg-navy-50 transition-all hover:scale-105 shadow-lg"
+              className="inline-flex items-center gap-2 bg-white text-primary px-8 py-4 rounded-xl font-bold hover:bg-navy-50 hover:scale-105 active:scale-95 transition-all shadow-xl cursor-pointer group"
             >
-              Request Custom Solution
-            </button>
+              <span>Request Custom Solution</span>
+              <ArrowRight size={18} className="group-hover:translate-x-1 transition-transform" />
+            </a>
           </div>
         </motion.div>
       </Container>
