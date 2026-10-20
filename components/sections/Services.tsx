@@ -133,7 +133,7 @@ export function Services() {
   })
 
   return (
-    <section id="services" className="py-20 md:py-32 bg-navy relative overflow-hidden">
+    <section id="services" className="py-20 md:py-32 bg-navy relative overflow-hidden scroll-mt-20">
       {/* Background Pattern */}
       <div className="absolute inset-0 bg-grid-pattern opacity-5" />
 
@@ -213,17 +213,9 @@ export function Services() {
               href="#contact"
               onClick={(e) => {
                 e.preventDefault()
-                const target = document.getElementById('contact')
-                if (target) {
-                  const navOffset = 80
-                  const elementPosition = target.getBoundingClientRect().top
-                  const offsetPosition = elementPosition + window.pageYOffset - navOffset
-                  window.scrollTo({
-                    top: offsetPosition,
-                    behavior: 'smooth',
-                  })
-                } else {
-                  window.location.hash = 'contact'
+                const element = document.getElementById('contact')
+                if (element) {
+                  element.scrollIntoView({ behavior: 'smooth' })
                 }
               }}
               className="inline-flex items-center gap-2 bg-white text-primary px-6 py-3 rounded-xl text-sm font-bold hover:bg-slate-50 hover:scale-105 active:scale-95 transition-all shadow-lg hover:shadow-xl cursor-pointer group"

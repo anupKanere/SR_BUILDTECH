@@ -49,7 +49,7 @@ export function Testimonials() {
   }
 
   return (
-    <section id="testimonials" className="py-20 md:py-32 bg-gradient-to-b from-navy-900 to-navy relative overflow-hidden">
+    <section id="testimonials" className="py-20 md:py-32 bg-gradient-to-b from-navy-900 to-navy relative overflow-hidden scroll-mt-20">
       {/* Background Elements */}
       <div className="absolute inset-0 bg-grid-pattern opacity-5" />
 

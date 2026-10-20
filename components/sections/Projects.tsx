@@ -161,7 +161,7 @@ export function Projects() {
   return (
     <section
       id="projects"
-      className="py-24 md:py-36 bg-gradient-to-b from-[#0B1120] via-navy to-[#0B1120] relative overflow-hidden"
+      className="py-24 md:py-36 bg-gradient-to-b from-[#0B1120] via-navy to-[#0B1120] relative overflow-hidden scroll-mt-20"
     >
       {/* Subtle ambient lighting */}
       <div className="absolute top-1/4 left-1/2 -translate-x-1/2 w-[700px] h-[350px] bg-primary/10 rounded-full blur-[140px] pointer-events-none" />

@@ -17,7 +17,7 @@ export function About() {
   })
 
   return (
-    <section id="about" className="py-20 md:py-32 bg-gradient-to-b from-navy-900 to-navy">
+    <section id="about" className="py-20 md:py-32 bg-gradient-to-b from-navy-900 to-navy scroll-mt-20">
       <Container>
         <SectionHeading
           subtitle="About Us"
