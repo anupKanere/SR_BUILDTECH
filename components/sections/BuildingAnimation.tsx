@@ -55,7 +55,7 @@ export function BuildingAnimation() {
   })
 
   return (
-    <section ref={sectionRef} className="py-24 md:py-36 bg-[#0B1120] relative overflow-hidden">
+    <section ref={sectionRef} className="py-12 sm:py-16 md:py-20 bg-[#0B1120] relative overflow-hidden">
       {/* Background Elements */}
       <div className="absolute inset-0 bg-grid-pattern opacity-10 pointer-events-none" />
       <motion.div
@@ -71,11 +71,11 @@ export function BuildingAnimation() {
         />
 
         {/* Timeline */}
-        <div ref={ref} className="relative max-w-5xl mx-auto mt-16">
+        <div ref={ref} className="relative max-w-5xl mx-auto mt-8 sm:mt-10">
           {/* Center Line on Desktop */}
           <div className="absolute left-1/2 top-4 bottom-4 w-0.5 bg-white/10 -translate-x-1/2 hidden lg:block" />
 
-          <div className="space-y-16 lg:space-y-24">
+          <div className="space-y-10 sm:space-y-12 lg:space-y-16">
             {stages.map((stage, index) => {
               const Icon = stage.icon
               const isEven = index % 2 === 0
@@ -165,13 +165,13 @@ export function BuildingAnimation() {
           initial={{ opacity: 0, y: 30 }}
           animate={inView ? { opacity: 1, y: 0 } : {}}
           transition={{ delay: 0.8, duration: 0.6 }}
-          className="text-center mt-20 max-w-3xl mx-auto p-10 rounded-3xl bg-navy-800/80 backdrop-blur-xl border border-white/10 shadow-2xl"
+          className="text-center mt-10 sm:mt-12 max-w-3xl mx-auto p-6 sm:p-8 md:p-10 rounded-3xl bg-navy-800/80 backdrop-blur-xl border border-white/10 shadow-2xl"
         >
-          <h3 className="text-2xl md:text-3xl font-heading font-bold text-white mb-3">
+          <h3 className="text-xl sm:text-2xl md:text-3xl font-heading font-bold text-white mb-2 sm:mb-3">
             Ready to Build Your Vision?
           </h3>
           <p className="text-slate-300 text-sm md:text-base max-w-xl mx-auto mb-6">
-            Partner with Bangalore&apos;s reliable construction engineers. From structural plans to turnkey delivery, we ensure seamless execution.
+            Partner with Bengaluru&apos;s reliable construction engineers. From structural plans to turnkey delivery, we ensure seamless execution.
           </p>
           <button
             onClick={() => {

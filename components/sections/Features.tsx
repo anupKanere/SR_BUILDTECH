@@ -35,7 +35,7 @@ export function Features() {
   })
 
   return (
-    <section className="py-20 md:py-32 bg-navy-900 relative overflow-hidden">
+    <section className="py-12 sm:py-16 md:py-20 bg-navy-900 relative overflow-hidden">
       {/* Background Elements */}
       <div className="absolute top-0 left-0 w-96 h-96 bg-primary/5 rounded-full blur-3xl -translate-x-1/2 -translate-y-1/2" />
       <div className="absolute bottom-0 right-0 w-96 h-96 bg-primary/5 rounded-full blur-3xl translate-x-1/2 translate-y-1/2" />
@@ -87,12 +87,12 @@ export function Features() {
           initial={{ opacity: 0, y: 30 }}
           animate={inView ? { opacity: 1, y: 0 } : {}}
           transition={{ delay: 0.8, duration: 0.6 }}
-          className="mt-20 bg-gradient-to-br from-navy-800/90 via-navy-900 to-[#0B1120] rounded-3xl p-8 md:p-12 shadow-2xl relative overflow-hidden border border-white/10"
+          className="mt-10 sm:mt-12 bg-gradient-to-br from-navy-800/90 via-navy-900 to-[#0B1120] rounded-3xl p-6 sm:p-8 md:p-10 shadow-2xl relative overflow-hidden border border-white/10"
         >
           <div className="absolute inset-0 bg-grid-pattern opacity-10" />
 
           <div className="relative z-10">
-            <h3 className="text-2xl md:text-3xl font-heading font-bold text-white text-center mb-10 tracking-tight">
+            <h3 className="text-xl sm:text-2xl md:text-3xl font-heading font-bold text-white text-center mb-6 sm:mb-8 tracking-tight">
               Built To Last, Engineered With Integrity
             </h3>
 

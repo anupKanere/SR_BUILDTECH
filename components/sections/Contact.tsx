@@ -24,7 +24,7 @@ export function Contact() {
         <SectionHeading
           subtitle="Get In Touch"
           title="Let's Build Something Amazing Together"
-          description="Direct lines to our engineering specialists in Bangalore. Call, WhatsApp, or email us anytime."
+          description="Direct lines to our engineering specialists in Bengaluru. Call, WhatsApp, or email us anytime."
         />
 
         <div ref={ref} className="max-w-5xl mx-auto">
@@ -33,17 +33,8 @@ export function Contact() {
             initial={{ opacity: 0, y: 30 }}
             animate={inView ? { opacity: 1, y: 0 } : {}}
             transition={{ duration: 0.6 }}
-            className="bg-navy-800/80 backdrop-blur-xl rounded-3xl p-6 sm:p-8 md:p-10 shadow-2xl mb-8 sm:mb-10 border border-white/10"
+            className="bg-navy-800/80 backdrop-blur-xl rounded-3xl p-5 sm:p-7 md:p-8 shadow-2xl mb-8 sm:mb-10 border border-white/10"
           >
-            <div className="text-center mb-6 sm:mb-8">
-              <h3 className="text-xl sm:text-2xl font-heading font-bold text-white mb-1.5">
-                Direct Contact Channels
-              </h3>
-              <p className="text-slate-300 text-xs sm:text-sm max-w-xl mx-auto font-normal">
-                Reach out for project consultations, architectural drawings, or turnkey quotes.
-              </p>
-            </div>
-
             <div className="grid md:grid-cols-2 gap-4 sm:gap-6 mb-6 sm:mb-8">
               {/* Phone */}
               <motion.a

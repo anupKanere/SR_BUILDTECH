@@ -161,7 +161,7 @@ export function Projects() {
   return (
     <section
       id="projects"
-      className="py-24 md:py-36 bg-gradient-to-b from-[#0B1120] via-navy to-[#0B1120] relative overflow-hidden"
+      className="py-12 sm:py-16 md:py-20 bg-gradient-to-b from-[#0B1120] via-navy to-[#0B1120] relative overflow-hidden"
     >
       {/* Subtle ambient lighting */}
       <div className="absolute top-1/4 left-1/2 -translate-x-1/2 w-[700px] h-[350px] bg-primary/10 rounded-full blur-[140px] pointer-events-none" />
@@ -172,11 +172,11 @@ export function Projects() {
         <SectionHeading
           subtitle="Portfolio Showcase"
           title="Project Showcase"
-          description="A curated look into our recent completed handovers, active construction sites, and bespoke architectural interiors across Bangalore."
+          description="A curated look into our recent completed handovers, active construction sites, and bespoke architectural interiors across Bengaluru."
         />
 
         {/* Category Selector Tabs & View Switcher */}
-        <div className="flex flex-col lg:flex-row items-center justify-between gap-4 mb-10 max-w-6xl mx-auto">
+        <div className="flex flex-col lg:flex-row items-center justify-between gap-4 mb-5 sm:mb-6 max-w-6xl mx-auto">
           {/* Main Category Tabs */}
           <div className="flex flex-wrap items-center justify-center gap-2 p-1.5 rounded-2xl bg-navy-800/80 backdrop-blur-xl border border-white/10 shadow-xl">
             {galleryData.categories.map((cat) => {
@@ -242,7 +242,7 @@ export function Projects() {
             initial={{ opacity: 0, y: 8 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.3 }}
-            className="text-center text-slate-300 text-sm md:text-base max-w-2xl mx-auto mb-10 italic"
+            className="text-center text-slate-300 text-sm md:text-base max-w-2xl mx-auto mb-6 sm:mb-8 italic"
           >
             &ldquo;{currentCategoryMeta.tagline}&rdquo;
           </motion.p>

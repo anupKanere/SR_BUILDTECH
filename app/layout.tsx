@@ -17,7 +17,7 @@ const raleway = Raleway({
 export const metadata: Metadata = {
   title: 'SR BUILDTEC - Building Excellence, Engineering The Future',
   description: 'Your Trusted Partner in Construction, Design, Project Management & Engineering Solutions. Specializing in residential and commercial construction, structural and architectural design.',
-  keywords: 'construction, engineering, architecture, building, SR BUILDTEC, Bangalore construction, residential construction, commercial construction, structural design, architectural design, project management',
+  keywords: 'construction, engineering, architecture, building, SR BUILDTEC, Bengaluru construction, residential construction, commercial construction, structural design, architectural design, project management',
   authors: [{ name: 'SR BUILDTEC' }],
   openGraph: {
     title: 'SR BUILDTEC - Building Excellence, Engineering The Future',

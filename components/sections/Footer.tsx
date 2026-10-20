@@ -154,7 +154,7 @@ export function Footer() {
               © {new Date().getFullYear()} {companyData.name}. All rights reserved.
             </p>
             <div className="flex gap-6 text-sm">
-              <span className="text-slate-400">Bangalore, Karnataka</span>
+              <span className="text-slate-400">Bengaluru, Karnataka</span>
             </div>
           </div>
         </div>

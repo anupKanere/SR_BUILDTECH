@@ -110,7 +110,7 @@ All website content is stored in JSON files for easy updates without touching co
   "contact": {
     "phone": "8660326541",
     "email": "srbuildtec.blr@gmail.com",
-    "address": "Bangalore, Karnataka, India",
+    "address": "Bengaluru, Karnataka, India",
     "whatsapp": "918660326541"
   },
   "social": {
@@ -333,7 +333,7 @@ npm run lint     # Run ESLint
 - **Email**: srbuildtec.blr@gmail.com
 - **Phone**: +91 8660326541
 - **WhatsApp**: +91 8660326541
-- **Location**: Bangalore, Karnataka, India
+- **Location**: Bengaluru, Karnataka, India
 
 **Social Media:**
 - Instagram: [@srbuildtec](https://www.instagram.com/srbuildtec)

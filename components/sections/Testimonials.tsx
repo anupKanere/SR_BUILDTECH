@@ -49,7 +49,7 @@ export function Testimonials() {
   }
 
   return (
-    <section id="testimonials" className="py-20 md:py-32 bg-gradient-to-b from-navy-900 to-navy relative overflow-hidden">
+    <section id="testimonials" className="py-12 sm:py-16 md:py-20 bg-gradient-to-b from-navy-900 to-navy relative overflow-hidden">
       {/* Background Elements */}
       <div className="absolute inset-0 bg-grid-pattern opacity-5" />
 
@@ -157,7 +157,7 @@ export function Testimonials() {
             initial={{ opacity: 0, y: 20 }}
             animate={inView ? { opacity: 1, y: 0 } : {}}
             transition={{ delay: 0.6, duration: 0.6 }}
-            className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-5 gap-3 mt-12"
+            className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-5 gap-3 mt-6 sm:mt-8"
           >
             {testimonialsData.map((testimonial, index) => (
               <button

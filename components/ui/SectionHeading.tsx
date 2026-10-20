@@ -9,6 +9,7 @@ interface SectionHeadingProps {
   subtitle?: string
   description?: string
   centered?: boolean
+  className?: string
 }
 
 export function SectionHeading({
@@ -16,6 +17,7 @@ export function SectionHeading({
   subtitle,
   description,
   centered = true,
+  className,
 }: SectionHeadingProps) {
   const [ref, inView] = useInView({
     triggerOnce: true,
@@ -28,14 +30,14 @@ export function SectionHeading({
       initial={{ opacity: 0, y: 20 }}
       animate={inView ? { opacity: 1, y: 0 } : {}}
       transition={{ duration: 0.6 }}
-      className={cn('mb-12 md:mb-16', centered && 'text-center')}
+      className={cn('mb-8 md:mb-12', centered && 'text-center', className)}
     >
       {subtitle && (
         <motion.p
           initial={{ opacity: 0 }}
           animate={inView ? { opacity: 1 } : {}}
           transition={{ delay: 0.2, duration: 0.6 }}
-          className="text-primary font-semibold text-sm md:text-base uppercase tracking-wider mb-3"
+          className="text-primary font-semibold text-xs sm:text-sm md:text-base uppercase tracking-wider mb-2"
         >
           {subtitle}
         </motion.p>
@@ -44,7 +46,7 @@ export function SectionHeading({
         initial={{ opacity: 0, y: 20 }}
         animate={inView ? { opacity: 1, y: 0 } : {}}
         transition={{ delay: 0.3, duration: 0.6 }}
-        className="text-3xl sm:text-4xl lg:text-5xl font-heading font-bold text-white tracking-tight mb-4"
+        className="text-2xl sm:text-3xl lg:text-4xl font-heading font-bold text-white tracking-tight mb-3"
       >
         {title}
       </motion.h2>
@@ -54,7 +56,7 @@ export function SectionHeading({
           animate={inView ? { opacity: 1 } : {}}
           transition={{ delay: 0.4, duration: 0.6 }}
           className={cn(
-            'text-slate-300 text-base md:text-lg max-w-3xl leading-relaxed',
+            'text-slate-300 text-sm md:text-base max-w-2xl leading-relaxed',
             centered && 'mx-auto'
           )}
         >

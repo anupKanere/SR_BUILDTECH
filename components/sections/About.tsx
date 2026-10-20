@@ -17,7 +17,7 @@ export function About() {
   })
 
   return (
-    <section id="about" className="py-20 md:py-32 bg-gradient-to-b from-navy-900 to-navy">
+    <section id="about" className="py-12 sm:py-16 md:py-20 bg-gradient-to-b from-navy-900 to-navy">
       <Container>
         <SectionHeading
           subtitle="About Us"
@@ -25,7 +25,7 @@ export function About() {
           description={companyData.about}
         />
 
-        <div ref={ref} className="grid lg:grid-cols-2 gap-12 items-center mb-16">
+        <div ref={ref} className="grid lg:grid-cols-2 gap-8 sm:gap-12 items-center mb-10 sm:mb-12">
           {/* Image Section */}
           <motion.div
             initial={{ opacity: 0, x: -50 }}
@@ -116,7 +116,7 @@ export function About() {
           animate={inView ? { opacity: 1, y: 0 } : {}}
           transition={{ delay: 0.6, duration: 0.8 }}
         >
-          <h3 className="text-2xl md:text-3xl font-heading font-bold text-center text-white mb-10 tracking-tight">
+          <h3 className="text-xl sm:text-2xl md:text-3xl font-heading font-bold text-center text-white mb-6 sm:mb-8 tracking-tight">
             Our Core Values
           </h3>
           <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-6">
