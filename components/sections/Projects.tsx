@@ -170,9 +170,9 @@ export function Projects() {
       <Container>
         {/* Section Heading */}
         <SectionHeading
-          subtitle="Real Works & Construction Updates"
-          title="Our Premium Project Gallery"
-          description="A comprehensive showcase of our turnkey luxury residences, active construction sites, structural engineering, and bespoke architectural interiors across Bangalore."
+          subtitle="Portfolio Showcase"
+          title="Project Showcase"
+          description="A curated look into our recent completed handovers, active construction sites, and bespoke architectural interiors across Bangalore."
         />
 
         {/* Category Selector Tabs & View Switcher */}
@@ -182,7 +182,6 @@ export function Projects() {
             {galleryData.categories.map((cat) => {
               const IconComponent = CATEGORY_ICONS[cat.id as CategoryKey] || Sparkles
               const isSelected = activeCategory === cat.id
-              const count = (galleryData.photos as Record<string, PhotoItem[]>)[cat.id]?.length || 0
 
               return (
                 <button
@@ -191,7 +190,7 @@ export function Projects() {
                     setActiveCategory(cat.id as CategoryKey)
                     setGridVisibleCount(16)
                   }}
-                  className={`flex items-center gap-2 px-4 py-2.5 sm:px-5 sm:py-3 rounded-xl text-xs sm:text-sm font-semibold transition-all duration-300 ${
+                  className={`flex items-center gap-2 px-5 py-2.5 sm:py-3 rounded-xl text-xs sm:text-sm font-semibold transition-all duration-300 ${
                     isSelected
                       ? 'bg-gradient-to-r from-primary to-primary-600 text-white shadow-lg shadow-primary/30 scale-100'
                       : 'text-slate-300 hover:text-white hover:bg-white/5'
@@ -200,15 +199,6 @@ export function Projects() {
                 >
                   <IconComponent size={16} />
                   <span>{cat.label}</span>
-                  <span
-                    className={`ml-1 px-2 py-0.5 rounded-full text-xs font-bold ${
-                      isSelected
-                        ? 'bg-white/20 text-white'
-                        : 'bg-navy-900/80 text-slate-400'
-                    }`}
-                  >
-                    {count}
-                  </span>
                 </button>
               )
             })}

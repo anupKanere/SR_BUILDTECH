@@ -3,22 +3,22 @@
     {
       "id": "all",
       "label": "All Works",
-      "tagline": "Explore our complete portfolio spanning luxury completed residences, active on-site construction updates, and bespoke architectural interiors across Bangalore."
+      "tagline": "Explore a curated showcase of our recent handovers, active construction sites, structural engineering, and luxury interiors across Bangalore."
     },
     {
       "id": "completed",
       "label": "Completed Projects",
-      "tagline": "Turnkey independent luxury villas, contemporary residences, and handovers executed with flawless craftsmanship."
+      "tagline": "Featured turnkey villas and multi-storey residences from our 100+ delivered projects, executed with uncompromising craftsmanship."
     },
     {
       "id": "onsite",
       "label": "On-Site Construction",
-      "tagline": "Real-time updates from active project sites: foundation engineering, RCC slab casting, concrete blockwork, and expert site supervision."
+      "tagline": "Real-time updates from our active project sites: foundation excavations, RCC slab casting, concrete blockwork, and expert site supervision."
     },
     {
       "id": "interiors",
-      "label": "Interiors & Architecture",
-      "tagline": "Bespoke living lounges, master bedrooms, designer modular kitchens, custom wardrobes, and commercial fitness spaces."
+      "label": "Architectural Interiors",
+      "tagline": "Bespoke living lounges, master bedroom suites, modular kitchens, custom wardrobes, and commercial fitness amenities."
     }
   ],
   "photos": {
@@ -61,10 +61,10 @@
         "file": "IMG-20261017-WA0046.jpg",
         "imageUrl": "/images/gallery/IMG-20261017-WA0046.jpg",
         "thumbnailUrl": "/images/gallery/IMG-20261017-WA0046.jpg",
-        "title": "Completed Residential Villa Project #4",
-        "alt": "Turnkey completed luxury residential villa by SR BUILDTEC in Bangalore",
-        "tag": "Completed Villa",
-        "category": "completed",
+        "title": "Foundation Footing & Site Excavation",
+        "alt": "Mechanical JCB excavator digging column footing foundation pits on active construction site in Bangalore",
+        "tag": "Site Excavation",
+        "category": "onsite",
         "aspect": "landscape"
       },
       {
@@ -961,17 +961,6 @@
         "aspect": "landscape"
       },
       {
-        "id": "photo-4",
-        "file": "IMG-20261017-WA0046.jpg",
-        "imageUrl": "/images/gallery/IMG-20261017-WA0046.jpg",
-        "thumbnailUrl": "/images/gallery/IMG-20261017-WA0046.jpg",
-        "title": "Completed Residential Villa Project #4",
-        "alt": "Turnkey completed luxury residential villa by SR BUILDTEC in Bangalore",
-        "tag": "Completed Villa",
-        "category": "completed",
-        "aspect": "landscape"
-      },
-      {
         "id": "photo-5",
         "file": "IMG-20261017-WA0060.jpg",
         "imageUrl": "/images/gallery/IMG-20261017-WA0060.jpg",
@@ -1006,6 +995,17 @@
       }
     ],
     "onsite": [
+      {
+        "id": "photo-4",
+        "file": "IMG-20261017-WA0046.jpg",
+        "imageUrl": "/images/gallery/IMG-20261017-WA0046.jpg",
+        "thumbnailUrl": "/images/gallery/IMG-20261017-WA0046.jpg",
+        "title": "Foundation Footing & Site Excavation",
+        "alt": "Mechanical JCB excavator digging column footing foundation pits on active construction site in Bangalore",
+        "tag": "Site Excavation",
+        "category": "onsite",
+        "aspect": "landscape"
+      },
       {
         "id": "photo-6",
         "file": "IMG-20261017-WA0070.jpg",

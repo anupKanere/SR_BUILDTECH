@@ -200,32 +200,36 @@ export function Services() {
           initial={{ opacity: 0, y: 20 }}
           animate={inView ? { opacity: 1, y: 0 } : {}}
           transition={{ delay: 0.8, duration: 0.6 }}
-          className="mt-16 text-center"
+          className="mt-12 text-center"
         >
-          <div className="bg-gradient-to-r from-primary to-primary-600 rounded-2xl p-12 shadow-2xl">
-            <h3 className="text-3xl font-heading font-bold text-white mb-4">
+          <div className="max-w-2xl mx-auto bg-gradient-to-r from-primary via-primary-600 to-amber-600 rounded-2xl py-7 px-6 sm:px-10 shadow-xl border border-white/15 relative overflow-hidden">
+            <h3 className="text-xl sm:text-2xl font-heading font-bold text-white mb-2">
               Don&apos;t See What You Need?
             </h3>
-            <p className="text-white/90 mb-6 max-w-2xl mx-auto">
-              We offer customized solutions for unique construction and engineering challenges.
-              Let&apos;s discuss your project requirements.
+            <p className="text-white/90 text-xs sm:text-sm mb-5 max-w-lg mx-auto leading-relaxed">
+              We offer customized engineering and construction solutions for bespoke requirements. Let&apos;s discuss your project.
             </p>
             <a
               href="#contact"
               onClick={(e) => {
                 e.preventDefault()
-                const element = document.getElementById('contact')
-                if (element) {
-                  element.scrollIntoView({ behavior: 'smooth' })
-                  window.history.pushState(null, '', '#contact')
+                const target = document.getElementById('contact')
+                if (target) {
+                  const navOffset = 80
+                  const elementPosition = target.getBoundingClientRect().top
+                  const offsetPosition = elementPosition + window.pageYOffset - navOffset
+                  window.scrollTo({
+                    top: offsetPosition,
+                    behavior: 'smooth',
+                  })
                 } else {
-                  window.location.href = '#contact'
+                  window.location.hash = 'contact'
                 }
               }}
-              className="inline-flex items-center gap-2 bg-white text-primary px-8 py-4 rounded-xl font-bold hover:bg-navy-50 hover:scale-105 active:scale-95 transition-all shadow-xl cursor-pointer group"
+              className="inline-flex items-center gap-2 bg-white text-primary px-6 py-3 rounded-xl text-sm font-bold hover:bg-slate-50 hover:scale-105 active:scale-95 transition-all shadow-lg hover:shadow-xl cursor-pointer group"
             >
               <span>Request Custom Solution</span>
-              <ArrowRight size={18} className="group-hover:translate-x-1 transition-transform" />
+              <ArrowRight size={16} className="group-hover:translate-x-1 transition-transform" />
             </a>
           </div>
         </motion.div>
