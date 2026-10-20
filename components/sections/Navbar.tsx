@@ -3,7 +3,7 @@
 import React, { useState, useEffect } from 'react'
 import Image from 'next/image'
 import { motion, AnimatePresence } from 'framer-motion'
-import { Menu, X, Phone, Mail, MessageCircle, ArrowRight } from 'lucide-react'
+import { Menu, X, Phone, MessageCircle, ArrowRight } from 'lucide-react'
 import { NAV_LINKS } from '@/lib/constants'
 import { Button } from '@/components/ui/Button'
 import companyData from '@/data/company.json'
@@ -41,37 +41,6 @@ export function Navbar() {
             : 'bg-transparent'
         }`}
       >
-        {/* Top Info Bar */}
-        <div
-          className={`border-b border-white/10 transition-all duration-300 ${
-            isScrolled ? 'hidden' : 'block bg-navy-950/40 backdrop-blur-sm'
-          }`}
-        >
-          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div className="flex items-center justify-between h-9 text-xs sm:text-sm">
-              <div className="flex items-center gap-6">
-                <a
-                  href={`tel:${companyData.contact.phone}`}
-                  className="flex items-center gap-2 text-slate-300 hover:text-primary transition-colors"
-                >
-                  <Phone size={13} className="text-primary" />
-                  <span>+91 {companyData.contact.phone}</span>
-                </a>
-                <a
-                  href={`mailto:${companyData.contact.email}`}
-                  className="hidden sm:flex items-center gap-2 text-slate-300 hover:text-primary transition-colors"
-                >
-                  <Mail size={13} className="text-primary" />
-                  <span>{companyData.contact.email}</span>
-                </a>
-              </div>
-              <div className="text-slate-400 hidden md:block">
-                <span>Bangalore, Karnataka • Structural & Architectural Engineering</span>
-              </div>
-            </div>
-          </div>
-        </div>
-
         {/* Main Navbar */}
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex items-center justify-between h-20">

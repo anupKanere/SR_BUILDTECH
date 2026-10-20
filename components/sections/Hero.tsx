@@ -73,7 +73,7 @@ export function Hero() {
                 className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-primary/10 border border-primary/30 text-primary text-xs md:text-sm font-semibold tracking-wide uppercase backdrop-blur-md mb-6"
               >
                 <Sparkles size={14} className="text-primary animate-pulse" />
-                <span>Premier Construction & Engineering • Bangalore</span>
+                <span>Premium Construction & Engineering • Bangalore</span>
               </motion.div>
 
               {/* Main Headline */}

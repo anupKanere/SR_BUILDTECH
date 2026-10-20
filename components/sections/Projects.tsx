@@ -10,28 +10,43 @@ import {
   Maximize2,
   X,
   Home,
-  Building2,
+  HardHat,
+  Palette,
+  Layers,
   Grid3X3,
   SlidersHorizontal,
+  Sparkles,
 } from 'lucide-react'
 import { Container } from '@/components/ui/Container'
 import { SectionHeading } from '@/components/ui/SectionHeading'
 import galleryData from '@/data/gallery.json'
 
-type CategoryKey = 'residential' | 'commercial'
+type CategoryKey = 'all' | 'completed' | 'onsite' | 'interiors'
 
 interface PhotoItem {
   id: string
+  file: string
   imageUrl: string
   thumbnailUrl: string
+  title: string
   alt: string
+  tag: string
+  category: string
   aspect: string
 }
 
+const CATEGORY_ICONS: Record<CategoryKey, React.ComponentType<{ size?: number; className?: string }>> = {
+  all: Layers,
+  completed: Home,
+  onsite: HardHat,
+  interiors: Palette,
+}
+
 export function Projects() {
-  const [activeCategory, setActiveCategory] = useState<CategoryKey>('residential')
+  const [activeCategory, setActiveCategory] = useState<CategoryKey>('all')
   const [lightboxIndex, setLightboxIndex] = useState<number | null>(null)
   const [viewMode, setViewMode] = useState<'slider' | 'grid'>('slider')
+  const [gridVisibleCount, setGridVisibleCount] = useState<number>(16)
 
   // Embla Carousel setup
   const [emblaRef, emblaApi] = useEmblaCarousel({
@@ -44,7 +59,7 @@ export function Projects() {
   const [selectedIndex, setSelectedIndex] = useState(0)
   const [scrollSnaps, setScrollSnaps] = useState<number[]>([])
 
-  const currentPhotos: PhotoItem[] = galleryData.photos[activeCategory] || []
+  const currentPhotos: PhotoItem[] = (galleryData.photos as Record<string, PhotoItem[]>)[activeCategory] || []
 
   const onSelect = useCallback(() => {
     if (!emblaApi) return
@@ -141,6 +156,8 @@ export function Projects() {
     (c) => c.id === activeCategory
   )
 
+  const visibleGridPhotos = currentPhotos.slice(0, gridVisibleCount)
+
   return (
     <section
       id="projects"
@@ -153,65 +170,55 @@ export function Projects() {
       <Container>
         {/* Section Heading */}
         <SectionHeading
-          subtitle="Portfolio of Work"
-          title="Our Completed Projects"
-          description="A curated visual showcase of our structural craftsmanship, contemporary engineering, and architectural executions."
+          subtitle="Real Works & Construction Updates"
+          title="Our Premium Project Gallery"
+          description="A comprehensive showcase of our turnkey luxury residences, active construction sites, structural engineering, and bespoke architectural interiors across Bangalore."
         />
 
         {/* Category Selector Tabs & View Switcher */}
-        <div className="flex flex-col sm:flex-row items-center justify-between gap-4 mb-10 max-w-5xl mx-auto">
+        <div className="flex flex-col lg:flex-row items-center justify-between gap-4 mb-10 max-w-6xl mx-auto">
           {/* Main Category Tabs */}
-          <div className="inline-flex p-1.5 rounded-2xl bg-navy-800/80 backdrop-blur-xl border border-white/10 shadow-xl">
-            <button
-              onClick={() => setActiveCategory('residential')}
-              className={`flex items-center gap-2.5 px-6 py-3 rounded-xl text-sm md:text-base font-semibold transition-all duration-300 ${
-                activeCategory === 'residential'
-                  ? 'bg-gradient-to-r from-primary to-primary-600 text-white shadow-lg shadow-primary/30'
-                  : 'text-slate-300 hover:text-white hover:bg-white/5'
-              }`}
-              aria-label="View Residential Projects"
-            >
-              <Home size={18} />
-              <span>Residential Projects</span>
-              <span
-                className={`ml-1 px-2 py-0.5 rounded-full text-xs font-bold ${
-                  activeCategory === 'residential'
-                    ? 'bg-white/20 text-white'
-                    : 'bg-navy-900 text-slate-400'
-                }`}
-              >
-                {galleryData.photos.residential.length}
-              </span>
-            </button>
+          <div className="flex flex-wrap items-center justify-center gap-2 p-1.5 rounded-2xl bg-navy-800/80 backdrop-blur-xl border border-white/10 shadow-xl">
+            {galleryData.categories.map((cat) => {
+              const IconComponent = CATEGORY_ICONS[cat.id as CategoryKey] || Sparkles
+              const isSelected = activeCategory === cat.id
+              const count = (galleryData.photos as Record<string, PhotoItem[]>)[cat.id]?.length || 0
 
-            <button
-              onClick={() => setActiveCategory('commercial')}
-              className={`flex items-center gap-2.5 px-6 py-3 rounded-xl text-sm md:text-base font-semibold transition-all duration-300 ${
-                activeCategory === 'commercial'
-                  ? 'bg-gradient-to-r from-primary to-primary-600 text-white shadow-lg shadow-primary/30'
-                  : 'text-slate-300 hover:text-white hover:bg-white/5'
-              }`}
-              aria-label="View Commercial Projects"
-            >
-              <Building2 size={18} />
-              <span>Commercial Projects</span>
-              <span
-                className={`ml-1 px-2 py-0.5 rounded-full text-xs font-bold ${
-                  activeCategory === 'commercial'
-                    ? 'bg-white/20 text-white'
-                    : 'bg-navy-900 text-slate-400'
-                }`}
-              >
-                {galleryData.photos.commercial.length}
-              </span>
-            </button>
+              return (
+                <button
+                  key={cat.id}
+                  onClick={() => {
+                    setActiveCategory(cat.id as CategoryKey)
+                    setGridVisibleCount(16)
+                  }}
+                  className={`flex items-center gap-2 px-4 py-2.5 sm:px-5 sm:py-3 rounded-xl text-xs sm:text-sm font-semibold transition-all duration-300 ${
+                    isSelected
+                      ? 'bg-gradient-to-r from-primary to-primary-600 text-white shadow-lg shadow-primary/30 scale-100'
+                      : 'text-slate-300 hover:text-white hover:bg-white/5'
+                  }`}
+                  aria-label={`View ${cat.label}`}
+                >
+                  <IconComponent size={16} />
+                  <span>{cat.label}</span>
+                  <span
+                    className={`ml-1 px-2 py-0.5 rounded-full text-xs font-bold ${
+                      isSelected
+                        ? 'bg-white/20 text-white'
+                        : 'bg-navy-900/80 text-slate-400'
+                    }`}
+                  >
+                    {count}
+                  </span>
+                </button>
+              )
+            })}
           </div>
 
           {/* View Mode Toggle (Slider / Grid) */}
           <div className="flex items-center gap-2 bg-navy-800/60 backdrop-blur-md border border-white/10 p-1.5 rounded-xl">
             <button
               onClick={() => setViewMode('slider')}
-              className={`p-2 rounded-lg transition-all ${
+              className={`flex items-center gap-2 px-3.5 py-2 rounded-lg text-xs font-semibold transition-all ${
                 viewMode === 'slider'
                   ? 'bg-primary text-white shadow-md'
                   : 'text-slate-400 hover:text-white'
@@ -219,11 +226,12 @@ export function Projects() {
               title="Carousel Slider View"
               aria-label="Switch to slider view"
             >
-              <SlidersHorizontal size={18} />
+              <SlidersHorizontal size={16} />
+              <span className="hidden sm:inline">Showcase</span>
             </button>
             <button
               onClick={() => setViewMode('grid')}
-              className={`p-2 rounded-lg transition-all ${
+              className={`flex items-center gap-2 px-3.5 py-2 rounded-lg text-xs font-semibold transition-all ${
                 viewMode === 'grid'
                   ? 'bg-primary text-white shadow-md'
                   : 'text-slate-400 hover:text-white'
@@ -231,7 +239,8 @@ export function Projects() {
               title="Grid View"
               aria-label="Switch to grid view"
             >
-              <Grid3X3 size={18} />
+              <Grid3X3 size={16} />
+              <span className="hidden sm:inline">All Photos Grid</span>
             </button>
           </div>
         </div>
@@ -254,7 +263,7 @@ export function Projects() {
           <div className="relative">
             {/* Embla Viewport */}
             <div className="overflow-hidden rounded-3xl" ref={emblaRef}>
-              <div className="flex -ml-4 md:-ml-6">
+              <div className="flex -ml-4 md:ml-0">
                 {currentPhotos.map((photo, index) => (
                   <div
                     key={photo.id}
@@ -273,16 +282,31 @@ export function Projects() {
                         priority={index < 2}
                       />
 
-                      {/* Subtle Vignette Gradient */}
-                      <div className="absolute inset-0 bg-gradient-to-t from-navy-950/70 via-transparent to-black/20 opacity-40 group-hover:opacity-70 transition-opacity duration-300" />
+                      {/* Vignette Gradient */}
+                      <div className="absolute inset-0 bg-gradient-to-t from-navy-950/90 via-navy-950/20 to-black/30 opacity-70 group-hover:opacity-90 transition-opacity duration-300" />
 
-                      {/* Hover Expand Icon Badge */}
-                      <div className="absolute bottom-5 right-5 w-11 h-11 rounded-full bg-navy-900/80 backdrop-blur-md border border-white/20 text-white flex items-center justify-center opacity-0 group-hover:opacity-100 group-hover:scale-105 transition-all duration-300 shadow-xl">
-                        <Maximize2 size={18} />
+                      {/* Content Overlay */}
+                      <div className="absolute bottom-0 left-0 right-0 p-5 md:p-6 flex items-end justify-between gap-4">
+                        <div className="max-w-[80%]">
+                          <span className="inline-block px-3 py-1 rounded-full bg-primary/90 text-white text-xs font-semibold uppercase tracking-wider mb-2 shadow">
+                            {photo.tag}
+                          </span>
+                          <h4 className="text-white text-base md:text-lg font-heading font-bold drop-shadow-md line-clamp-1">
+                            {photo.title}
+                          </h4>
+                          <p className="text-slate-300 text-xs mt-1 line-clamp-1 hidden sm:block">
+                            {photo.alt}
+                          </p>
+                        </div>
+
+                        {/* Hover Expand Icon Badge */}
+                        <div className="w-11 h-11 rounded-full bg-white/10 backdrop-blur-md border border-white/20 text-white flex items-center justify-center group-hover:bg-primary group-hover:border-primary group-hover:scale-110 transition-all duration-300 shadow-xl flex-shrink-0">
+                          <Maximize2 size={18} />
+                        </div>
                       </div>
 
                       {/* Slide Index Badge */}
-                      <div className="absolute top-4 left-4 px-3 py-1 rounded-full bg-black/50 backdrop-blur-md border border-white/10 text-white/80 text-xs font-mono font-medium tracking-wider">
+                      <div className="absolute top-4 left-4 px-3 py-1 rounded-full bg-black/60 backdrop-blur-md border border-white/10 text-white/90 text-xs font-mono font-medium tracking-wider">
                         {String(index + 1).padStart(2, '0')} / {String(currentPhotos.length).padStart(2, '0')}
                       </div>
                     </div>
@@ -303,19 +327,22 @@ export function Projects() {
               </button>
 
               {/* Slide Indicator Dots */}
-              <div className="flex items-center gap-2 overflow-x-auto max-w-[240px] sm:max-w-md py-2 px-3 no-scrollbar">
-                {scrollSnaps.map((_, index) => (
+              <div className="flex items-center gap-1.5 overflow-x-auto max-w-[240px] sm:max-w-md py-2 px-3 no-scrollbar">
+                {scrollSnaps.slice(0, 30).map((_, index) => (
                   <button
                     key={index}
                     onClick={() => scrollTo(index)}
                     className={`h-2 rounded-full transition-all duration-300 ${
                       index === selectedIndex
-                        ? 'w-8 bg-primary shadow-md shadow-primary/50'
+                        ? 'w-7 bg-primary shadow-md shadow-primary/50'
                         : 'w-2 bg-slate-600 hover:bg-slate-400'
                     }`}
                     aria-label={`Go to photograph ${index + 1}`}
                   />
                 ))}
+                {scrollSnaps.length > 30 && (
+                  <span className="text-slate-500 text-xs font-mono ml-1">+{scrollSnaps.length - 30}</span>
+                )}
               </div>
 
               {/* Next Button */}
@@ -330,35 +357,67 @@ export function Projects() {
           </div>
         ) : (
           /* GRID VIEW MODE */
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
-            {currentPhotos.map((photo, index) => (
-              <motion.div
-                key={photo.id}
-                initial={{ opacity: 0, scale: 0.95 }}
-                animate={{ opacity: 1, scale: 1 }}
-                transition={{ duration: 0.35, delay: index * 0.05 }}
-                onClick={() => openLightbox(index)}
-                className="group relative cursor-pointer overflow-hidden rounded-2xl bg-navy-800/80 border border-white/10 shadow-xl transition-all duration-300 hover:border-primary/50 hover:shadow-2xl aspect-[4/3]"
-              >
-                <Image
-                  src={photo.thumbnailUrl}
-                  alt={photo.alt}
-                  fill
-                  sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 25vw"
-                  className="object-cover transition-transform duration-500 group-hover:scale-108"
-                />
-                <div className="absolute inset-0 bg-gradient-to-t from-navy-950/80 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
-                <div className="absolute bottom-3 right-3 w-9 h-9 rounded-full bg-navy-900/90 backdrop-blur-md border border-white/20 text-white flex items-center justify-center opacity-0 group-hover:opacity-100 transition-all duration-300">
-                  <Maximize2 size={16} />
-                </div>
-              </motion.div>
-            ))}
+          <div>
+            <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-5">
+              {visibleGridPhotos.map((photo, index) => (
+                <motion.div
+                  key={photo.id}
+                  initial={{ opacity: 0, scale: 0.95 }}
+                  animate={{ opacity: 1, scale: 1 }}
+                  transition={{ duration: 0.35, delay: Math.min(index * 0.03, 0.5) }}
+                  onClick={() => openLightbox(index)}
+                  className="group relative cursor-pointer overflow-hidden rounded-2xl bg-navy-800/80 border border-white/10 shadow-xl transition-all duration-300 hover:border-primary/50 hover:shadow-2xl aspect-[4/3]"
+                >
+                  <Image
+                    src={photo.thumbnailUrl}
+                    alt={photo.alt}
+                    fill
+                    sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 25vw"
+                    className="object-cover transition-transform duration-500 group-hover:scale-108"
+                  />
+                  <div className="absolute inset-0 bg-gradient-to-t from-navy-950/90 via-navy-950/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
+                  
+                  {/* Grid Item Overlay */}
+                  <div className="absolute inset-x-0 bottom-0 p-3.5 translate-y-2 group-hover:translate-y-0 opacity-0 group-hover:opacity-100 transition-all duration-300 flex items-end justify-between gap-2">
+                    <div className="max-w-[78%]">
+                      <span className="inline-block px-2 py-0.5 rounded bg-primary/90 text-white text-[10px] font-bold uppercase tracking-wider mb-1">
+                        {photo.tag}
+                      </span>
+                      <p className="text-white text-xs font-semibold line-clamp-1">
+                        {photo.title}
+                      </p>
+                    </div>
+                    <div className="w-8 h-8 rounded-full bg-white/20 backdrop-blur-md text-white flex items-center justify-center flex-shrink-0">
+                      <Maximize2 size={14} />
+                    </div>
+                  </div>
+                </motion.div>
+              ))}
+            </div>
+
+            {/* Load More Pagination */}
+            {gridVisibleCount < currentPhotos.length && (
+              <div className="mt-12 text-center flex flex-col sm:flex-row items-center justify-center gap-4">
+                <button
+                  onClick={() => setGridVisibleCount((prev) => Math.min(prev + 16, currentPhotos.length))}
+                  className="px-6 py-3 rounded-xl bg-primary hover:bg-primary-600 text-white font-semibold text-sm shadow-lg shadow-primary/25 transition-all duration-200 hover:scale-105 active:scale-95"
+                >
+                  Load More Photos ({currentPhotos.length - gridVisibleCount} remaining)
+                </button>
+                <button
+                  onClick={() => setGridVisibleCount(currentPhotos.length)}
+                  className="px-6 py-3 rounded-xl bg-navy-800/80 hover:bg-navy-700/80 border border-white/15 text-slate-200 hover:text-white font-semibold text-sm transition-all duration-200"
+                >
+                  Show All {currentPhotos.length} Photos
+                </button>
+              </div>
+            )}
           </div>
         )}
 
         {/* Gallery Guidance Hint */}
         <p className="text-center text-slate-400 text-xs md:text-sm mt-8 flex items-center justify-center gap-2">
-          <span>Swipe or click arrows to explore photographs • Click any image to view fullscreen</span>
+          <span>Swipe or click arrows to explore photographs • Click any image to view in high resolution</span>
         </p>
       </Container>
 
@@ -380,7 +439,10 @@ export function Projects() {
             >
               <div className="flex items-center gap-3">
                 <span className="px-3.5 py-1.5 rounded-full bg-primary/20 border border-primary/40 text-primary text-xs font-semibold uppercase tracking-wider">
-                  {activeCategory === 'residential' ? 'Residential Work' : 'Commercial Work'}
+                  {currentPhotos[lightboxIndex].tag}
+                </span>
+                <span className="text-white font-heading font-semibold text-sm hidden sm:inline">
+                  {currentPhotos[lightboxIndex].title}
                 </span>
                 <span className="text-white/60 text-sm font-mono">
                   {String(lightboxIndex + 1).padStart(2, '0')} / {String(currentPhotos.length).padStart(2, '0')}
@@ -434,7 +496,7 @@ export function Projects() {
 
             {/* Lightbox Bottom Thumbnail Bar */}
             <div
-              className="w-full max-w-4xl mx-auto flex items-center justify-center gap-2 overflow-x-auto py-2 z-10 no-scrollbar"
+              className="w-full max-w-5xl mx-auto flex items-center justify-center gap-2 overflow-x-auto py-2 z-10 no-scrollbar"
               onClick={(e) => e.stopPropagation()}
             >
               {currentPhotos.map((photo, idx) => (

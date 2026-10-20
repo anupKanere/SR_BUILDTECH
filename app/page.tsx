@@ -9,7 +9,6 @@ import { Projects } from '@/components/sections/Projects'
 import { BuildingAnimation } from '@/components/sections/BuildingAnimation'
 import { Features } from '@/components/sections/Features'
 import { Testimonials } from '@/components/sections/Testimonials'
-import { Instagram } from '@/components/sections/Instagram'
 import { Contact } from '@/components/sections/Contact'
 import { Footer } from '@/components/sections/Footer'
 import { LoadingScreen } from '@/components/ui/LoadingScreen'
@@ -28,7 +27,6 @@ export default function Home() {
         <BuildingAnimation />
         <Features />
         <Testimonials />
-        <Instagram />
         <Contact />
       </main>
       <Footer />
