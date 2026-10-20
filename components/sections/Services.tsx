@@ -133,7 +133,7 @@ export function Services() {
   })
 
   return (
-    <section id="services" className="py-20 md:py-32 bg-navy relative overflow-hidden scroll-mt-20">
+    <section id="services" className="py-20 md:py-32 bg-navy relative overflow-hidden">
       {/* Background Pattern */}
       <div className="absolute inset-0 bg-grid-pattern opacity-5" />
 
