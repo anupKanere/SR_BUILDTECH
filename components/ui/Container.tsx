@@ -1,14 +1,29 @@
 import React from 'react'
-import { cn } from '@/lib/utils'
 
-interface ContainerProps {
+interface ContainerProps extends React.HTMLAttributes<HTMLDivElement> {
   children: React.ReactNode
+  size?: 'default' | 'narrow' | 'wide'
   className?: string
 }
 
-export function Container({ children, className }: ContainerProps) {
+export function Container({
+  children,
+  size = 'default',
+  className = '',
+  ...props
+}: ContainerProps) {
+  const maxWidthClass =
+    size === 'narrow'
+      ? 'max-w-4xl'
+      : size === 'wide'
+      ? 'max-w-7xl'
+      : 'max-w-6xl'
+
   return (
-    <div className={cn('max-w-7xl mx-auto px-4 sm:px-6 lg:px-8', className)}>
+    <div
+      className={`w-full mx-auto px-5 sm:px-8 lg:px-12 ${maxWidthClass} ${className}`}
+      {...props}
+    >
       {children}
     </div>
   )

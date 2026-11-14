@@ -10,7 +10,6 @@ function isRateLimited(ip: string): boolean {
   const now = Date.now()
   const entry = rateLimitMap.get(ip)
 
-  // Clean expired entry
   if (!entry || now > entry.resetTime) {
     rateLimitMap.set(ip, { count: 1, resetTime: now + RATE_LIMIT_WINDOW_MS })
     return false
@@ -51,13 +50,13 @@ export async function POST(request: Request) {
     }
 
     const body = await request.json()
-    const { name, phone, email, projectType, message, honeypot } = body
+    const { name, phone, email, projectType, location, budgetRange, message, honeypot } = body
 
     // 2. Honeypot check (bots auto-fill hidden input fields)
     if (honeypot) {
       // Silently return success to avoid alerting the bot
       return NextResponse.json(
-        { success: true, message: 'Form submitted successfully!' },
+        { success: true, message: 'Inquiry received successfully.' },
         { status: 200 }
       )
     }
@@ -77,36 +76,75 @@ export async function POST(request: Request) {
       )
     }
 
-    // Length limit checks (DoS / payload overflow prevention)
-    if (name.length > 100 || (message && message.length > 2500) || (email && email.length > 150)) {
+    // Payload size checks
+    if (name.length > 100 || (message && message.length > 3000) || (email && email.length > 150)) {
       return NextResponse.json(
         { success: false, message: 'Payload size exceeds allowable limit.' },
         { status: 400 }
       )
     }
 
-    console.log('📧 New Contact Form Submission:')
-    console.log('================================')
+    console.log('🏛️ New SR BUILDTEC Project Inquiry:')
     console.log('Timestamp:', new Date().toISOString())
     console.log('Client IP:', ip)
     console.log('Name:', name.trim().slice(0, 100))
     console.log('Phone:', phone ? String(phone).trim().slice(0, 30) : 'N/A')
     console.log('Email:', email ? String(email).trim().slice(0, 100) : 'N/A')
-    console.log('Project Type:', projectType || 'General')
-    console.log('Message:', message ? String(message).trim().slice(0, 2000) : 'N/A')
-    console.log('================================')
+    console.log('Project Scope:', projectType || 'General')
+    console.log('Locality:', location || 'Bengaluru')
+    console.log('Budget Range:', budgetRange || 'Unspecified')
+    console.log('Message:', message ? String(message).trim().slice(0, 2500) : 'N/A')
+
+    // Optional email dispatch integration when RESEND_API_KEY is configured
+    const resendApiKey = process.env.RESEND_API_KEY
+    if (resendApiKey) {
+      try {
+        const response = await fetch('https://api.resend.com/emails', {
+          method: 'POST',
+          headers: {
+            'Content-Type': 'application/json',
+            Authorization: `Bearer ${resendApiKey}`,
+          },
+          body: JSON.stringify({
+            from: process.env.RESEND_FROM || 'inquiries@sr-buildtec.com',
+            to: process.env.CONTACT_EMAIL || 'srbuildtec.blr@gmail.com',
+            subject: `New Project Inquiry from ${name.trim()} (${projectType || 'Construction'})`,
+            html: `
+              <h2>New Project Inquiry - SR BUILDTEC</h2>
+              <p><strong>Name:</strong> ${name}</p>
+              <p><strong>Phone:</strong> ${phone || 'N/A'}</p>
+              <p><strong>Email:</strong> ${email || 'N/A'}</p>
+              <p><strong>Scope:</strong> ${projectType}</p>
+              <p><strong>Locality:</strong> ${location || 'N/A'}</p>
+              <p><strong>Budget:</strong> ${budgetRange || 'N/A'}</p>
+              <p><strong>Message:</strong></p>
+              <p>${(message || '').replace(/\n/g, '<br/>')}</p>
+            `,
+          }),
+        })
+
+        if (!response.ok) {
+          console.error('Failed to send email via Resend:', await response.text())
+        }
+      } catch (err) {
+        console.error('Email dispatch error:', err)
+      }
+    }
 
     return NextResponse.json(
       {
         success: true,
-        message: 'Form submitted successfully! We will contact you soon.',
+        message: 'Your inquiry has been submitted. Our engineering team will contact you shortly.',
       },
       { status: 200 }
     )
   } catch (error) {
-    console.error('Error processing contact form:', error)
+    console.error('Error in /api/contact:', error)
     return NextResponse.json(
-      { success: false, message: 'Failed to submit form. Please try again.' },
+      {
+        success: false,
+        message: 'Internal server error while processing your request.',
+      },
       { status: 500 }
     )
   }

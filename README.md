@@ -1,350 +1,150 @@
-# SR BUILDTEC - Premium Construction & Engineering Website
+# SR BUILDTEC — Construction & Civil Engineering Studio Website
 
-A modern, responsive, and feature-rich website for SR BUILDTEC, showcasing construction and engineering services with premium dark-themed design.
+A modern, high-performance, multi-page website for **SR BUILDTEC**, a Bengaluru-based construction and civil engineering firm specializing in turnkey residential villas, commercial structures, structural analysis, and bespoke interior spaces.
 
-## 🌟 Features
-
-- ✅ **Modern Tech Stack**: Next.js 16, React 19, TypeScript, Tailwind CSS
-- ✅ **Premium Animations**: Framer Motion for smooth, professional animations
-- ✅ **Fully Responsive**: Mobile-first design, works perfectly on all devices
-- ✅ **Dark Theme**: Professional dark navy theme (#0F172A) with orange accents (#FF6B00)
-- ✅ **SEO Optimized**: Meta tags, semantic HTML, performance optimized
-- ✅ **Interactive Sections**:
-  - Cinematic hero with animated stats and background
-  - About section with mission, vision & core values
-  - 12+ service cards with custom icons
-  - Filterable project portfolio with categories
-  - Building animation timeline (Blueprint → Foundation → Structure → Finishing)
-  - Client testimonials carousel with auto-play
-  - Social media integration (Instagram, Facebook, YouTube)
-  - Contact information with WhatsApp integration
-  - Floating WhatsApp button
-- ✅ **Content Management**: All content in JSON files for easy updates
-- ✅ **Performance**: Fast loading, optimized images, code splitting
-- ✅ **Brand Icons**: React Icons for social media (Instagram, Facebook, YouTube)
-
-## 🚀 Quick Start
-
-### Prerequisites
-
-Before you begin, ensure you have the following installed:
-- **Node.js**: Version 18 or higher ([Download](https://nodejs.org/))
-- **npm**: Version 9 or higher (comes with Node.js)
-
-Check your versions:
-```bash
-node --version  # Should be v18.0.0 or higher
-npm --version   # Should be v9.0.0 or higher
-```
-
-### Installation Steps
-
-1. **Clone or Download the Project**
-   ```bash
-   cd /path/to/srbuildtec-website
-   ```
-
-2. **Install Dependencies**
-   ```bash
-   npm install
-   ```
-   
-   This will install all required packages:
-   - Next.js 16.2.6
-   - React 19
-   - TypeScript
-   - Tailwind CSS
-   - Framer Motion
-   - React Icons
-   - Lucide React (for icons)
-
-3. **Run Development Server**
-   ```bash
-   npm run dev
-   ```
-   
-   The server will start on: [http://localhost:3000](http://localhost:3000)
-
-4. **Open in Browser**
-   - Navigate to `http://localhost:3000`
-   - You should see the SR BUILDTEC homepage
-
-### First Time Setup
-
-After installation, verify everything works:
-
-1. ✅ **Company logo visible** in navbar (top-left)
-2. ✅ **Dark theme** applied throughout
-3. ✅ **Social media icons** clickable in footer and contact section
-4. ✅ **WhatsApp button** visible in bottom-right corner
-5. ✅ **All images loading** (hero, about, projects, timeline)
-
-## 📁 Project Structure
-
-```
-srbuildtec-website/
-├── app/                    # Next.js app directory
-│   ├── layout.tsx         # Root layout with SEO
-│   ├── page.tsx           # Main homepage
-│   └── globals.css        # Global styles
-├── components/            # React components
-│   ├── sections/         # Page sections
-│   └── ui/               # Reusable UI components
-├── data/                  # Content JSON files
-├── lib/                   # Utilities
-├── public/               # Static assets
-└── tailwind.config.ts    # Tailwind configuration
-```
-
-## 🎨 Customization Guide
-
-All website content is stored in JSON files for easy updates without touching code.
-
-### 1. Update Company Information
-**File:** `/data/company.json`
-
-```json
-{
-  "name": "SR BUILDTEC",
-  "tagline": "Building Excellence, Engineering The Future",
-  "contact": {
-    "phone": "8660326541",
-    "email": "srbuildtec.blr@gmail.com",
-    "address": "Bengaluru, Karnataka, India",
-    "whatsapp": "918660326541"
-  },
-  "social": {
-    "instagram": "https://www.instagram.com/srbuildtec",
-    "facebook": "https://www.facebook.com/share/1E4LGLbP85/",
-    "youtube": "https://youtube.com/@srbuildtec"
-  }
-}
-```
-
-### 2. Add/Edit Services
-**File:** `/data/services.json`
-
-Each service includes:
-- Title, description, icon name
-- Features list
-- Automatically displayed in service cards
-
-### 3. Manage Projects
-**File:** `/data/projects.json`
-
-Each project includes:
-- Title, description, category
-- Status (Completed/Ongoing)
-- Location, area, year
-- Features and tags
-
-### 4. Update Testimonials
-**File:** `/data/testimonials.json`
-
-Each testimonial includes:
-- Client name, role, project type
-- Rating (1-5 stars)
-- Testimonial text
-
-### 5. Update Features (Why Choose Us)
-**File:** `/data/features.json`
-
-Each feature includes:
-- Title, description
-- Icon name (from Lucide React)
-
-### 6. Change Company Logo
-**Replace:** `/public/company-logo.jpeg`
-
-- Image size: 500x500px or larger
-- Format: JPEG, PNG, or WebP
-- Keep filename as `company-logo.jpeg` or update imports in:
-  - `components/sections/Navbar.tsx`
-  - `components/sections/Footer.tsx`
-
-### 7. Customize Colors
-**File:** `/tailwind.config.ts`
-
-```typescript
-colors: {
-  primary: '#FF6B00',  // Orange accent
-  navy: '#0F172A',     // Dark background
-}
-```
-
-## 🔧 Production Build
-
-### Build for Production
-
-```bash
-npm run build
-```
-
-This creates an optimized production build in the `.next` folder.
-
-### Test Production Build Locally
-
-```bash
-npm run build
-npm start
-```
-
-Then open [http://localhost:3000](http://localhost:3000)
-
-### Build Output
-
-- ✅ Static pages pre-rendered
-- ✅ Images optimized
-- ✅ JavaScript minified
-- ✅ CSS optimized
-- ✅ Ready for deployment
-
-## 🌐 Deployment
-
-### Option 1: Vercel (Recommended - Free)
-
-1. **Push to GitHub**
-   ```bash
-   git init
-   git add .
-   git commit -m "Initial commit"
-   git remote add origin <your-github-repo>
-   git push -u origin main
-   ```
-
-2. **Deploy on Vercel**
-   - Go to [vercel.com](https://vercel.com)
-   - Click "New Project"
-   - Import your GitHub repository
-   - Click "Deploy"
-
-3. **Done!** ✅
-   - Your site is live with automatic SSL
-   - Auto-deploys on every push to main
-   - Global CDN for fast loading worldwide
-
-### Option 2: Netlify
-
-1. Build the project: `npm run build`
-2. Drag `.next` folder to [netlify.com](https://netlify.com)
-3. Site is live!
-
-### Option 3: Self-Hosted
-
-1. Build: `npm run build`
-2. Start: `npm start` or use PM2
-3. Set up reverse proxy (Nginx)
-4. Configure SSL (Let's Encrypt)
-
-## 🐛 Troubleshooting
-
-### Issue: Logo not visible in navbar/footer
-
-**Solution:**
-1. Ensure `/public/company-logo.jpeg` exists
-2. Hard refresh browser: `Cmd+Shift+R` (Mac) or `Ctrl+Shift+R` (Windows)
-3. Clear browser cache:
-   ```javascript
-   // In browser console (F12)
-   localStorage.clear();
-   location.reload();
-   ```
-
-### Issue: Social media icons not clickable
-
-**Solution:**
-1. Check browser console (F12) for errors
-2. Verify links in `/data/company.json`
-3. Hard refresh the page
-
-### Issue: Port 3000 already in use
-
-**Solution:**
-```bash
-# Kill the process using port 3000
-npx kill-port 3000
-
-# Or use a different port
-npm run dev -- -p 3001
-```
-
-### Issue: Module not found errors
-
-**Solution:**
-```bash
-# Delete node_modules and reinstall
-rm -rf node_modules package-lock.json
-npm install
-```
-
-### Issue: Images not loading
-
-**Solution:**
-1. Check if images exist in `/public` folder
-2. Verify image paths (should start with `/`)
-3. Check browser Network tab (F12) for 404 errors
-
-### Issue: Build fails
-
-**Solution:**
-```bash
-# Clear Next.js cache
-rm -rf .next
-
-# Reinstall dependencies
-rm -rf node_modules package-lock.json
-npm install
-
-# Try building again
-npm run build
-```
-
-### Issue: Dark theme not applying
-
-**Solution:**
-- Dark theme is now **permanent** (no toggle)
-- Check `tailwind.config.ts` has `darkMode: 'class'`
-- Verify `<html>` tag has `className="dark"` in `app/layout.tsx`
-
-## 📋 Available Scripts
-
-```bash
-npm run dev      # Start development server (port 3000)
-npm run build    # Build for production
-npm start        # Start production server
-npm run lint     # Run ESLint
-```
-
-## 🛠️ Tech Stack Details
-
-| Package | Version | Purpose |
-|---------|---------|---------|
-| Next.js | 16.2.6 | React framework |
-| React | 19 | UI library |
-| TypeScript | 5.x | Type safety |
-| Tailwind CSS | 3.x | Styling |
-| Framer Motion | 11.x | Animations |
-| React Icons | 5.6.0 | Social media icons |
-| Lucide React | Latest | UI icons |
-
-## 📞 Support & Contact
-
-**SR BUILDTEC**
-- **Email**: srbuildtec.blr@gmail.com
-- **Phone**: +91 8660326541
-- **WhatsApp**: +91 8660326541
-- **Location**: Bengaluru, Karnataka, India
-
-**Social Media:**
-- Instagram: [@srbuildtec](https://www.instagram.com/srbuildtec)
-- Facebook: [SR BUILDTEC](https://www.facebook.com/share/1E4LGLbP85/)
-- YouTube: [@srbuildtec](https://youtube.com/@srbuildtec)
-
-## 📄 License
-
-This project is proprietary and confidential. All rights reserved by SR BUILDTEC.
+Built with **Next.js App Router (Turbopack)**, **TypeScript**, and **Tailwind CSS**.
 
 ---
 
-**Built with ❤️ for SR BUILDTEC**  
-*Premium Construction & Engineering Solutions*
+## 1. Visual Direction & Identity Differentiation
+
+The previous website and competitor reference sites relied on generic templates characterized by dark navy/slate backgrounds, aggressive orange/red accents, condensed display type, full-bleed hero banners with floating stat counters, and uniform 3×2 icon grids.
+
+### The New Visual Language:
+- **Palette**: Warm, light, editorial architectural palette:
+  - Background: Raw sand / limestone (`#F4F0E8` / `#FAF8F5`)
+  - Elevated surfaces: Clean architectural white (`#FFFFFF`) and muted linen stone (`#EAE4D8`)
+  - Typography & primary tone: Grounded deep forest green (`#1F3A2E`)
+  - Single accent: Architectural muted brass (`#B08D57` / `#C5A36E`)
+  - Hairline rules: 1px architectural drawing rules (`#DDD6C8`)
+- **Typography**: 
+  - Headings: Sentence-case serif typography (`Cormorant Garamond` / `Fraunces`)
+  - Body: Rational, highly readable sans-serif (`Manrope`)
+  - Zero condensed uppercase display fonts (no Oswald/Bebas/Raleway display titles)
+- **Layout Language**: Asymmetric editorial layouts, offset image pairings, numbered section markers (`01`, `02`, `03`), left-aligned headings, square or minimal 2px corners (`rounded-sm`), and flat or hairline elevations.
+- **Header**: Minimal, sticky with clean logo placement (no circular cropping), navigation items (`Work`, `Services`, `Process`, `Studio`, `Contact`), and an understated text link `Start a project →`. Full-screen mobile overlay menu.
+- **Mobile Actions**: One slim sticky bottom contact bar with direct Call (`tel:+918660326541`) and WhatsApp (`wa.me/918660326541`).
+
+---
+
+## 2. Multi-Page Site Structure & Sitemap
+
+Unlike the previous one-page endless scroll, the site is organized as an intentional multi-page architectural journal:
+
+| Route | Page | Purpose & Scope |
+|---|---|---|
+| `/` | **Home** | Split hero with tall featured project photo, project-first horizontal strip (6 projects), 3 full-width numbered alternating service pillars with photography (not an icon grid), vertical 4-phase process timeline, 3 unexaggerated commitments, 6-question FAQ accordion, and closing quote consultation section. |
+| `/studio` | **Studio (About)** | 10+ years story in Bengaluru, geotechnical and municipal site approach, continuous narrative working values (not cards), and clearly structured engineering leadership section. |
+| `/services` | **Services Hub** | Comprehensive capabilities overview across all 3 pillars, linking to deep dive subpages. |
+| `/services/design-engineering` | **01 Design & Engineering** | Structural Drawings, Architectural Drawings, Structural Analysis, BOQ Preparation, and Fire & Safety Planning with formal deliverables and Bengaluru context. |
+| `/services/construction` | **02 Construction** | Residential Construction, Commercial Construction, Project Management, and Metal Fabrication & Design with contract deliverables. |
+| `/services/interiors-specialty` | **03 Interiors & Specialty** | Interior Planning, Drywall Partitions, Landscaping, Modular Kitchens, Custom Joinery/Wardrobes, and Fitness Suites. |
+| `/work` | **Work (Projects)** | Curated case study archive with interactive category filters (*All, Villas, Commercial, Interiors, Structural & Site*), 14 detailed projects, interactive keyboard-accessible Lightbox viewer, and an expandable 30-photo technical on-site progress archive. |
+| `/work/[slug]` | **Case Study Page** | Dedicated SSG case study page for each project featuring geotechnical challenges, engineering solutions, scope deliverables, gallery grid with lightbox, and next/prev project navigation. |
+| `/process` | **Process** | Four phases: *Planning & Blueprint*, *Foundation & Earthwork*, *Superstructure & Engineering*, and *Finishing & Handover* with client handover deliverables and on-site testing protocols. |
+| `/contact` | **Contact** | Quote consultation form (with phone/email validation, project scope, locality, budget range, and honeypot spam protection), direct WhatsApp chat, telephone click-to-call, email, Google Maps reference, and studio hours. |
+| `/_not-found` | **Custom 404** | Warm sand/forest styled not-found page with clear navigation back to active sections. |
+| `/sitemap.xml` | **Dynamic XML Sitemap** | Automated SEO index of all static routes, pillars, and 14 project slugs. |
+| `/robots.txt` | **Robots Directive** | Directs search engine crawlers with sitemap pointer. |
+
+---
+
+## 3. Getting Started & Development
+
+### Prerequisites
+- Node.js 18+ (tested with Node 20 / 22 / 25)
+- npm or yarn
+
+### Installation
+```bash
+# 1. Install dependencies
+npm install
+
+# 2. Run the development server
+npm run dev
+
+# 3. Open in your browser
+http://localhost:3000
+```
+
+### Production Build
+```bash
+# Build production bundle with Next.js Turbopack
+npm run build
+
+# Start production server
+npm run start
+```
+
+---
+
+## 4. Environment Variables
+
+Create a `.env.local` file in the project root:
+
+```bash
+# Canonical site URL for SEO metadata, OpenGraph, and sitemap generation
+NEXT_PUBLIC_SITE_URL=https://srbuildtec.in
+
+# Optional: Email dispatch for contact form submissions via Resend
+RESEND_API_KEY=re_123456789
+RESEND_FROM=inquiries@srbuildtec.in
+CONTACT_EMAIL=srbuildtec.blr@gmail.com
+```
+
+*Note: If `RESEND_API_KEY` is omitted, the contact form API route will still validate inputs, apply rate-limiting and anti-spam honeypot checks, log the submission to the server console, and return a clean success state to the user without failing.*
+
+---
+
+## 5. Content-Editing Guide
+
+All client-facing copy, projects, services, FAQs, and business details are decoupled from UI components and stored in the `/data` directory for seamless editing:
+
+### 1. Business Info & Contact (`data/site.ts`)
+- Phone numbers, WhatsApp message pre-fill text, email address.
+- Studio working hours and Bengaluru office location.
+- Social media links (Instagram, Facebook, YouTube).
+- Core working commitments and legal claims notice.
+
+### 2. Services & Deliverables (`data/services.ts`)
+- The 3 service pillars (`design-engineering`, `construction`, `interiors-specialty`).
+- Individual service titles, technical descriptions, Bengaluru municipal context, and formal client deliverables.
+
+### 3. Projects & Case Studies (`data/projects.ts`)
+- `curatedProjects`: Add, update, or reorder the 14 featured case studies. Each project has:
+  - `slug`: URL slug (e.g., `contemporary-cantilevered-villa`)
+  - `title`, `locality`, `year`, `builtUpArea`, `timeline`, `clientType`
+  - `shortSummary`, `challenge`, `engineeringSolution`
+  - `heroImage` & `gallery` array with real descriptive `alt` text.
+- `archivePhotos`: Photos displayed in the expandable "More site photos" section.
+
+### 4. Frequently Asked Questions (`data/faqs.ts`)
+- Add or modify questions and answers covering BBMP approvals, timelines, soil testing, payment stages, and warranties.
+
+### 5. Design Tokens (`data/design-tokens.ts`)
+- Central source of truth for color tokens, typography scales, layout spacing, border radii, and transitions.
+
+---
+
+## 6. Deployment to Vercel
+
+The site is built on the standard Next.js App Router and deploys seamlessly to Vercel:
+
+1. Push your code to GitHub / GitLab / Bitbucket.
+2. In the [Vercel Dashboard](https://vercel.com), click **Add New Project** and import the repository.
+3. Configure Environment Variables in the project settings:
+   - `NEXT_PUBLIC_SITE_URL` = `https://yourdomain.com`
+   - `RESEND_API_KEY` (if using Resend for emails)
+4. Click **Deploy**. Vercel will automatically build the static pages and deploy the serverless contact API route.
+
+---
+
+## 7. Checklist for Client Confirmation
+
+| Item | Status | Action Required from Client |
+|---|---|---|
+| **Verified Certifications** | Strictly omitted | Confirm if any official ISO, OSHA, or government builder certifications exist. If none, keep omitted as currently designed. |
+| **Testimonials** | Omitted | Provide real client quotes with client initials/names (e.g. "Private Residence Client, Bengaluru"). Placeholder component is ready to plug in. |
+| **Final Tagline** | Current: *"Building Excellence, Engineering The Future"* | Confirm if this tagline should be retained or replaced with a new custom slogan. |
+| **Office Address** | Bengaluru, Karnataka | Provide specific street/building address if a physical studio entrance should be listed on the contact page. |
+| **Team Profiles** | Verified structure in place | Optional: Provide real headshots and names of founders/lead civil engineers for the Studio page. |

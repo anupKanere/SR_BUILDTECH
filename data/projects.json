@@ -1,74 +1,42 @@
 [
   {
-    "id": "luxury-villa-whitefield",
-    "title": "Luxury Villa - Whitefield",
+    "id": "1",
+    "title": "Luxury Turnkey Villa",
     "category": "Residential",
-    "location": "Whitefield, Bengaluru",
-    "description": "Modern luxury villa with contemporary architecture and premium finishes",
-    "area": "3500 sq.ft",
-    "status": "Completed",
-    "year": 2024,
-    "image": "/projects/placeholder-villa.jpg",
-    "features": ["4 BHK", "Modern Design", "Smart Home", "Landscape Garden"]
+    "location": "Bengaluru, Karnataka",
+    "image": "/images/gallery/IMG-20261017-WA0023.jpg",
+    "description": "Premium 4 BHK turnkey contemporary villa featuring architectural geometric elevation and comprehensive MEP coordination."
   },
   {
-    "id": "commercial-complex-hsr",
-    "title": "Commercial Complex - HSR Layout",
+    "id": "2",
+    "title": "Commercial Corporate Facility",
     "category": "Commercial",
-    "location": "HSR Layout, Bengaluru",
-    "description": "Multi-story commercial complex with modern amenities",
-    "area": "12000 sq.ft",
-    "status": "Completed",
-    "year": 2023,
-    "image": "/projects/placeholder-commercial.jpg",
-    "features": ["G+4 Structure", "Retail Spaces", "Office Units", "Parking"]
+    "location": "Bengaluru, Karnataka",
+    "image": "/images/gallery/IMG-20261017-WA0135.jpg",
+    "description": "Multi-storey commercial facility featuring high-rise structural steel framing and heavy load analysis."
   },
   {
-    "id": "interior-project-koramangala",
-    "title": "Premium Interior - Koramangala",
+    "id": "3",
+    "title": "Architectural Living & Media Lounge",
     "category": "Interiors",
-    "location": "Koramangala, Bengaluru",
-    "description": "Complete interior renovation with modern design elements",
-    "area": "2200 sq.ft",
-    "status": "Completed",
-    "year": 2024,
-    "image": "/projects/placeholder-interior.jpg",
-    "features": ["Modern Kitchen", "Living Area", "Bedrooms", "Lighting Design"]
+    "location": "Bengaluru, Karnataka",
+    "image": "/images/gallery/IMG-20261020-WA0016.jpg",
+    "description": "Bespoke interior execution with fluted acoustic panelling, indirect illumination, and Italian marble restoration."
   },
   {
-    "id": "residential-complex-sarjapur",
-    "title": "Residential Complex - Sarjapur",
+    "id": "4",
+    "title": "Linear Modern Residence",
     "category": "Residential",
-    "location": "Sarjapur Road, Bengaluru",
-    "description": "Gated community with multiple villas and amenities",
-    "area": "45000 sq.ft",
-    "status": "Ongoing",
-    "year": 2024,
-    "image": "/projects/placeholder-complex.jpg",
-    "features": ["20 Villas", "Clubhouse", "Swimming Pool", "Security"]
+    "location": "Bengaluru, Karnataka",
+    "image": "/images/gallery/IMG-20261017-WA0034.jpg",
+    "description": "Contemporary multi-storey residence engineered for maximum natural daylight and seamless terrace living."
   },
   {
-    "id": "structural-renovation-indiranagar",
-    "title": "Structural Renovation - Indiranagar",
-    "category": "Structural",
-    "location": "Indiranagar, Bengaluru",
-    "description": "Complete structural strengthening and renovation project",
-    "area": "2800 sq.ft",
-    "status": "Completed",
-    "year": 2023,
-    "image": "/projects/placeholder-structural.jpg",
-    "features": ["Foundation Repair", "Column Jacketing", "New Roof", "Waterproofing"]
-  },
-  {
-    "id": "warehouse-attibele",
-    "title": "Industrial Warehouse - Attibele",
-    "category": "Commercial",
-    "location": "Attibele, Bengaluru",
-    "description": "Large-scale industrial warehouse with modern facilities",
-    "area": "25000 sq.ft",
-    "status": "Completed",
-    "year": 2023,
-    "image": "/projects/placeholder-warehouse.jpg",
-    "features": ["Pre-Engineered", "Loading Docks", "Office Area", "Fire Safety"]
+    "id": "5",
+    "title": "Superstructure RCC Casting",
+    "category": "Civil & Structural",
+    "location": "Bengaluru, Karnataka",
+    "image": "/images/gallery/IMG-20261017-WA0092.jpg",
+    "description": "Precision concrete casting with laser leveling, Fe550D TMT reinforcement, and continuous curing protocol."
   }
 ]
