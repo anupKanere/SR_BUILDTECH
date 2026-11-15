@@ -2,7 +2,6 @@
 
 import React, { useState, useEffect } from 'react'
 import { motion, AnimatePresence } from 'framer-motion'
-import { useInView } from 'react-intersection-observer'
 import { Quote, Star, ChevronLeft, ChevronRight } from 'lucide-react'
 import { Container } from '@/components/ui/Container'
 import { SectionHeading } from '@/components/ui/SectionHeading'
@@ -11,10 +10,6 @@ import testimonialsData from '@/data/testimonials.json'
 export function Testimonials() {
   const [currentIndex, setCurrentIndex] = useState(0)
   const [direction, setDirection] = useState(0)
-  const [ref, inView] = useInView({
-    triggerOnce: true,
-    threshold: 0.1,
-  })
 
   const nextTestimonial = () => {
     setDirection(1)
@@ -60,7 +55,7 @@ export function Testimonials() {
           description="Don't just take our word for it - hear from our satisfied clients"
         />
 
-        <div ref={ref} className="relative max-w-5xl mx-auto">
+        <div className="relative max-w-5xl mx-auto">
           {/* Main Testimonial */}
           <div className="relative min-h-[400px] flex items-center">
             <AnimatePresence initial={false} custom={direction} mode="wait">
@@ -71,11 +66,22 @@ export function Testimonials() {
                 initial="enter"
                 animate="center"
                 exit="exit"
+                drag="x"
+                dragConstraints={{ left: 0, right: 0 }}
+                dragElastic={0.2}
+                onDragEnd={(_, { offset, velocity }) => {
+                  const swipeThreshold = 50
+                  if (offset.x > swipeThreshold || velocity.x > 300) {
+                    prevTestimonial()
+                  } else if (offset.x < -swipeThreshold || velocity.x < -300) {
+                    nextTestimonial()
+                  }
+                }}
                 transition={{
                   x: { type: 'spring', stiffness: 300, damping: 30 },
                   opacity: { duration: 0.2 },
                 }}
-                className="w-full"
+                className="w-full cursor-grab active:cursor-grabbing select-none touch-pan-y"
               >
                 <div className="bg-navy-800/80 backdrop-blur-xl rounded-3xl p-8 md:p-12 shadow-2xl border border-white/10 relative">
                   {/* Quote Icon */}
@@ -152,33 +158,7 @@ export function Testimonials() {
             ))}
           </div>
 
-          {/* Thumbnail Grid */}
-          <motion.div
-            initial={{ opacity: 0, y: 20 }}
-            animate={inView ? { opacity: 1, y: 0 } : {}}
-            transition={{ delay: 0.6, duration: 0.6 }}
-            className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-5 gap-3 mt-6 sm:mt-8"
-          >
-            {testimonialsData.map((testimonial, index) => (
-              <button
-                key={testimonial.id}
-                onClick={() => {
-                  setDirection(index > currentIndex ? 1 : -1)
-                  setCurrentIndex(index)
-                }}
-                className={`p-3.5 rounded-xl border transition-all ${
-                  index === currentIndex
-                    ? 'bg-primary text-white border-primary shadow-lg shadow-primary/30 scale-105'
-                    : 'bg-navy-800/60 border-white/10 text-slate-300 hover:text-white hover:border-white/25'
-                }`}
-              >
-                <div className="w-10 h-10 bg-white/10 rounded-full flex items-center justify-center mx-auto mb-2 text-sm font-bold text-white">
-                  {testimonial.name.charAt(0)}
-                </div>
-                <p className="text-xs font-semibold truncate text-white">{testimonial.name}</p>
-              </button>
-            ))}
-          </motion.div>
+
         </div>
       </Container>
     </section>

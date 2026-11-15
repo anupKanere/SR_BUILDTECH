@@ -16,12 +16,13 @@ import {
   Grid3X3,
   SlidersHorizontal,
   Sparkles,
+  Building2,
 } from 'lucide-react'
 import { Container } from '@/components/ui/Container'
 import { SectionHeading } from '@/components/ui/SectionHeading'
 import galleryData from '@/data/gallery.json'
 
-type CategoryKey = 'all' | 'completed' | 'onsite' | 'interiors'
+type CategoryKey = 'all' | 'completed' | 'commercial' | 'onsite' | 'interiors'
 
 interface PhotoItem {
   id: string
@@ -38,6 +39,7 @@ interface PhotoItem {
 const CATEGORY_ICONS: Record<CategoryKey, React.ComponentType<{ size?: number; className?: string }>> = {
   all: Layers,
   completed: Home,
+  commercial: Building2,
   onsite: HardHat,
   interiors: Palette,
 }
@@ -172,7 +174,7 @@ export function Projects() {
         <SectionHeading
           subtitle="Portfolio Showcase"
           title="Project Showcase"
-          description="A curated look into our recent completed handovers, active construction sites, and bespoke architectural interiors across Bengaluru."
+          description="A curated look into our turnkey handovers, commercial complexes, active construction sites, and bespoke architectural interiors."
         />
 
         {/* Category Selector Tabs & View Switcher */}
@@ -250,24 +252,24 @@ export function Projects() {
 
         {/* SLIDER VIEW MODE */}
         {viewMode === 'slider' ? (
-          <div className="relative">
+          <div className="relative max-w-5xl mx-auto">
             {/* Embla Viewport */}
-            <div className="overflow-hidden rounded-3xl" ref={emblaRef}>
-              <div className="flex -ml-4 md:ml-0">
+            <div className="overflow-hidden rounded-2xl md:rounded-3xl shadow-2xl" ref={emblaRef}>
+              <div className="flex touch-pan-y">
                 {currentPhotos.map((photo, index) => (
                   <div
                     key={photo.id}
-                    className="flex-[0_0_100%] sm:flex-[0_0_85%] md:flex-[0_0_70%] lg:flex-[0_0_55%] min-w-0 pl-4 md:pl-6"
+                    className="flex-[0_0_100%] min-w-0"
                   >
                     <div
                       onClick={() => openLightbox(index)}
-                      className="group relative cursor-pointer overflow-hidden rounded-2xl md:rounded-3xl bg-navy-800/80 border border-white/10 shadow-2xl transition-all duration-500 hover:border-primary/50 hover:shadow-primary/20 aspect-[16/10]"
+                      className="group relative cursor-pointer overflow-hidden rounded-2xl md:rounded-3xl bg-navy-800/80 border border-white/10 shadow-2xl transition-all duration-500 hover:border-primary/50 hover:shadow-primary/20 aspect-[4/3] sm:aspect-[16/10] md:aspect-[16/9]"
                     >
                       <Image
                         src={photo.imageUrl}
                         alt={photo.alt}
                         fill
-                        sizes="(max-width: 640px) 100vw, (max-width: 1024px) 70vw, 55vw"
+                        sizes="(max-width: 640px) 100vw, (max-width: 1024px) 95vw, 1100px"
                         className="object-cover transition-transform duration-700 ease-out group-hover:scale-105"
                         priority={index < 2}
                       />
@@ -276,21 +278,21 @@ export function Projects() {
                       <div className="absolute inset-0 bg-gradient-to-t from-navy-950/90 via-navy-950/20 to-black/30 opacity-70 group-hover:opacity-90 transition-opacity duration-300" />
 
                       {/* Content Overlay */}
-                      <div className="absolute bottom-0 left-0 right-0 p-5 md:p-6 flex items-end justify-between gap-4">
+                      <div className="absolute bottom-0 left-0 right-0 p-5 md:p-8 flex items-end justify-between gap-4">
                         <div className="max-w-[80%]">
                           <span className="inline-block px-3 py-1 rounded-full bg-primary/90 text-white text-xs font-semibold uppercase tracking-wider mb-2 shadow">
                             {photo.tag}
                           </span>
-                          <h4 className="text-white text-base md:text-lg font-heading font-bold drop-shadow-md line-clamp-1">
+                          <h4 className="text-white text-base md:text-xl font-heading font-bold drop-shadow-md line-clamp-1">
                             {photo.title}
                           </h4>
-                          <p className="text-slate-300 text-xs mt-1 line-clamp-1 hidden sm:block">
+                          <p className="text-slate-300 text-xs sm:text-sm mt-1 line-clamp-1">
                             {photo.alt}
                           </p>
                         </div>
 
                         {/* Hover Expand Icon Badge */}
-                        <div className="w-11 h-11 rounded-full bg-white/10 backdrop-blur-md border border-white/20 text-white flex items-center justify-center group-hover:bg-primary group-hover:border-primary group-hover:scale-110 transition-all duration-300 shadow-xl flex-shrink-0">
+                        <div className="w-11 h-11 md:w-12 md:h-12 rounded-full bg-white/10 backdrop-blur-md border border-white/20 text-white flex items-center justify-center group-hover:bg-primary group-hover:border-primary group-hover:scale-110 transition-all duration-300 shadow-xl flex-shrink-0">
                           <Maximize2 size={18} />
                         </div>
                       </div>
@@ -304,6 +306,22 @@ export function Projects() {
                 ))}
               </div>
             </div>
+
+            {/* Side Navigation Overlays (visible on sm and larger) */}
+            <button
+              onClick={scrollPrev}
+              className="hidden sm:flex absolute left-3 top-1/2 -translate-y-1/2 z-10 w-11 h-11 rounded-full bg-navy-950/75 hover:bg-primary backdrop-blur-md border border-white/20 text-white items-center justify-center shadow-2xl hover:scale-110 active:scale-95 transition-all duration-200"
+              aria-label="Previous photograph"
+            >
+              <ChevronLeft size={22} />
+            </button>
+            <button
+              onClick={scrollNext}
+              className="hidden sm:flex absolute right-3 top-1/2 -translate-y-1/2 z-10 w-11 h-11 rounded-full bg-navy-950/75 hover:bg-primary backdrop-blur-md border border-white/20 text-white items-center justify-center shadow-2xl hover:scale-110 active:scale-95 transition-all duration-200"
+              aria-label="Next photograph"
+            >
+              <ChevronRight size={22} />
+            </button>
 
             {/* Slider Navigation Controls */}
             <div className="flex items-center justify-between mt-8 max-w-5xl mx-auto px-2">

@@ -1,9 +1,9 @@
 [
   {
-    "id": "luxury-villa-whitefield",
-    "title": "Luxury Villa - Whitefield",
+    "id": "luxury-villa-project",
+    "title": "Luxury Turnkey Villa",
     "category": "Residential",
-    "location": "Whitefield, Bengaluru",
+    "location": "Turnkey Residential",
     "description": "Modern luxury villa with contemporary architecture and premium finishes",
     "area": "3500 sq.ft",
     "status": "Completed",
@@ -12,10 +12,10 @@
     "features": ["4 BHK", "Modern Design", "Smart Home", "Landscape Garden"]
   },
   {
-    "id": "commercial-complex-hsr",
-    "title": "Commercial Complex - HSR Layout",
+    "id": "commercial-complex-project",
+    "title": "Multi-Storey Commercial Complex",
     "category": "Commercial",
-    "location": "HSR Layout, Bengaluru",
+    "location": "Commercial Hub",
     "description": "Multi-story commercial complex with modern amenities",
     "area": "12000 sq.ft",
     "status": "Completed",
@@ -24,10 +24,10 @@
     "features": ["G+4 Structure", "Retail Spaces", "Office Units", "Parking"]
   },
   {
-    "id": "interior-project-koramangala",
-    "title": "Premium Interior - Koramangala",
+    "id": "interior-project",
+    "title": "Premium Turnkey Interior Fit-Out",
     "category": "Interiors",
-    "location": "Koramangala, Bengaluru",
+    "location": "Bespoke Residence",
     "description": "Complete interior renovation with modern design elements",
     "area": "2200 sq.ft",
     "status": "Completed",
@@ -36,10 +36,10 @@
     "features": ["Modern Kitchen", "Living Area", "Bedrooms", "Lighting Design"]
   },
   {
-    "id": "residential-complex-sarjapur",
-    "title": "Residential Complex - Sarjapur",
+    "id": "residential-complex-project",
+    "title": "Gated Residential Community",
     "category": "Residential",
-    "location": "Sarjapur Road, Bengaluru",
+    "location": "Residential Enclave",
     "description": "Gated community with multiple villas and amenities",
     "area": "45000 sq.ft",
     "status": "Ongoing",
@@ -48,10 +48,10 @@
     "features": ["20 Villas", "Clubhouse", "Swimming Pool", "Security"]
   },
   {
-    "id": "structural-renovation-indiranagar",
-    "title": "Structural Renovation - Indiranagar",
+    "id": "structural-renovation-project",
+    "title": "Comprehensive Structural Strengthening",
     "category": "Structural",
-    "location": "Indiranagar, Bengaluru",
+    "location": "Civil Engineering",
     "description": "Complete structural strengthening and renovation project",
     "area": "2800 sq.ft",
     "status": "Completed",
@@ -60,10 +60,10 @@
     "features": ["Foundation Repair", "Column Jacketing", "New Roof", "Waterproofing"]
   },
   {
-    "id": "warehouse-attibele",
-    "title": "Industrial Warehouse - Attibele",
+    "id": "warehouse-project",
+    "title": "Large-Scale Industrial Facility",
     "category": "Commercial",
-    "location": "Attibele, Bengaluru",
+    "location": "Industrial Corridor",
     "description": "Large-scale industrial warehouse with modern facilities",
     "area": "25000 sq.ft",
     "status": "Completed",
