@@ -22,7 +22,7 @@ import { Container } from '@/components/ui/Container'
 import { SectionHeading } from '@/components/ui/SectionHeading'
 import galleryData from '@/data/gallery.json'
 
-type CategoryKey = 'all' | 'completed' | 'commercial' | 'onsite' | 'interiors'
+type CategoryKey = 'all' | 'completed' | 'commercial' | 'ongoing' | 'interiors'
 
 interface PhotoItem {
   id: string
@@ -40,7 +40,7 @@ const CATEGORY_ICONS: Record<CategoryKey, React.ComponentType<{ size?: number; c
   all: Layers,
   completed: Home,
   commercial: Building2,
-  onsite: HardHat,
+  ongoing: HardHat,
   interiors: Palette,
 }
 
@@ -189,7 +189,7 @@ export function Projects() {
         <SectionHeading
           subtitle="Portfolio Showcase"
           title="Project Showcase"
-          description="A curated look into our turnkey handovers, commercial complexes, active construction sites, and bespoke architectural interiors."
+          description="A curated look into our turnkey handovers, commercial complexes, ongoing projects, and bespoke architectural interiors."
         />
 
         {/* Category Selector Tabs & View Switcher */}

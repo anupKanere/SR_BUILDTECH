@@ -148,7 +148,7 @@ export function Hero() {
                 </div>
                 <div className="flex items-center gap-2">
                   <CheckCircle2 size={16} className="text-primary" />
-                  <span>10+ Years Craftsmanship</span>
+                  <span>7+ Years Craftsmanship</span>
                 </div>
               </motion.div>
             </motion.div>

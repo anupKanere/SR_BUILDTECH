@@ -23,8 +23,8 @@ const CATEGORIES = [
     tagline: 'High-rise structural framing, industrial facilities, tower crane operations, commercial amenities, and corporate infrastructure.'
   },
   {
-    id: 'onsite',
-    label: 'On-Site Construction',
+    id: 'ongoing',
+    label: 'Ongoing Projects',
     tagline: 'Real-time updates from our active project sites: foundation excavations, RCC slab casting, concrete blockwork, and expert site supervision.'
   },
   {
@@ -39,14 +39,14 @@ const VALID_EXTENSIONS = new Set(['.jpg', '.jpeg', '.png', '.webp', '.avif', '.s
 const DEFAULT_TAGS = {
   completed: 'Completed Project',
   commercial: 'Commercial Project',
-  onsite: 'Site Progress',
+  ongoing: 'Ongoing Project',
   interiors: 'Interior Design'
 };
 
 const DEFAULT_TITLES = {
   completed: 'Completed Residential Project',
   commercial: 'Commercial Infrastructure Project',
-  onsite: 'On-Site Construction Progress',
+  ongoing: 'Ongoing Construction Project',
   interiors: 'Architectural Interior Space'
 };
 
@@ -75,11 +75,11 @@ function syncGallery() {
     }
   }
 
-  const categoryFolders = ['completed', 'commercial', 'onsite', 'interiors'];
+  const categoryFolders = ['completed', 'commercial', 'ongoing', 'interiors'];
   const categorizedPhotos = {
     completed: [],
     commercial: [],
-    onsite: [],
+    ongoing: [],
     interiors: []
   };
 
@@ -125,7 +125,7 @@ function syncGallery() {
   const allPhotos = [
     ...categorizedPhotos.completed,
     ...categorizedPhotos.commercial,
-    ...categorizedPhotos.onsite,
+    ...categorizedPhotos.ongoing,
     ...categorizedPhotos.interiors
   ];
 
@@ -135,7 +135,7 @@ function syncGallery() {
       all: allPhotos,
       completed: categorizedPhotos.completed,
       commercial: categorizedPhotos.commercial,
-      onsite: categorizedPhotos.onsite,
+      ongoing: categorizedPhotos.ongoing,
       interiors: categorizedPhotos.interiors
     }
   };
@@ -145,7 +145,7 @@ function syncGallery() {
   console.log(' Gallery sync completed successfully:');
   console.log(`  - Completed: ${categorizedPhotos.completed.length} photos`);
   console.log(`  - Commercial: ${categorizedPhotos.commercial.length} photos`);
-  console.log(`  - Onsite: ${categorizedPhotos.onsite.length} photos`);
+  console.log(`  - Ongoing: ${categorizedPhotos.ongoing.length} photos`);
   console.log(`  - Interiors: ${categorizedPhotos.interiors.length} photos`);
   console.log(`  - Total in All: ${allPhotos.length} photos`);
 }

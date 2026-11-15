@@ -49,7 +49,7 @@ export function About() {
                     <Award className="text-white" size={24} />
                   </div>
                   <div>
-                    <h3 className="text-2xl font-bold text-white">10+ Years</h3>
+                    <h3 className="text-2xl font-bold text-white">7+ Years</h3>
                     <p className="text-navy-300 text-sm">Of Excellence</p>
                   </div>
                 </div>

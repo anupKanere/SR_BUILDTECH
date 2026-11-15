@@ -16,8 +16,8 @@
       "tagline": "High-rise structural framing, industrial facilities, tower crane operations, commercial amenities, and corporate infrastructure."
     },
     {
-      "id": "onsite",
-      "label": "On-Site Construction",
+      "id": "ongoing",
+      "label": "Ongoing Projects",
       "tagline": "Real-time updates from our active project sites: foundation excavations, RCC slab casting, concrete blockwork, and expert site supervision."
     },
     {
@@ -107,6 +107,17 @@
       },
       {
         "id": "photo-8",
+        "file": "IMG-20261020-WA0024.jpg",
+        "imageUrl": "/projects/completed/IMG-20261020-WA0024.jpg",
+        "thumbnailUrl": "/projects/completed/IMG-20261020-WA0024.jpg",
+        "title": "Contemporary Multi-Storey Commercial & Residential Façade",
+        "alt": "Modern G+3 building architectural elevation with projecting window frames, louvers, and stilt parking",
+        "tag": "Multi-Storey Elevation",
+        "category": "completed",
+        "aspect": "portrait"
+      },
+      {
+        "id": "photo-9",
         "file": "IMG-20261020-WA0030.jpg",
         "imageUrl": "/projects/completed/IMG-20261020-WA0030.jpg",
         "thumbnailUrl": "/projects/completed/IMG-20261020-WA0030.jpg",
@@ -117,7 +128,7 @@
         "aspect": "landscape"
       },
       {
-        "id": "photo-9",
+        "id": "photo-10",
         "file": "IMG-20261020-WA0033.jpg",
         "imageUrl": "/projects/completed/IMG-20261020-WA0033.jpg",
         "thumbnailUrl": "/projects/completed/IMG-20261020-WA0033.jpg",
@@ -128,7 +139,7 @@
         "aspect": "landscape"
       },
       {
-        "id": "photo-10",
+        "id": "photo-11",
         "file": "IMG-20261020-WA0034.jpg",
         "imageUrl": "/projects/completed/IMG-20261020-WA0034.jpg",
         "thumbnailUrl": "/projects/completed/IMG-20261020-WA0034.jpg",
@@ -139,7 +150,18 @@
         "aspect": "landscape"
       },
       {
-        "id": "photo-11",
+        "id": "photo-12",
+        "file": "IMG-20261020-WA0035.jpg",
+        "imageUrl": "/projects/completed/IMG-20261020-WA0035.jpg",
+        "thumbnailUrl": "/projects/completed/IMG-20261020-WA0035.jpg",
+        "title": "3-Storey Commercial & Mixed Complex Façade",
+        "alt": "Ultra-modern 3-storey commercial and residential complex with ground-floor showroom and glass balconies",
+        "tag": "Commercial Complex",
+        "category": "completed",
+        "aspect": "landscape"
+      },
+      {
+        "id": "photo-13",
         "file": "IMG-20261020-WA0051.jpg",
         "imageUrl": "/projects/completed/IMG-20261020-WA0051.jpg",
         "thumbnailUrl": "/projects/completed/IMG-20261020-WA0051.jpg",
@@ -150,7 +172,7 @@
         "aspect": "landscape"
       },
       {
-        "id": "photo-12",
+        "id": "photo-14",
         "file": "IMG-20261020-WA0069.jpg",
         "imageUrl": "/projects/completed/IMG-20261020-WA0069.jpg",
         "thumbnailUrl": "/projects/completed/IMG-20261020-WA0069.jpg",
@@ -161,7 +183,7 @@
         "aspect": "landscape"
       },
       {
-        "id": "photo-13",
+        "id": "photo-15",
         "file": "IMG-20261017-WA0124.jpg",
         "imageUrl": "/projects/commercial/IMG-20261017-WA0124.jpg",
         "thumbnailUrl": "/projects/commercial/IMG-20261017-WA0124.jpg",
@@ -172,7 +194,7 @@
         "aspect": "landscape"
       },
       {
-        "id": "photo-14",
+        "id": "photo-16",
         "file": "IMG-20261017-WA0125.jpg",
         "imageUrl": "/projects/commercial/IMG-20261017-WA0125.jpg",
         "thumbnailUrl": "/projects/commercial/IMG-20261017-WA0125.jpg",
@@ -183,7 +205,7 @@
         "aspect": "landscape"
       },
       {
-        "id": "photo-15",
+        "id": "photo-17",
         "file": "IMG-20261017-WA0155.jpg",
         "imageUrl": "/projects/commercial/IMG-20261017-WA0155.jpg",
         "thumbnailUrl": "/projects/commercial/IMG-20261017-WA0155.jpg",
@@ -194,35 +216,13 @@
         "aspect": "landscape"
       },
       {
-        "id": "photo-16",
+        "id": "photo-18",
         "file": "IMG-20261017-WA0160.jpg",
         "imageUrl": "/projects/commercial/IMG-20261017-WA0160.jpg",
         "thumbnailUrl": "/projects/commercial/IMG-20261017-WA0160.jpg",
         "title": "Heavy Commercial Infrastructure & Helical Ramp",
         "alt": "Massive circular reinforced concrete ramp and structural foundation with tower crane",
         "tag": "Commercial Infrastructure",
-        "category": "commercial",
-        "aspect": "landscape"
-      },
-      {
-        "id": "photo-17",
-        "file": "IMG-20261020-WA0024.jpg",
-        "imageUrl": "/projects/commercial/IMG-20261020-WA0024.jpg",
-        "thumbnailUrl": "/projects/commercial/IMG-20261020-WA0024.jpg",
-        "title": "Contemporary Multi-Storey Commercial & Residential Façade",
-        "alt": "Modern G+3 building architectural elevation with projecting window frames, louvers, and stilt parking",
-        "tag": "Multi-Storey Elevation",
-        "category": "commercial",
-        "aspect": "portrait"
-      },
-      {
-        "id": "photo-18",
-        "file": "IMG-20261020-WA0035.jpg",
-        "imageUrl": "/projects/commercial/IMG-20261020-WA0035.jpg",
-        "thumbnailUrl": "/projects/commercial/IMG-20261020-WA0035.jpg",
-        "title": "3-Storey Commercial & Mixed Complex Façade",
-        "alt": "Ultra-modern 3-storey commercial and residential complex with ground-floor showroom and glass balconies",
-        "tag": "Commercial Complex",
         "category": "commercial",
         "aspect": "landscape"
       },
@@ -305,149 +305,204 @@
       },
       {
         "id": "photo-26",
-        "file": "IMG-20261017-WA0046.jpg",
-        "imageUrl": "/projects/onsite/IMG-20261017-WA0046.jpg",
-        "thumbnailUrl": "/projects/onsite/IMG-20261017-WA0046.jpg",
-        "title": "Foundation Footing & Site Excavation",
-        "alt": "Mechanical excavator digging column footing foundation pits on active construction site",
-        "tag": "Site Excavation",
-        "category": "onsite",
+        "file": "WhatsApp Image 2026-10-17 at 17.36.00.jpeg",
+        "imageUrl": "/projects/commercial/WhatsApp Image 2026-10-17 at 17.36.00.jpeg",
+        "thumbnailUrl": "/projects/commercial/WhatsApp Image 2026-10-17 at 17.36.00.jpeg",
+        "title": "WhatsApp Image 2026 10 17 At 17.36.00",
+        "alt": "WhatsApp Image 2026 10 17 At 17.36.00 - SR BUILDTEC",
+        "tag": "Commercial Project",
+        "category": "commercial",
         "aspect": "landscape"
       },
       {
         "id": "photo-27",
-        "file": "IMG-20261017-WA0070.jpg",
-        "imageUrl": "/projects/onsite/IMG-20261017-WA0070.jpg",
-        "thumbnailUrl": "/projects/onsite/IMG-20261017-WA0070.jpg",
-        "title": "G+3 Building External Plastering & Scaffolding",
-        "alt": "Active on-site construction progress with bamboo scaffolding for exterior cement plastering",
-        "tag": "Site Scaffolding",
-        "category": "onsite",
-        "aspect": "portrait"
-      },
-      {
-        "id": "photo-28",
-        "file": "IMG-20261017-WA0074.jpg",
-        "imageUrl": "/projects/onsite/IMG-20261017-WA0074.jpg",
-        "thumbnailUrl": "/projects/onsite/IMG-20261017-WA0074.jpg",
-        "title": "Solid Concrete Blockwork & RCC Lintel Beams",
-        "alt": "On-site masonry progress with concrete solid blocks and reinforced concrete lintel shuttering",
-        "tag": "Blockwork & RCC",
-        "category": "onsite",
+        "file": "IMG-20261017-WA0046.jpg",
+        "imageUrl": "/projects/ongoing/IMG-20261017-WA0046.jpg",
+        "thumbnailUrl": "/projects/ongoing/IMG-20261017-WA0046.jpg",
+        "title": "Foundation Footing & Site Excavation",
+        "alt": "Mechanical excavator digging column footing foundation pits on active construction site",
+        "tag": "Site Excavation",
+        "category": "ongoing",
         "aspect": "landscape"
       },
       {
+        "id": "photo-28",
+        "file": "IMG-20261017-WA0070.jpg",
+        "imageUrl": "/projects/ongoing/IMG-20261017-WA0070.jpg",
+        "thumbnailUrl": "/projects/ongoing/IMG-20261017-WA0070.jpg",
+        "title": "G+3 Building External Plastering & Scaffolding",
+        "alt": "Active on-site construction progress with bamboo scaffolding for exterior cement plastering",
+        "tag": "Site Scaffolding",
+        "category": "ongoing",
+        "aspect": "portrait"
+      },
+      {
         "id": "photo-29",
-        "file": "IMG-20261017-WA0076.jpg",
-        "imageUrl": "/projects/onsite/IMG-20261017-WA0076.jpg",
-        "thumbnailUrl": "/projects/onsite/IMG-20261017-WA0076.jpg",
-        "title": "Plinth Beam Shuttering & Column Starters",
-        "alt": "Foundation plinth beam shuttering formwork and reinforced column rebar cages",
-        "tag": "Foundation & Plinth",
-        "category": "onsite",
+        "file": "IMG-20261017-WA0074.jpg",
+        "imageUrl": "/projects/ongoing/IMG-20261017-WA0074.jpg",
+        "thumbnailUrl": "/projects/ongoing/IMG-20261017-WA0074.jpg",
+        "title": "Solid Concrete Blockwork & RCC Lintel Beams",
+        "alt": "On-site masonry progress with concrete solid blocks and reinforced concrete lintel shuttering",
+        "tag": "Blockwork & RCC",
+        "category": "ongoing",
         "aspect": "landscape"
       },
       {
         "id": "photo-30",
-        "file": "IMG-20261017-WA0079.jpg",
-        "imageUrl": "/projects/onsite/IMG-20261017-WA0079.jpg",
-        "thumbnailUrl": "/projects/onsite/IMG-20261017-WA0079.jpg",
-        "title": "Exterior Cement Plastering & Groove Works",
-        "alt": "Skilled masonry team applying external waterproofing plaster and architectural wall grooves",
-        "tag": "Plastering & Grooving",
-        "category": "onsite",
-        "aspect": "portrait"
+        "file": "IMG-20261017-WA0076.jpg",
+        "imageUrl": "/projects/ongoing/IMG-20261017-WA0076.jpg",
+        "thumbnailUrl": "/projects/ongoing/IMG-20261017-WA0076.jpg",
+        "title": "Plinth Beam Shuttering & Column Starters",
+        "alt": "Foundation plinth beam shuttering formwork and reinforced column rebar cages",
+        "tag": "Foundation & Plinth",
+        "category": "ongoing",
+        "aspect": "landscape"
       },
       {
         "id": "photo-31",
-        "file": "IMG-20261017-WA0081.jpg",
-        "imageUrl": "/projects/onsite/IMG-20261017-WA0081.jpg",
-        "thumbnailUrl": "/projects/onsite/IMG-20261017-WA0081.jpg",
-        "title": "Vertical Floor Addition & Structural Expansion",
-        "alt": "Structural vertical expansion with solid blockwork on existing residential framework",
-        "tag": "Structural Expansion",
-        "category": "onsite",
+        "file": "IMG-20261017-WA0079.jpg",
+        "imageUrl": "/projects/ongoing/IMG-20261017-WA0079.jpg",
+        "thumbnailUrl": "/projects/ongoing/IMG-20261017-WA0079.jpg",
+        "title": "Exterior Cement Plastering & Groove Works",
+        "alt": "Skilled masonry team applying external waterproofing plaster and architectural wall grooves",
+        "tag": "Plastering & Grooving",
+        "category": "ongoing",
         "aspect": "portrait"
       },
       {
         "id": "photo-32",
-        "file": "IMG-20261017-WA0092.jpg",
-        "imageUrl": "/projects/onsite/IMG-20261017-WA0092.jpg",
-        "thumbnailUrl": "/projects/onsite/IMG-20261017-WA0092.jpg",
-        "title": "RCC Roof Slab Casting & Leveling",
-        "alt": "On-site roof slab concrete casting and screed leveling with timber formwork staging",
-        "tag": "Slab Casting",
-        "category": "onsite",
-        "aspect": "landscape"
+        "file": "IMG-20261017-WA0081.jpg",
+        "imageUrl": "/projects/ongoing/IMG-20261017-WA0081.jpg",
+        "thumbnailUrl": "/projects/ongoing/IMG-20261017-WA0081.jpg",
+        "title": "Vertical Floor Addition & Structural Expansion",
+        "alt": "Structural vertical expansion with solid blockwork on existing residential framework",
+        "tag": "Structural Expansion",
+        "category": "ongoing",
+        "aspect": "portrait"
       },
       {
         "id": "photo-33",
-        "file": "IMG-20261017-WA0099.jpg",
-        "imageUrl": "/projects/onsite/IMG-20261017-WA0099.jpg",
-        "thumbnailUrl": "/projects/onsite/IMG-20261017-WA0099.jpg",
-        "title": "Ground Floor Villa Structure Under Plastering",
-        "alt": "On-site residential villa finishing with freshly cast portico slab and exterior plaster",
-        "tag": "Civil Masonry",
-        "category": "onsite",
+        "file": "IMG-20261017-WA0092.jpg",
+        "imageUrl": "/projects/ongoing/IMG-20261017-WA0092.jpg",
+        "thumbnailUrl": "/projects/ongoing/IMG-20261017-WA0092.jpg",
+        "title": "RCC Roof Slab Casting & Leveling",
+        "alt": "On-site roof slab concrete casting and screed leveling with timber formwork staging",
+        "tag": "Slab Casting",
+        "category": "ongoing",
         "aspect": "landscape"
       },
       {
         "id": "photo-34",
-        "file": "IMG-20261017-WA0100.jpg",
-        "imageUrl": "/projects/onsite/IMG-20261017-WA0100.jpg",
-        "thumbnailUrl": "/projects/onsite/IMG-20261017-WA0100.jpg",
-        "title": "Plinth Beam & Column Steel Reinforcement",
-        "alt": "Engineered foundation plinth beams with heavy gauge TMT rebar column starters",
-        "tag": "Foundation Engineering",
-        "category": "onsite",
+        "file": "IMG-20261017-WA0099.jpg",
+        "imageUrl": "/projects/ongoing/IMG-20261017-WA0099.jpg",
+        "thumbnailUrl": "/projects/ongoing/IMG-20261017-WA0099.jpg",
+        "title": "Ground Floor Villa Structure Under Plastering",
+        "alt": "On-site residential villa finishing with freshly cast portico slab and exterior plaster",
+        "tag": "Civil Masonry",
+        "category": "ongoing",
         "aspect": "landscape"
       },
       {
         "id": "photo-35",
-        "file": "IMG-20261017-WA0103.jpg",
-        "imageUrl": "/projects/onsite/IMG-20261017-WA0103.jpg",
-        "thumbnailUrl": "/projects/onsite/IMG-20261017-WA0103.jpg",
-        "title": "Villa Structural Framework & Parapet Masonry",
-        "alt": "Independent villa structural framework undergoing curing and brick parapet walling",
-        "tag": "Structural Work",
-        "category": "onsite",
-        "aspect": "portrait"
-      },
-      {
-        "id": "photo-36",
-        "file": "IMG-20261017-WA0105.jpg",
-        "imageUrl": "/projects/onsite/IMG-20261017-WA0105.jpg",
-        "thumbnailUrl": "/projects/onsite/IMG-20261017-WA0105.jpg",
-        "title": "Exposed Brickwork Masonry & RCC Staircase",
-        "alt": "Exposed clay brick masonry construction with cast RCC external staircase",
-        "tag": "Brick Masonry",
-        "category": "onsite",
+        "file": "IMG-20261017-WA0100.jpg",
+        "imageUrl": "/projects/ongoing/IMG-20261017-WA0100.jpg",
+        "thumbnailUrl": "/projects/ongoing/IMG-20261017-WA0100.jpg",
+        "title": "Plinth Beam & Column Steel Reinforcement",
+        "alt": "Engineered foundation plinth beams with heavy gauge TMT rebar column starters",
+        "tag": "Foundation Engineering",
+        "category": "ongoing",
         "aspect": "landscape"
       },
       {
+        "id": "photo-36",
+        "file": "IMG-20261017-WA0103.jpg",
+        "imageUrl": "/projects/ongoing/IMG-20261017-WA0103.jpg",
+        "thumbnailUrl": "/projects/ongoing/IMG-20261017-WA0103.jpg",
+        "title": "Villa Structural Framework & Parapet Masonry",
+        "alt": "Independent villa structural framework undergoing curing and brick parapet walling",
+        "tag": "Structural Work",
+        "category": "ongoing",
+        "aspect": "portrait"
+      },
+      {
         "id": "photo-37",
-        "file": "IMG-20261017-WA0107.jpg",
-        "imageUrl": "/projects/onsite/IMG-20261017-WA0107.jpg",
-        "thumbnailUrl": "/projects/onsite/IMG-20261017-WA0107.jpg",
-        "title": "RCC Columns, Brickwork & Water Sump Tank",
-        "alt": "On-site construction progress showing reinforced water sump casting and brick masonry",
-        "tag": "RCC & Sump Tank",
-        "category": "onsite",
+        "file": "IMG-20261017-WA0105.jpg",
+        "imageUrl": "/projects/ongoing/IMG-20261017-WA0105.jpg",
+        "thumbnailUrl": "/projects/ongoing/IMG-20261017-WA0105.jpg",
+        "title": "Exposed Brickwork Masonry & RCC Staircase",
+        "alt": "Exposed clay brick masonry construction with cast RCC external staircase",
+        "tag": "Brick Masonry",
+        "category": "ongoing",
         "aspect": "landscape"
       },
       {
         "id": "photo-38",
-        "file": "IMG-20261017-WA0153.jpg",
-        "imageUrl": "/projects/onsite/IMG-20261017-WA0153.jpg",
-        "thumbnailUrl": "/projects/onsite/IMG-20261017-WA0153.jpg",
-        "title": "3-Storey Villa RCC Framed Structure",
-        "alt": "Active construction site showing three-storey RCC structural frame and rooftop pergola casting",
-        "tag": "RCC Framework",
-        "category": "onsite",
-        "aspect": "portrait"
+        "file": "IMG-20261017-WA0107.jpg",
+        "imageUrl": "/projects/ongoing/IMG-20261017-WA0107.jpg",
+        "thumbnailUrl": "/projects/ongoing/IMG-20261017-WA0107.jpg",
+        "title": "RCC Columns, Brickwork & Water Sump Tank",
+        "alt": "On-site construction progress showing reinforced water sump casting and brick masonry",
+        "tag": "RCC & Sump Tank",
+        "category": "ongoing",
+        "aspect": "landscape"
       },
       {
         "id": "photo-39",
+        "file": "IMG-20261017-WA0153.jpg",
+        "imageUrl": "/projects/ongoing/IMG-20261017-WA0153.jpg",
+        "thumbnailUrl": "/projects/ongoing/IMG-20261017-WA0153.jpg",
+        "title": "3-Storey Villa RCC Framed Structure",
+        "alt": "Active construction site showing three-storey RCC structural frame and rooftop pergola casting",
+        "tag": "RCC Framework",
+        "category": "ongoing",
+        "aspect": "portrait"
+      },
+      {
+        "id": "photo-40",
+        "file": "WhatsApp Image 2026-10-17 at 17.27.51.jpeg",
+        "imageUrl": "/projects/ongoing/WhatsApp Image 2026-10-17 at 17.27.51.jpeg",
+        "thumbnailUrl": "/projects/ongoing/WhatsApp Image 2026-10-17 at 17.27.51.jpeg",
+        "title": "WhatsApp Image 2026 10 17 At 17.27.51",
+        "alt": "WhatsApp Image 2026 10 17 At 17.27.51 - SR BUILDTEC",
+        "tag": "Ongoing Project",
+        "category": "ongoing",
+        "aspect": "landscape"
+      },
+      {
+        "id": "photo-41",
+        "file": "WhatsApp Image 2026-10-17 at 17.27.52.jpeg",
+        "imageUrl": "/projects/ongoing/WhatsApp Image 2026-10-17 at 17.27.52.jpeg",
+        "thumbnailUrl": "/projects/ongoing/WhatsApp Image 2026-10-17 at 17.27.52.jpeg",
+        "title": "WhatsApp Image 2026 10 17 At 17.27.52",
+        "alt": "WhatsApp Image 2026 10 17 At 17.27.52 - SR BUILDTEC",
+        "tag": "Ongoing Project",
+        "category": "ongoing",
+        "aspect": "landscape"
+      },
+      {
+        "id": "photo-42",
+        "file": "WhatsApp Image 2026-10-17 at 17.32.13.jpeg",
+        "imageUrl": "/projects/ongoing/WhatsApp Image 2026-10-17 at 17.32.13.jpeg",
+        "thumbnailUrl": "/projects/ongoing/WhatsApp Image 2026-10-17 at 17.32.13.jpeg",
+        "title": "WhatsApp Image 2026 10 17 At 17.32.13",
+        "alt": "WhatsApp Image 2026 10 17 At 17.32.13 - SR BUILDTEC",
+        "tag": "Ongoing Project",
+        "category": "ongoing",
+        "aspect": "landscape"
+      },
+      {
+        "id": "photo-43",
+        "file": "WhatsApp Image 2026-10-17 at 17.32.14.jpeg",
+        "imageUrl": "/projects/ongoing/WhatsApp Image 2026-10-17 at 17.32.14.jpeg",
+        "thumbnailUrl": "/projects/ongoing/WhatsApp Image 2026-10-17 at 17.32.14.jpeg",
+        "title": "WhatsApp Image 2026 10 17 At 17.32.14",
+        "alt": "WhatsApp Image 2026 10 17 At 17.32.14 - SR BUILDTEC",
+        "tag": "Ongoing Project",
+        "category": "ongoing",
+        "aspect": "landscape"
+      },
+      {
+        "id": "photo-44",
         "file": "IMG-20261017-WA0133.jpg",
         "imageUrl": "/projects/interiors/IMG-20261017-WA0133.jpg",
         "thumbnailUrl": "/projects/interiors/IMG-20261017-WA0133.jpg",
@@ -458,7 +513,7 @@
         "aspect": "landscape"
       },
       {
-        "id": "photo-40",
+        "id": "photo-45",
         "file": "IMG-20261017-WA0135.jpg",
         "imageUrl": "/projects/interiors/IMG-20261017-WA0135.jpg",
         "thumbnailUrl": "/projects/interiors/IMG-20261017-WA0135.jpg",
@@ -469,7 +524,7 @@
         "aspect": "landscape"
       },
       {
-        "id": "photo-41",
+        "id": "photo-46",
         "file": "IMG-20261017-WA0136.jpg",
         "imageUrl": "/projects/interiors/IMG-20261017-WA0136.jpg",
         "thumbnailUrl": "/projects/interiors/IMG-20261017-WA0136.jpg",
@@ -480,7 +535,7 @@
         "aspect": "portrait"
       },
       {
-        "id": "photo-42",
+        "id": "photo-47",
         "file": "IMG-20261017-WA0138.jpg",
         "imageUrl": "/projects/interiors/IMG-20261017-WA0138.jpg",
         "thumbnailUrl": "/projects/interiors/IMG-20261017-WA0138.jpg",
@@ -491,7 +546,7 @@
         "aspect": "landscape"
       },
       {
-        "id": "photo-43",
+        "id": "photo-48",
         "file": "IMG-20261017-WA0143.jpg",
         "imageUrl": "/projects/interiors/IMG-20261017-WA0143.jpg",
         "thumbnailUrl": "/projects/interiors/IMG-20261017-WA0143.jpg",
@@ -502,7 +557,7 @@
         "aspect": "portrait"
       },
       {
-        "id": "photo-44",
+        "id": "photo-49",
         "file": "IMG-20261017-WA0144.jpg",
         "imageUrl": "/projects/interiors/IMG-20261017-WA0144.jpg",
         "thumbnailUrl": "/projects/interiors/IMG-20261017-WA0144.jpg",
@@ -513,7 +568,7 @@
         "aspect": "portrait"
       },
       {
-        "id": "photo-45",
+        "id": "photo-50",
         "file": "IMG-20261020-WA0016.jpg",
         "imageUrl": "/projects/interiors/IMG-20261020-WA0016.jpg",
         "thumbnailUrl": "/projects/interiors/IMG-20261020-WA0016.jpg",
@@ -524,7 +579,7 @@
         "aspect": "landscape"
       },
       {
-        "id": "photo-46",
+        "id": "photo-51",
         "file": "IMG-20261020-WA0019.jpg",
         "imageUrl": "/projects/interiors/IMG-20261020-WA0019.jpg",
         "thumbnailUrl": "/projects/interiors/IMG-20261020-WA0019.jpg",
@@ -535,7 +590,7 @@
         "aspect": "landscape"
       },
       {
-        "id": "photo-47",
+        "id": "photo-52",
         "file": "IMG-20261020-WA0022.jpg",
         "imageUrl": "/projects/interiors/IMG-20261020-WA0022.jpg",
         "thumbnailUrl": "/projects/interiors/IMG-20261020-WA0022.jpg",
@@ -546,7 +601,7 @@
         "aspect": "landscape"
       },
       {
-        "id": "photo-48",
+        "id": "photo-53",
         "file": "IMG-20261020-WA0025.jpg",
         "imageUrl": "/projects/interiors/IMG-20261020-WA0025.jpg",
         "thumbnailUrl": "/projects/interiors/IMG-20261020-WA0025.jpg",
@@ -557,7 +612,7 @@
         "aspect": "landscape"
       },
       {
-        "id": "photo-49",
+        "id": "photo-54",
         "file": "IMG-20261020-WA0026.jpg",
         "imageUrl": "/projects/interiors/IMG-20261020-WA0026.jpg",
         "thumbnailUrl": "/projects/interiors/IMG-20261020-WA0026.jpg",
@@ -568,7 +623,7 @@
         "aspect": "landscape"
       },
       {
-        "id": "photo-50",
+        "id": "photo-55",
         "file": "IMG-20261020-WA0028.jpg",
         "imageUrl": "/projects/interiors/IMG-20261020-WA0028.jpg",
         "thumbnailUrl": "/projects/interiors/IMG-20261020-WA0028.jpg",
@@ -579,7 +634,7 @@
         "aspect": "landscape"
       },
       {
-        "id": "photo-51",
+        "id": "photo-56",
         "file": "IMG-20261020-WA0037.jpg",
         "imageUrl": "/projects/interiors/IMG-20261020-WA0037.jpg",
         "thumbnailUrl": "/projects/interiors/IMG-20261020-WA0037.jpg",
@@ -590,7 +645,7 @@
         "aspect": "landscape"
       },
       {
-        "id": "photo-52",
+        "id": "photo-57",
         "file": "IMG-20261020-WA0040.jpg",
         "imageUrl": "/projects/interiors/IMG-20261020-WA0040.jpg",
         "thumbnailUrl": "/projects/interiors/IMG-20261020-WA0040.jpg",
@@ -601,7 +656,7 @@
         "aspect": "landscape"
       },
       {
-        "id": "photo-53",
+        "id": "photo-58",
         "file": "IMG-20261020-WA0041.jpg",
         "imageUrl": "/projects/interiors/IMG-20261020-WA0041.jpg",
         "thumbnailUrl": "/projects/interiors/IMG-20261020-WA0041.jpg",
@@ -612,7 +667,7 @@
         "aspect": "landscape"
       },
       {
-        "id": "photo-54",
+        "id": "photo-59",
         "file": "IMG-20261020-WA0045.jpg",
         "imageUrl": "/projects/interiors/IMG-20261020-WA0045.jpg",
         "thumbnailUrl": "/projects/interiors/IMG-20261020-WA0045.jpg",
@@ -623,7 +678,7 @@
         "aspect": "landscape"
       },
       {
-        "id": "photo-55",
+        "id": "photo-60",
         "file": "IMG-20261020-WA0046.jpg",
         "imageUrl": "/projects/interiors/IMG-20261020-WA0046.jpg",
         "thumbnailUrl": "/projects/interiors/IMG-20261020-WA0046.jpg",
@@ -634,7 +689,7 @@
         "aspect": "landscape"
       },
       {
-        "id": "photo-56",
+        "id": "photo-61",
         "file": "IMG-20261020-WA0048.jpg",
         "imageUrl": "/projects/interiors/IMG-20261020-WA0048.jpg",
         "thumbnailUrl": "/projects/interiors/IMG-20261020-WA0048.jpg",
@@ -645,7 +700,7 @@
         "aspect": "landscape"
       },
       {
-        "id": "photo-57",
+        "id": "photo-62",
         "file": "IMG-20261020-WA0050.jpg",
         "imageUrl": "/projects/interiors/IMG-20261020-WA0050.jpg",
         "thumbnailUrl": "/projects/interiors/IMG-20261020-WA0050.jpg",
@@ -656,7 +711,7 @@
         "aspect": "landscape"
       },
       {
-        "id": "photo-58",
+        "id": "photo-63",
         "file": "IMG-20261020-WA0052.jpg",
         "imageUrl": "/projects/interiors/IMG-20261020-WA0052.jpg",
         "thumbnailUrl": "/projects/interiors/IMG-20261020-WA0052.jpg",
@@ -667,7 +722,7 @@
         "aspect": "landscape"
       },
       {
-        "id": "photo-59",
+        "id": "photo-64",
         "file": "IMG-20261020-WA0053.jpg",
         "imageUrl": "/projects/interiors/IMG-20261020-WA0053.jpg",
         "thumbnailUrl": "/projects/interiors/IMG-20261020-WA0053.jpg",
@@ -678,7 +733,7 @@
         "aspect": "landscape"
       },
       {
-        "id": "photo-60",
+        "id": "photo-65",
         "file": "IMG-20261020-WA0054.jpg",
         "imageUrl": "/projects/interiors/IMG-20261020-WA0054.jpg",
         "thumbnailUrl": "/projects/interiors/IMG-20261020-WA0054.jpg",
@@ -689,7 +744,7 @@
         "aspect": "landscape"
       },
       {
-        "id": "photo-61",
+        "id": "photo-66",
         "file": "IMG-20261020-WA0055.jpg",
         "imageUrl": "/projects/interiors/IMG-20261020-WA0055.jpg",
         "thumbnailUrl": "/projects/interiors/IMG-20261020-WA0055.jpg",
@@ -700,7 +755,7 @@
         "aspect": "landscape"
       },
       {
-        "id": "photo-62",
+        "id": "photo-67",
         "file": "IMG-20261020-WA0056.jpg",
         "imageUrl": "/projects/interiors/IMG-20261020-WA0056.jpg",
         "thumbnailUrl": "/projects/interiors/IMG-20261020-WA0056.jpg",
@@ -711,7 +766,7 @@
         "aspect": "landscape"
       },
       {
-        "id": "photo-63",
+        "id": "photo-68",
         "file": "IMG-20261020-WA0057.jpg",
         "imageUrl": "/projects/interiors/IMG-20261020-WA0057.jpg",
         "thumbnailUrl": "/projects/interiors/IMG-20261020-WA0057.jpg",
@@ -722,7 +777,7 @@
         "aspect": "landscape"
       },
       {
-        "id": "photo-64",
+        "id": "photo-69",
         "file": "IMG-20261020-WA0058.jpg",
         "imageUrl": "/projects/interiors/IMG-20261020-WA0058.jpg",
         "thumbnailUrl": "/projects/interiors/IMG-20261020-WA0058.jpg",
@@ -733,7 +788,7 @@
         "aspect": "landscape"
       },
       {
-        "id": "photo-65",
+        "id": "photo-70",
         "file": "IMG-20261020-WA0059.jpg",
         "imageUrl": "/projects/interiors/IMG-20261020-WA0059.jpg",
         "thumbnailUrl": "/projects/interiors/IMG-20261020-WA0059.jpg",
@@ -744,7 +799,7 @@
         "aspect": "landscape"
       },
       {
-        "id": "photo-66",
+        "id": "photo-71",
         "file": "IMG-20261020-WA0060.jpg",
         "imageUrl": "/projects/interiors/IMG-20261020-WA0060.jpg",
         "thumbnailUrl": "/projects/interiors/IMG-20261020-WA0060.jpg",
@@ -755,7 +810,7 @@
         "aspect": "landscape"
       },
       {
-        "id": "photo-67",
+        "id": "photo-72",
         "file": "IMG-20261020-WA0061.jpg",
         "imageUrl": "/projects/interiors/IMG-20261020-WA0061.jpg",
         "thumbnailUrl": "/projects/interiors/IMG-20261020-WA0061.jpg",
@@ -766,7 +821,7 @@
         "aspect": "landscape"
       },
       {
-        "id": "photo-68",
+        "id": "photo-73",
         "file": "IMG-20261020-WA0062.jpg",
         "imageUrl": "/projects/interiors/IMG-20261020-WA0062.jpg",
         "thumbnailUrl": "/projects/interiors/IMG-20261020-WA0062.jpg",
@@ -777,7 +832,7 @@
         "aspect": "landscape"
       },
       {
-        "id": "photo-69",
+        "id": "photo-74",
         "file": "IMG-20261020-WA0063.jpg",
         "imageUrl": "/projects/interiors/IMG-20261020-WA0063.jpg",
         "thumbnailUrl": "/projects/interiors/IMG-20261020-WA0063.jpg",
@@ -788,7 +843,7 @@
         "aspect": "landscape"
       },
       {
-        "id": "photo-70",
+        "id": "photo-75",
         "file": "IMG-20261020-WA0064.jpg",
         "imageUrl": "/projects/interiors/IMG-20261020-WA0064.jpg",
         "thumbnailUrl": "/projects/interiors/IMG-20261020-WA0064.jpg",
@@ -799,7 +854,7 @@
         "aspect": "landscape"
       },
       {
-        "id": "photo-71",
+        "id": "photo-76",
         "file": "IMG-20261020-WA0065.jpg",
         "imageUrl": "/projects/interiors/IMG-20261020-WA0065.jpg",
         "thumbnailUrl": "/projects/interiors/IMG-20261020-WA0065.jpg",
@@ -810,7 +865,7 @@
         "aspect": "landscape"
       },
       {
-        "id": "photo-72",
+        "id": "photo-77",
         "file": "IMG-20261020-WA0066.jpg",
         "imageUrl": "/projects/interiors/IMG-20261020-WA0066.jpg",
         "thumbnailUrl": "/projects/interiors/IMG-20261020-WA0066.jpg",
@@ -821,7 +876,7 @@
         "aspect": "landscape"
       },
       {
-        "id": "photo-73",
+        "id": "photo-78",
         "file": "IMG-20261020-WA0067.jpg",
         "imageUrl": "/projects/interiors/IMG-20261020-WA0067.jpg",
         "thumbnailUrl": "/projects/interiors/IMG-20261020-WA0067.jpg",
@@ -832,7 +887,7 @@
         "aspect": "landscape"
       },
       {
-        "id": "photo-74",
+        "id": "photo-79",
         "file": "IMG-20261020-WA0068.jpg",
         "imageUrl": "/projects/interiors/IMG-20261020-WA0068.jpg",
         "thumbnailUrl": "/projects/interiors/IMG-20261020-WA0068.jpg",
@@ -843,7 +898,7 @@
         "aspect": "landscape"
       },
       {
-        "id": "photo-75",
+        "id": "photo-80",
         "file": "IMG-20261020-WA0071.jpg",
         "imageUrl": "/projects/interiors/IMG-20261020-WA0071.jpg",
         "thumbnailUrl": "/projects/interiors/IMG-20261020-WA0071.jpg",
@@ -854,7 +909,7 @@
         "aspect": "landscape"
       },
       {
-        "id": "photo-76",
+        "id": "photo-81",
         "file": "IMG-20261020-WA0072.jpg",
         "imageUrl": "/projects/interiors/IMG-20261020-WA0072.jpg",
         "thumbnailUrl": "/projects/interiors/IMG-20261020-WA0072.jpg",
@@ -865,7 +920,7 @@
         "aspect": "landscape"
       },
       {
-        "id": "photo-77",
+        "id": "photo-82",
         "file": "IMG-20261020-WA0073.jpg",
         "imageUrl": "/projects/interiors/IMG-20261020-WA0073.jpg",
         "thumbnailUrl": "/projects/interiors/IMG-20261020-WA0073.jpg",
@@ -876,7 +931,7 @@
         "aspect": "landscape"
       },
       {
-        "id": "photo-78",
+        "id": "photo-83",
         "file": "IMG-20261020-WA0074.jpg",
         "imageUrl": "/projects/interiors/IMG-20261020-WA0074.jpg",
         "thumbnailUrl": "/projects/interiors/IMG-20261020-WA0074.jpg",
@@ -887,7 +942,7 @@
         "aspect": "landscape"
       },
       {
-        "id": "photo-79",
+        "id": "photo-84",
         "file": "IMG-20261020-WA0078.jpg",
         "imageUrl": "/projects/interiors/IMG-20261020-WA0078.jpg",
         "thumbnailUrl": "/projects/interiors/IMG-20261020-WA0078.jpg",
@@ -898,7 +953,7 @@
         "aspect": "landscape"
       },
       {
-        "id": "photo-80",
+        "id": "photo-85",
         "file": "IMG-20261020-WA0080.jpg",
         "imageUrl": "/projects/interiors/IMG-20261020-WA0080.jpg",
         "thumbnailUrl": "/projects/interiors/IMG-20261020-WA0080.jpg",
@@ -909,7 +964,7 @@
         "aspect": "landscape"
       },
       {
-        "id": "photo-81",
+        "id": "photo-86",
         "file": "IMG-20261020-WA0082.jpg",
         "imageUrl": "/projects/interiors/IMG-20261020-WA0082.jpg",
         "thumbnailUrl": "/projects/interiors/IMG-20261020-WA0082.jpg",
@@ -920,13 +975,24 @@
         "aspect": "landscape"
       },
       {
-        "id": "photo-82",
+        "id": "photo-87",
         "file": "IMG-20261020-WA0083.jpg",
         "imageUrl": "/projects/interiors/IMG-20261020-WA0083.jpg",
         "thumbnailUrl": "/projects/interiors/IMG-20261020-WA0083.jpg",
         "title": "Luxury Bedroom with Arched Fluted Panels",
         "alt": "Bespoke bedroom interior with arched fluted panelling, ambient headboard lighting, and ceiling medallion",
         "tag": "Master Bedroom",
+        "category": "interiors",
+        "aspect": "landscape"
+      },
+      {
+        "id": "photo-88",
+        "file": "WhatsApp Image 2026-10-17 at 17.57.29.jpeg",
+        "imageUrl": "/projects/interiors/WhatsApp Image 2026-10-17 at 17.57.29.jpeg",
+        "thumbnailUrl": "/projects/interiors/WhatsApp Image 2026-10-17 at 17.57.29.jpeg",
+        "title": "WhatsApp Image 2026 10 17 At 17.57.29",
+        "alt": "WhatsApp Image 2026 10 17 At 17.57.29 - SR BUILDTEC",
+        "tag": "Interior Design",
         "category": "interiors",
         "aspect": "landscape"
       }
@@ -1011,6 +1077,17 @@
       },
       {
         "id": "photo-8",
+        "file": "IMG-20261020-WA0024.jpg",
+        "imageUrl": "/projects/completed/IMG-20261020-WA0024.jpg",
+        "thumbnailUrl": "/projects/completed/IMG-20261020-WA0024.jpg",
+        "title": "Contemporary Multi-Storey Commercial & Residential Façade",
+        "alt": "Modern G+3 building architectural elevation with projecting window frames, louvers, and stilt parking",
+        "tag": "Multi-Storey Elevation",
+        "category": "completed",
+        "aspect": "portrait"
+      },
+      {
+        "id": "photo-9",
         "file": "IMG-20261020-WA0030.jpg",
         "imageUrl": "/projects/completed/IMG-20261020-WA0030.jpg",
         "thumbnailUrl": "/projects/completed/IMG-20261020-WA0030.jpg",
@@ -1021,7 +1098,7 @@
         "aspect": "landscape"
       },
       {
-        "id": "photo-9",
+        "id": "photo-10",
         "file": "IMG-20261020-WA0033.jpg",
         "imageUrl": "/projects/completed/IMG-20261020-WA0033.jpg",
         "thumbnailUrl": "/projects/completed/IMG-20261020-WA0033.jpg",
@@ -1032,7 +1109,7 @@
         "aspect": "landscape"
       },
       {
-        "id": "photo-10",
+        "id": "photo-11",
         "file": "IMG-20261020-WA0034.jpg",
         "imageUrl": "/projects/completed/IMG-20261020-WA0034.jpg",
         "thumbnailUrl": "/projects/completed/IMG-20261020-WA0034.jpg",
@@ -1043,7 +1120,18 @@
         "aspect": "landscape"
       },
       {
-        "id": "photo-11",
+        "id": "photo-12",
+        "file": "IMG-20261020-WA0035.jpg",
+        "imageUrl": "/projects/completed/IMG-20261020-WA0035.jpg",
+        "thumbnailUrl": "/projects/completed/IMG-20261020-WA0035.jpg",
+        "title": "3-Storey Commercial & Mixed Complex Façade",
+        "alt": "Ultra-modern 3-storey commercial and residential complex with ground-floor showroom and glass balconies",
+        "tag": "Commercial Complex",
+        "category": "completed",
+        "aspect": "landscape"
+      },
+      {
+        "id": "photo-13",
         "file": "IMG-20261020-WA0051.jpg",
         "imageUrl": "/projects/completed/IMG-20261020-WA0051.jpg",
         "thumbnailUrl": "/projects/completed/IMG-20261020-WA0051.jpg",
@@ -1054,7 +1142,7 @@
         "aspect": "landscape"
       },
       {
-        "id": "photo-12",
+        "id": "photo-14",
         "file": "IMG-20261020-WA0069.jpg",
         "imageUrl": "/projects/completed/IMG-20261020-WA0069.jpg",
         "thumbnailUrl": "/projects/completed/IMG-20261020-WA0069.jpg",
@@ -1067,7 +1155,7 @@
     ],
     "commercial": [
       {
-        "id": "photo-13",
+        "id": "photo-15",
         "file": "IMG-20261017-WA0124.jpg",
         "imageUrl": "/projects/commercial/IMG-20261017-WA0124.jpg",
         "thumbnailUrl": "/projects/commercial/IMG-20261017-WA0124.jpg",
@@ -1078,7 +1166,7 @@
         "aspect": "landscape"
       },
       {
-        "id": "photo-14",
+        "id": "photo-16",
         "file": "IMG-20261017-WA0125.jpg",
         "imageUrl": "/projects/commercial/IMG-20261017-WA0125.jpg",
         "thumbnailUrl": "/projects/commercial/IMG-20261017-WA0125.jpg",
@@ -1089,7 +1177,7 @@
         "aspect": "landscape"
       },
       {
-        "id": "photo-15",
+        "id": "photo-17",
         "file": "IMG-20261017-WA0155.jpg",
         "imageUrl": "/projects/commercial/IMG-20261017-WA0155.jpg",
         "thumbnailUrl": "/projects/commercial/IMG-20261017-WA0155.jpg",
@@ -1100,35 +1188,13 @@
         "aspect": "landscape"
       },
       {
-        "id": "photo-16",
+        "id": "photo-18",
         "file": "IMG-20261017-WA0160.jpg",
         "imageUrl": "/projects/commercial/IMG-20261017-WA0160.jpg",
         "thumbnailUrl": "/projects/commercial/IMG-20261017-WA0160.jpg",
         "title": "Heavy Commercial Infrastructure & Helical Ramp",
         "alt": "Massive circular reinforced concrete ramp and structural foundation with tower crane",
         "tag": "Commercial Infrastructure",
-        "category": "commercial",
-        "aspect": "landscape"
-      },
-      {
-        "id": "photo-17",
-        "file": "IMG-20261020-WA0024.jpg",
-        "imageUrl": "/projects/commercial/IMG-20261020-WA0024.jpg",
-        "thumbnailUrl": "/projects/commercial/IMG-20261020-WA0024.jpg",
-        "title": "Contemporary Multi-Storey Commercial & Residential Façade",
-        "alt": "Modern G+3 building architectural elevation with projecting window frames, louvers, and stilt parking",
-        "tag": "Multi-Storey Elevation",
-        "category": "commercial",
-        "aspect": "portrait"
-      },
-      {
-        "id": "photo-18",
-        "file": "IMG-20261020-WA0035.jpg",
-        "imageUrl": "/projects/commercial/IMG-20261020-WA0035.jpg",
-        "thumbnailUrl": "/projects/commercial/IMG-20261020-WA0035.jpg",
-        "title": "3-Storey Commercial & Mixed Complex Façade",
-        "alt": "Ultra-modern 3-storey commercial and residential complex with ground-floor showroom and glass balconies",
-        "tag": "Commercial Complex",
         "category": "commercial",
         "aspect": "landscape"
       },
@@ -1208,156 +1274,211 @@
         "tag": "Commercial High-Rise",
         "category": "commercial",
         "aspect": "landscape"
-      }
-    ],
-    "onsite": [
+      },
       {
         "id": "photo-26",
+        "file": "WhatsApp Image 2026-10-17 at 17.36.00.jpeg",
+        "imageUrl": "/projects/commercial/WhatsApp Image 2026-10-17 at 17.36.00.jpeg",
+        "thumbnailUrl": "/projects/commercial/WhatsApp Image 2026-10-17 at 17.36.00.jpeg",
+        "title": "WhatsApp Image 2026 10 17 At 17.36.00",
+        "alt": "WhatsApp Image 2026 10 17 At 17.36.00 - SR BUILDTEC",
+        "tag": "Commercial Project",
+        "category": "commercial",
+        "aspect": "landscape"
+      }
+    ],
+    "ongoing": [
+      {
+        "id": "photo-27",
         "file": "IMG-20261017-WA0046.jpg",
-        "imageUrl": "/projects/onsite/IMG-20261017-WA0046.jpg",
-        "thumbnailUrl": "/projects/onsite/IMG-20261017-WA0046.jpg",
+        "imageUrl": "/projects/ongoing/IMG-20261017-WA0046.jpg",
+        "thumbnailUrl": "/projects/ongoing/IMG-20261017-WA0046.jpg",
         "title": "Foundation Footing & Site Excavation",
         "alt": "Mechanical excavator digging column footing foundation pits on active construction site",
         "tag": "Site Excavation",
-        "category": "onsite",
+        "category": "ongoing",
         "aspect": "landscape"
-      },
-      {
-        "id": "photo-27",
-        "file": "IMG-20261017-WA0070.jpg",
-        "imageUrl": "/projects/onsite/IMG-20261017-WA0070.jpg",
-        "thumbnailUrl": "/projects/onsite/IMG-20261017-WA0070.jpg",
-        "title": "G+3 Building External Plastering & Scaffolding",
-        "alt": "Active on-site construction progress with bamboo scaffolding for exterior cement plastering",
-        "tag": "Site Scaffolding",
-        "category": "onsite",
-        "aspect": "portrait"
       },
       {
         "id": "photo-28",
-        "file": "IMG-20261017-WA0074.jpg",
-        "imageUrl": "/projects/onsite/IMG-20261017-WA0074.jpg",
-        "thumbnailUrl": "/projects/onsite/IMG-20261017-WA0074.jpg",
-        "title": "Solid Concrete Blockwork & RCC Lintel Beams",
-        "alt": "On-site masonry progress with concrete solid blocks and reinforced concrete lintel shuttering",
-        "tag": "Blockwork & RCC",
-        "category": "onsite",
-        "aspect": "landscape"
+        "file": "IMG-20261017-WA0070.jpg",
+        "imageUrl": "/projects/ongoing/IMG-20261017-WA0070.jpg",
+        "thumbnailUrl": "/projects/ongoing/IMG-20261017-WA0070.jpg",
+        "title": "G+3 Building External Plastering & Scaffolding",
+        "alt": "Active on-site construction progress with bamboo scaffolding for exterior cement plastering",
+        "tag": "Site Scaffolding",
+        "category": "ongoing",
+        "aspect": "portrait"
       },
       {
         "id": "photo-29",
-        "file": "IMG-20261017-WA0076.jpg",
-        "imageUrl": "/projects/onsite/IMG-20261017-WA0076.jpg",
-        "thumbnailUrl": "/projects/onsite/IMG-20261017-WA0076.jpg",
-        "title": "Plinth Beam Shuttering & Column Starters",
-        "alt": "Foundation plinth beam shuttering formwork and reinforced column rebar cages",
-        "tag": "Foundation & Plinth",
-        "category": "onsite",
+        "file": "IMG-20261017-WA0074.jpg",
+        "imageUrl": "/projects/ongoing/IMG-20261017-WA0074.jpg",
+        "thumbnailUrl": "/projects/ongoing/IMG-20261017-WA0074.jpg",
+        "title": "Solid Concrete Blockwork & RCC Lintel Beams",
+        "alt": "On-site masonry progress with concrete solid blocks and reinforced concrete lintel shuttering",
+        "tag": "Blockwork & RCC",
+        "category": "ongoing",
         "aspect": "landscape"
       },
       {
         "id": "photo-30",
-        "file": "IMG-20261017-WA0079.jpg",
-        "imageUrl": "/projects/onsite/IMG-20261017-WA0079.jpg",
-        "thumbnailUrl": "/projects/onsite/IMG-20261017-WA0079.jpg",
-        "title": "Exterior Cement Plastering & Groove Works",
-        "alt": "Skilled masonry team applying external waterproofing plaster and architectural wall grooves",
-        "tag": "Plastering & Grooving",
-        "category": "onsite",
-        "aspect": "portrait"
+        "file": "IMG-20261017-WA0076.jpg",
+        "imageUrl": "/projects/ongoing/IMG-20261017-WA0076.jpg",
+        "thumbnailUrl": "/projects/ongoing/IMG-20261017-WA0076.jpg",
+        "title": "Plinth Beam Shuttering & Column Starters",
+        "alt": "Foundation plinth beam shuttering formwork and reinforced column rebar cages",
+        "tag": "Foundation & Plinth",
+        "category": "ongoing",
+        "aspect": "landscape"
       },
       {
         "id": "photo-31",
-        "file": "IMG-20261017-WA0081.jpg",
-        "imageUrl": "/projects/onsite/IMG-20261017-WA0081.jpg",
-        "thumbnailUrl": "/projects/onsite/IMG-20261017-WA0081.jpg",
-        "title": "Vertical Floor Addition & Structural Expansion",
-        "alt": "Structural vertical expansion with solid blockwork on existing residential framework",
-        "tag": "Structural Expansion",
-        "category": "onsite",
+        "file": "IMG-20261017-WA0079.jpg",
+        "imageUrl": "/projects/ongoing/IMG-20261017-WA0079.jpg",
+        "thumbnailUrl": "/projects/ongoing/IMG-20261017-WA0079.jpg",
+        "title": "Exterior Cement Plastering & Groove Works",
+        "alt": "Skilled masonry team applying external waterproofing plaster and architectural wall grooves",
+        "tag": "Plastering & Grooving",
+        "category": "ongoing",
         "aspect": "portrait"
       },
       {
         "id": "photo-32",
-        "file": "IMG-20261017-WA0092.jpg",
-        "imageUrl": "/projects/onsite/IMG-20261017-WA0092.jpg",
-        "thumbnailUrl": "/projects/onsite/IMG-20261017-WA0092.jpg",
-        "title": "RCC Roof Slab Casting & Leveling",
-        "alt": "On-site roof slab concrete casting and screed leveling with timber formwork staging",
-        "tag": "Slab Casting",
-        "category": "onsite",
-        "aspect": "landscape"
+        "file": "IMG-20261017-WA0081.jpg",
+        "imageUrl": "/projects/ongoing/IMG-20261017-WA0081.jpg",
+        "thumbnailUrl": "/projects/ongoing/IMG-20261017-WA0081.jpg",
+        "title": "Vertical Floor Addition & Structural Expansion",
+        "alt": "Structural vertical expansion with solid blockwork on existing residential framework",
+        "tag": "Structural Expansion",
+        "category": "ongoing",
+        "aspect": "portrait"
       },
       {
         "id": "photo-33",
-        "file": "IMG-20261017-WA0099.jpg",
-        "imageUrl": "/projects/onsite/IMG-20261017-WA0099.jpg",
-        "thumbnailUrl": "/projects/onsite/IMG-20261017-WA0099.jpg",
-        "title": "Ground Floor Villa Structure Under Plastering",
-        "alt": "On-site residential villa finishing with freshly cast portico slab and exterior plaster",
-        "tag": "Civil Masonry",
-        "category": "onsite",
+        "file": "IMG-20261017-WA0092.jpg",
+        "imageUrl": "/projects/ongoing/IMG-20261017-WA0092.jpg",
+        "thumbnailUrl": "/projects/ongoing/IMG-20261017-WA0092.jpg",
+        "title": "RCC Roof Slab Casting & Leveling",
+        "alt": "On-site roof slab concrete casting and screed leveling with timber formwork staging",
+        "tag": "Slab Casting",
+        "category": "ongoing",
         "aspect": "landscape"
       },
       {
         "id": "photo-34",
-        "file": "IMG-20261017-WA0100.jpg",
-        "imageUrl": "/projects/onsite/IMG-20261017-WA0100.jpg",
-        "thumbnailUrl": "/projects/onsite/IMG-20261017-WA0100.jpg",
-        "title": "Plinth Beam & Column Steel Reinforcement",
-        "alt": "Engineered foundation plinth beams with heavy gauge TMT rebar column starters",
-        "tag": "Foundation Engineering",
-        "category": "onsite",
+        "file": "IMG-20261017-WA0099.jpg",
+        "imageUrl": "/projects/ongoing/IMG-20261017-WA0099.jpg",
+        "thumbnailUrl": "/projects/ongoing/IMG-20261017-WA0099.jpg",
+        "title": "Ground Floor Villa Structure Under Plastering",
+        "alt": "On-site residential villa finishing with freshly cast portico slab and exterior plaster",
+        "tag": "Civil Masonry",
+        "category": "ongoing",
         "aspect": "landscape"
       },
       {
         "id": "photo-35",
-        "file": "IMG-20261017-WA0103.jpg",
-        "imageUrl": "/projects/onsite/IMG-20261017-WA0103.jpg",
-        "thumbnailUrl": "/projects/onsite/IMG-20261017-WA0103.jpg",
-        "title": "Villa Structural Framework & Parapet Masonry",
-        "alt": "Independent villa structural framework undergoing curing and brick parapet walling",
-        "tag": "Structural Work",
-        "category": "onsite",
-        "aspect": "portrait"
-      },
-      {
-        "id": "photo-36",
-        "file": "IMG-20261017-WA0105.jpg",
-        "imageUrl": "/projects/onsite/IMG-20261017-WA0105.jpg",
-        "thumbnailUrl": "/projects/onsite/IMG-20261017-WA0105.jpg",
-        "title": "Exposed Brickwork Masonry & RCC Staircase",
-        "alt": "Exposed clay brick masonry construction with cast RCC external staircase",
-        "tag": "Brick Masonry",
-        "category": "onsite",
+        "file": "IMG-20261017-WA0100.jpg",
+        "imageUrl": "/projects/ongoing/IMG-20261017-WA0100.jpg",
+        "thumbnailUrl": "/projects/ongoing/IMG-20261017-WA0100.jpg",
+        "title": "Plinth Beam & Column Steel Reinforcement",
+        "alt": "Engineered foundation plinth beams with heavy gauge TMT rebar column starters",
+        "tag": "Foundation Engineering",
+        "category": "ongoing",
         "aspect": "landscape"
       },
       {
+        "id": "photo-36",
+        "file": "IMG-20261017-WA0103.jpg",
+        "imageUrl": "/projects/ongoing/IMG-20261017-WA0103.jpg",
+        "thumbnailUrl": "/projects/ongoing/IMG-20261017-WA0103.jpg",
+        "title": "Villa Structural Framework & Parapet Masonry",
+        "alt": "Independent villa structural framework undergoing curing and brick parapet walling",
+        "tag": "Structural Work",
+        "category": "ongoing",
+        "aspect": "portrait"
+      },
+      {
         "id": "photo-37",
-        "file": "IMG-20261017-WA0107.jpg",
-        "imageUrl": "/projects/onsite/IMG-20261017-WA0107.jpg",
-        "thumbnailUrl": "/projects/onsite/IMG-20261017-WA0107.jpg",
-        "title": "RCC Columns, Brickwork & Water Sump Tank",
-        "alt": "On-site construction progress showing reinforced water sump casting and brick masonry",
-        "tag": "RCC & Sump Tank",
-        "category": "onsite",
+        "file": "IMG-20261017-WA0105.jpg",
+        "imageUrl": "/projects/ongoing/IMG-20261017-WA0105.jpg",
+        "thumbnailUrl": "/projects/ongoing/IMG-20261017-WA0105.jpg",
+        "title": "Exposed Brickwork Masonry & RCC Staircase",
+        "alt": "Exposed clay brick masonry construction with cast RCC external staircase",
+        "tag": "Brick Masonry",
+        "category": "ongoing",
         "aspect": "landscape"
       },
       {
         "id": "photo-38",
+        "file": "IMG-20261017-WA0107.jpg",
+        "imageUrl": "/projects/ongoing/IMG-20261017-WA0107.jpg",
+        "thumbnailUrl": "/projects/ongoing/IMG-20261017-WA0107.jpg",
+        "title": "RCC Columns, Brickwork & Water Sump Tank",
+        "alt": "On-site construction progress showing reinforced water sump casting and brick masonry",
+        "tag": "RCC & Sump Tank",
+        "category": "ongoing",
+        "aspect": "landscape"
+      },
+      {
+        "id": "photo-39",
         "file": "IMG-20261017-WA0153.jpg",
-        "imageUrl": "/projects/onsite/IMG-20261017-WA0153.jpg",
-        "thumbnailUrl": "/projects/onsite/IMG-20261017-WA0153.jpg",
+        "imageUrl": "/projects/ongoing/IMG-20261017-WA0153.jpg",
+        "thumbnailUrl": "/projects/ongoing/IMG-20261017-WA0153.jpg",
         "title": "3-Storey Villa RCC Framed Structure",
         "alt": "Active construction site showing three-storey RCC structural frame and rooftop pergola casting",
         "tag": "RCC Framework",
-        "category": "onsite",
+        "category": "ongoing",
         "aspect": "portrait"
+      },
+      {
+        "id": "photo-40",
+        "file": "WhatsApp Image 2026-10-17 at 17.27.51.jpeg",
+        "imageUrl": "/projects/ongoing/WhatsApp Image 2026-10-17 at 17.27.51.jpeg",
+        "thumbnailUrl": "/projects/ongoing/WhatsApp Image 2026-10-17 at 17.27.51.jpeg",
+        "title": "WhatsApp Image 2026 10 17 At 17.27.51",
+        "alt": "WhatsApp Image 2026 10 17 At 17.27.51 - SR BUILDTEC",
+        "tag": "Ongoing Project",
+        "category": "ongoing",
+        "aspect": "landscape"
+      },
+      {
+        "id": "photo-41",
+        "file": "WhatsApp Image 2026-10-17 at 17.27.52.jpeg",
+        "imageUrl": "/projects/ongoing/WhatsApp Image 2026-10-17 at 17.27.52.jpeg",
+        "thumbnailUrl": "/projects/ongoing/WhatsApp Image 2026-10-17 at 17.27.52.jpeg",
+        "title": "WhatsApp Image 2026 10 17 At 17.27.52",
+        "alt": "WhatsApp Image 2026 10 17 At 17.27.52 - SR BUILDTEC",
+        "tag": "Ongoing Project",
+        "category": "ongoing",
+        "aspect": "landscape"
+      },
+      {
+        "id": "photo-42",
+        "file": "WhatsApp Image 2026-10-17 at 17.32.13.jpeg",
+        "imageUrl": "/projects/ongoing/WhatsApp Image 2026-10-17 at 17.32.13.jpeg",
+        "thumbnailUrl": "/projects/ongoing/WhatsApp Image 2026-10-17 at 17.32.13.jpeg",
+        "title": "WhatsApp Image 2026 10 17 At 17.32.13",
+        "alt": "WhatsApp Image 2026 10 17 At 17.32.13 - SR BUILDTEC",
+        "tag": "Ongoing Project",
+        "category": "ongoing",
+        "aspect": "landscape"
+      },
+      {
+        "id": "photo-43",
+        "file": "WhatsApp Image 2026-10-17 at 17.32.14.jpeg",
+        "imageUrl": "/projects/ongoing/WhatsApp Image 2026-10-17 at 17.32.14.jpeg",
+        "thumbnailUrl": "/projects/ongoing/WhatsApp Image 2026-10-17 at 17.32.14.jpeg",
+        "title": "WhatsApp Image 2026 10 17 At 17.32.14",
+        "alt": "WhatsApp Image 2026 10 17 At 17.32.14 - SR BUILDTEC",
+        "tag": "Ongoing Project",
+        "category": "ongoing",
+        "aspect": "landscape"
       }
     ],
     "interiors": [
       {
-        "id": "photo-39",
+        "id": "photo-44",
         "file": "IMG-20261017-WA0133.jpg",
         "imageUrl": "/projects/interiors/IMG-20261017-WA0133.jpg",
         "thumbnailUrl": "/projects/interiors/IMG-20261017-WA0133.jpg",
@@ -1368,7 +1489,7 @@
         "aspect": "landscape"
       },
       {
-        "id": "photo-40",
+        "id": "photo-45",
         "file": "IMG-20261017-WA0135.jpg",
         "imageUrl": "/projects/interiors/IMG-20261017-WA0135.jpg",
         "thumbnailUrl": "/projects/interiors/IMG-20261017-WA0135.jpg",
@@ -1379,7 +1500,7 @@
         "aspect": "landscape"
       },
       {
-        "id": "photo-41",
+        "id": "photo-46",
         "file": "IMG-20261017-WA0136.jpg",
         "imageUrl": "/projects/interiors/IMG-20261017-WA0136.jpg",
         "thumbnailUrl": "/projects/interiors/IMG-20261017-WA0136.jpg",
@@ -1390,7 +1511,7 @@
         "aspect": "portrait"
       },
       {
-        "id": "photo-42",
+        "id": "photo-47",
         "file": "IMG-20261017-WA0138.jpg",
         "imageUrl": "/projects/interiors/IMG-20261017-WA0138.jpg",
         "thumbnailUrl": "/projects/interiors/IMG-20261017-WA0138.jpg",
@@ -1401,7 +1522,7 @@
         "aspect": "landscape"
       },
       {
-        "id": "photo-43",
+        "id": "photo-48",
         "file": "IMG-20261017-WA0143.jpg",
         "imageUrl": "/projects/interiors/IMG-20261017-WA0143.jpg",
         "thumbnailUrl": "/projects/interiors/IMG-20261017-WA0143.jpg",
@@ -1412,7 +1533,7 @@
         "aspect": "portrait"
       },
       {
-        "id": "photo-44",
+        "id": "photo-49",
         "file": "IMG-20261017-WA0144.jpg",
         "imageUrl": "/projects/interiors/IMG-20261017-WA0144.jpg",
         "thumbnailUrl": "/projects/interiors/IMG-20261017-WA0144.jpg",
@@ -1423,7 +1544,7 @@
         "aspect": "portrait"
       },
       {
-        "id": "photo-45",
+        "id": "photo-50",
         "file": "IMG-20261020-WA0016.jpg",
         "imageUrl": "/projects/interiors/IMG-20261020-WA0016.jpg",
         "thumbnailUrl": "/projects/interiors/IMG-20261020-WA0016.jpg",
@@ -1434,7 +1555,7 @@
         "aspect": "landscape"
       },
       {
-        "id": "photo-46",
+        "id": "photo-51",
         "file": "IMG-20261020-WA0019.jpg",
         "imageUrl": "/projects/interiors/IMG-20261020-WA0019.jpg",
         "thumbnailUrl": "/projects/interiors/IMG-20261020-WA0019.jpg",
@@ -1445,7 +1566,7 @@
         "aspect": "landscape"
       },
       {
-        "id": "photo-47",
+        "id": "photo-52",
         "file": "IMG-20261020-WA0022.jpg",
         "imageUrl": "/projects/interiors/IMG-20261020-WA0022.jpg",
         "thumbnailUrl": "/projects/interiors/IMG-20261020-WA0022.jpg",
@@ -1456,7 +1577,7 @@
         "aspect": "landscape"
       },
       {
-        "id": "photo-48",
+        "id": "photo-53",
         "file": "IMG-20261020-WA0025.jpg",
         "imageUrl": "/projects/interiors/IMG-20261020-WA0025.jpg",
         "thumbnailUrl": "/projects/interiors/IMG-20261020-WA0025.jpg",
@@ -1467,7 +1588,7 @@
         "aspect": "landscape"
       },
       {
-        "id": "photo-49",
+        "id": "photo-54",
         "file": "IMG-20261020-WA0026.jpg",
         "imageUrl": "/projects/interiors/IMG-20261020-WA0026.jpg",
         "thumbnailUrl": "/projects/interiors/IMG-20261020-WA0026.jpg",
@@ -1478,7 +1599,7 @@
         "aspect": "landscape"
       },
       {
-        "id": "photo-50",
+        "id": "photo-55",
         "file": "IMG-20261020-WA0028.jpg",
         "imageUrl": "/projects/interiors/IMG-20261020-WA0028.jpg",
         "thumbnailUrl": "/projects/interiors/IMG-20261020-WA0028.jpg",
@@ -1489,7 +1610,7 @@
         "aspect": "landscape"
       },
       {
-        "id": "photo-51",
+        "id": "photo-56",
         "file": "IMG-20261020-WA0037.jpg",
         "imageUrl": "/projects/interiors/IMG-20261020-WA0037.jpg",
         "thumbnailUrl": "/projects/interiors/IMG-20261020-WA0037.jpg",
@@ -1500,7 +1621,7 @@
         "aspect": "landscape"
       },
       {
-        "id": "photo-52",
+        "id": "photo-57",
         "file": "IMG-20261020-WA0040.jpg",
         "imageUrl": "/projects/interiors/IMG-20261020-WA0040.jpg",
         "thumbnailUrl": "/projects/interiors/IMG-20261020-WA0040.jpg",
@@ -1511,7 +1632,7 @@
         "aspect": "landscape"
       },
       {
-        "id": "photo-53",
+        "id": "photo-58",
         "file": "IMG-20261020-WA0041.jpg",
         "imageUrl": "/projects/interiors/IMG-20261020-WA0041.jpg",
         "thumbnailUrl": "/projects/interiors/IMG-20261020-WA0041.jpg",
@@ -1522,7 +1643,7 @@
         "aspect": "landscape"
       },
       {
-        "id": "photo-54",
+        "id": "photo-59",
         "file": "IMG-20261020-WA0045.jpg",
         "imageUrl": "/projects/interiors/IMG-20261020-WA0045.jpg",
         "thumbnailUrl": "/projects/interiors/IMG-20261020-WA0045.jpg",
@@ -1533,7 +1654,7 @@
         "aspect": "landscape"
       },
       {
-        "id": "photo-55",
+        "id": "photo-60",
         "file": "IMG-20261020-WA0046.jpg",
         "imageUrl": "/projects/interiors/IMG-20261020-WA0046.jpg",
         "thumbnailUrl": "/projects/interiors/IMG-20261020-WA0046.jpg",
@@ -1544,7 +1665,7 @@
         "aspect": "landscape"
       },
       {
-        "id": "photo-56",
+        "id": "photo-61",
         "file": "IMG-20261020-WA0048.jpg",
         "imageUrl": "/projects/interiors/IMG-20261020-WA0048.jpg",
         "thumbnailUrl": "/projects/interiors/IMG-20261020-WA0048.jpg",
@@ -1555,7 +1676,7 @@
         "aspect": "landscape"
       },
       {
-        "id": "photo-57",
+        "id": "photo-62",
         "file": "IMG-20261020-WA0050.jpg",
         "imageUrl": "/projects/interiors/IMG-20261020-WA0050.jpg",
         "thumbnailUrl": "/projects/interiors/IMG-20261020-WA0050.jpg",
@@ -1566,7 +1687,7 @@
         "aspect": "landscape"
       },
       {
-        "id": "photo-58",
+        "id": "photo-63",
         "file": "IMG-20261020-WA0052.jpg",
         "imageUrl": "/projects/interiors/IMG-20261020-WA0052.jpg",
         "thumbnailUrl": "/projects/interiors/IMG-20261020-WA0052.jpg",
@@ -1577,7 +1698,7 @@
         "aspect": "landscape"
       },
       {
-        "id": "photo-59",
+        "id": "photo-64",
         "file": "IMG-20261020-WA0053.jpg",
         "imageUrl": "/projects/interiors/IMG-20261020-WA0053.jpg",
         "thumbnailUrl": "/projects/interiors/IMG-20261020-WA0053.jpg",
@@ -1588,7 +1709,7 @@
         "aspect": "landscape"
       },
       {
-        "id": "photo-60",
+        "id": "photo-65",
         "file": "IMG-20261020-WA0054.jpg",
         "imageUrl": "/projects/interiors/IMG-20261020-WA0054.jpg",
         "thumbnailUrl": "/projects/interiors/IMG-20261020-WA0054.jpg",
@@ -1599,7 +1720,7 @@
         "aspect": "landscape"
       },
       {
-        "id": "photo-61",
+        "id": "photo-66",
         "file": "IMG-20261020-WA0055.jpg",
         "imageUrl": "/projects/interiors/IMG-20261020-WA0055.jpg",
         "thumbnailUrl": "/projects/interiors/IMG-20261020-WA0055.jpg",
@@ -1610,7 +1731,7 @@
         "aspect": "landscape"
       },
       {
-        "id": "photo-62",
+        "id": "photo-67",
         "file": "IMG-20261020-WA0056.jpg",
         "imageUrl": "/projects/interiors/IMG-20261020-WA0056.jpg",
         "thumbnailUrl": "/projects/interiors/IMG-20261020-WA0056.jpg",
@@ -1621,7 +1742,7 @@
         "aspect": "landscape"
       },
       {
-        "id": "photo-63",
+        "id": "photo-68",
         "file": "IMG-20261020-WA0057.jpg",
         "imageUrl": "/projects/interiors/IMG-20261020-WA0057.jpg",
         "thumbnailUrl": "/projects/interiors/IMG-20261020-WA0057.jpg",
@@ -1632,7 +1753,7 @@
         "aspect": "landscape"
       },
       {
-        "id": "photo-64",
+        "id": "photo-69",
         "file": "IMG-20261020-WA0058.jpg",
         "imageUrl": "/projects/interiors/IMG-20261020-WA0058.jpg",
         "thumbnailUrl": "/projects/interiors/IMG-20261020-WA0058.jpg",
@@ -1643,7 +1764,7 @@
         "aspect": "landscape"
       },
       {
-        "id": "photo-65",
+        "id": "photo-70",
         "file": "IMG-20261020-WA0059.jpg",
         "imageUrl": "/projects/interiors/IMG-20261020-WA0059.jpg",
         "thumbnailUrl": "/projects/interiors/IMG-20261020-WA0059.jpg",
@@ -1654,7 +1775,7 @@
         "aspect": "landscape"
       },
       {
-        "id": "photo-66",
+        "id": "photo-71",
         "file": "IMG-20261020-WA0060.jpg",
         "imageUrl": "/projects/interiors/IMG-20261020-WA0060.jpg",
         "thumbnailUrl": "/projects/interiors/IMG-20261020-WA0060.jpg",
@@ -1665,7 +1786,7 @@
         "aspect": "landscape"
       },
       {
-        "id": "photo-67",
+        "id": "photo-72",
         "file": "IMG-20261020-WA0061.jpg",
         "imageUrl": "/projects/interiors/IMG-20261020-WA0061.jpg",
         "thumbnailUrl": "/projects/interiors/IMG-20261020-WA0061.jpg",
@@ -1676,7 +1797,7 @@
         "aspect": "landscape"
       },
       {
-        "id": "photo-68",
+        "id": "photo-73",
         "file": "IMG-20261020-WA0062.jpg",
         "imageUrl": "/projects/interiors/IMG-20261020-WA0062.jpg",
         "thumbnailUrl": "/projects/interiors/IMG-20261020-WA0062.jpg",
@@ -1687,7 +1808,7 @@
         "aspect": "landscape"
       },
       {
-        "id": "photo-69",
+        "id": "photo-74",
         "file": "IMG-20261020-WA0063.jpg",
         "imageUrl": "/projects/interiors/IMG-20261020-WA0063.jpg",
         "thumbnailUrl": "/projects/interiors/IMG-20261020-WA0063.jpg",
@@ -1698,7 +1819,7 @@
         "aspect": "landscape"
       },
       {
-        "id": "photo-70",
+        "id": "photo-75",
         "file": "IMG-20261020-WA0064.jpg",
         "imageUrl": "/projects/interiors/IMG-20261020-WA0064.jpg",
         "thumbnailUrl": "/projects/interiors/IMG-20261020-WA0064.jpg",
@@ -1709,7 +1830,7 @@
         "aspect": "landscape"
       },
       {
-        "id": "photo-71",
+        "id": "photo-76",
         "file": "IMG-20261020-WA0065.jpg",
         "imageUrl": "/projects/interiors/IMG-20261020-WA0065.jpg",
         "thumbnailUrl": "/projects/interiors/IMG-20261020-WA0065.jpg",
@@ -1720,7 +1841,7 @@
         "aspect": "landscape"
       },
       {
-        "id": "photo-72",
+        "id": "photo-77",
         "file": "IMG-20261020-WA0066.jpg",
         "imageUrl": "/projects/interiors/IMG-20261020-WA0066.jpg",
         "thumbnailUrl": "/projects/interiors/IMG-20261020-WA0066.jpg",
@@ -1731,7 +1852,7 @@
         "aspect": "landscape"
       },
       {
-        "id": "photo-73",
+        "id": "photo-78",
         "file": "IMG-20261020-WA0067.jpg",
         "imageUrl": "/projects/interiors/IMG-20261020-WA0067.jpg",
         "thumbnailUrl": "/projects/interiors/IMG-20261020-WA0067.jpg",
@@ -1742,7 +1863,7 @@
         "aspect": "landscape"
       },
       {
-        "id": "photo-74",
+        "id": "photo-79",
         "file": "IMG-20261020-WA0068.jpg",
         "imageUrl": "/projects/interiors/IMG-20261020-WA0068.jpg",
         "thumbnailUrl": "/projects/interiors/IMG-20261020-WA0068.jpg",
@@ -1753,7 +1874,7 @@
         "aspect": "landscape"
       },
       {
-        "id": "photo-75",
+        "id": "photo-80",
         "file": "IMG-20261020-WA0071.jpg",
         "imageUrl": "/projects/interiors/IMG-20261020-WA0071.jpg",
         "thumbnailUrl": "/projects/interiors/IMG-20261020-WA0071.jpg",
@@ -1764,7 +1885,7 @@
         "aspect": "landscape"
       },
       {
-        "id": "photo-76",
+        "id": "photo-81",
         "file": "IMG-20261020-WA0072.jpg",
         "imageUrl": "/projects/interiors/IMG-20261020-WA0072.jpg",
         "thumbnailUrl": "/projects/interiors/IMG-20261020-WA0072.jpg",
@@ -1775,7 +1896,7 @@
         "aspect": "landscape"
       },
       {
-        "id": "photo-77",
+        "id": "photo-82",
         "file": "IMG-20261020-WA0073.jpg",
         "imageUrl": "/projects/interiors/IMG-20261020-WA0073.jpg",
         "thumbnailUrl": "/projects/interiors/IMG-20261020-WA0073.jpg",
@@ -1786,7 +1907,7 @@
         "aspect": "landscape"
       },
       {
-        "id": "photo-78",
+        "id": "photo-83",
         "file": "IMG-20261020-WA0074.jpg",
         "imageUrl": "/projects/interiors/IMG-20261020-WA0074.jpg",
         "thumbnailUrl": "/projects/interiors/IMG-20261020-WA0074.jpg",
@@ -1797,7 +1918,7 @@
         "aspect": "landscape"
       },
       {
-        "id": "photo-79",
+        "id": "photo-84",
         "file": "IMG-20261020-WA0078.jpg",
         "imageUrl": "/projects/interiors/IMG-20261020-WA0078.jpg",
         "thumbnailUrl": "/projects/interiors/IMG-20261020-WA0078.jpg",
@@ -1808,7 +1929,7 @@
         "aspect": "landscape"
       },
       {
-        "id": "photo-80",
+        "id": "photo-85",
         "file": "IMG-20261020-WA0080.jpg",
         "imageUrl": "/projects/interiors/IMG-20261020-WA0080.jpg",
         "thumbnailUrl": "/projects/interiors/IMG-20261020-WA0080.jpg",
@@ -1819,7 +1940,7 @@
         "aspect": "landscape"
       },
       {
-        "id": "photo-81",
+        "id": "photo-86",
         "file": "IMG-20261020-WA0082.jpg",
         "imageUrl": "/projects/interiors/IMG-20261020-WA0082.jpg",
         "thumbnailUrl": "/projects/interiors/IMG-20261020-WA0082.jpg",
@@ -1830,13 +1951,24 @@
         "aspect": "landscape"
       },
       {
-        "id": "photo-82",
+        "id": "photo-87",
         "file": "IMG-20261020-WA0083.jpg",
         "imageUrl": "/projects/interiors/IMG-20261020-WA0083.jpg",
         "thumbnailUrl": "/projects/interiors/IMG-20261020-WA0083.jpg",
         "title": "Luxury Bedroom with Arched Fluted Panels",
         "alt": "Bespoke bedroom interior with arched fluted panelling, ambient headboard lighting, and ceiling medallion",
         "tag": "Master Bedroom",
+        "category": "interiors",
+        "aspect": "landscape"
+      },
+      {
+        "id": "photo-88",
+        "file": "WhatsApp Image 2026-10-17 at 17.57.29.jpeg",
+        "imageUrl": "/projects/interiors/WhatsApp Image 2026-10-17 at 17.57.29.jpeg",
+        "thumbnailUrl": "/projects/interiors/WhatsApp Image 2026-10-17 at 17.57.29.jpeg",
+        "title": "WhatsApp Image 2026 10 17 At 17.57.29",
+        "alt": "WhatsApp Image 2026 10 17 At 17.57.29 - SR BUILDTEC",
+        "tag": "Interior Design",
         "category": "interiors",
         "aspect": "landscape"
       }

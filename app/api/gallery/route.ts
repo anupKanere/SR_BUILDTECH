@@ -24,7 +24,7 @@ export async function GET() {
       }
     }
 
-    const categories = ['completed', 'commercial', 'onsite', 'interiors'] as const
+    const categories = ['completed', 'commercial', 'ongoing', 'interiors'] as const
     const validExts = new Set(['.jpg', '.jpeg', '.png', '.webp', '.avif', '.svg'])
     const categorizedPhotos: Record<string, Array<{
       id: string
@@ -39,7 +39,7 @@ export async function GET() {
     }>> = {
       completed: [],
       commercial: [],
-      onsite: [],
+      ongoing: [],
       interiors: [],
     }
 
@@ -63,8 +63,8 @@ export async function GET() {
             ? 'Completed Residential Villa'
             : cat === 'commercial'
             ? 'Commercial Infrastructure'
-            : cat === 'onsite'
-            ? 'On-Site Construction Work'
+            : cat === 'ongoing'
+            ? 'Ongoing Construction Project'
             : 'Architectural Interior'
 
         const title =
@@ -81,8 +81,8 @@ export async function GET() {
             ? 'Completed Villa'
             : cat === 'commercial'
             ? 'Commercial Project'
-            : cat === 'onsite'
-            ? 'Site Progress'
+            : cat === 'ongoing'
+            ? 'Ongoing Project'
             : 'Interior Design'
 
         const photoItem = {
@@ -105,7 +105,7 @@ export async function GET() {
     const allPhotos = [
       ...categorizedPhotos.completed,
       ...categorizedPhotos.commercial,
-      ...categorizedPhotos.onsite,
+      ...categorizedPhotos.ongoing,
       ...categorizedPhotos.interiors,
     ]
 
@@ -115,7 +115,7 @@ export async function GET() {
         all: allPhotos,
         completed: categorizedPhotos.completed,
         commercial: categorizedPhotos.commercial,
-        onsite: categorizedPhotos.onsite,
+        ongoing: categorizedPhotos.ongoing,
         interiors: categorizedPhotos.interiors,
       },
     })
