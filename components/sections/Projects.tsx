@@ -45,10 +45,25 @@ const CATEGORY_ICONS: Record<CategoryKey, React.ComponentType<{ size?: number; c
 }
 
 export function Projects() {
+  const [gallery, setGallery] = useState(galleryData)
   const [activeCategory, setActiveCategory] = useState<CategoryKey>('all')
   const [lightboxIndex, setLightboxIndex] = useState<number | null>(null)
   const [viewMode, setViewMode] = useState<'slider' | 'grid'>('slider')
   const [gridVisibleCount, setGridVisibleCount] = useState<number>(16)
+
+  // Dynamically sync any newly dropped images from /api/gallery
+  useEffect(() => {
+    fetch('/api/gallery')
+      .then((res) => (res.ok ? res.json() : null))
+      .then((data) => {
+        if (data && data.photos) {
+          setGallery(data)
+        }
+      })
+      .catch(() => {
+        // Fall back seamlessly to static data
+      })
+  }, [])
 
   // Embla Carousel setup
   const [emblaRef, emblaApi] = useEmblaCarousel({
@@ -61,7 +76,7 @@ export function Projects() {
   const [selectedIndex, setSelectedIndex] = useState(0)
   const [scrollSnaps, setScrollSnaps] = useState<number[]>([])
 
-  const currentPhotos: PhotoItem[] = (galleryData.photos as Record<string, PhotoItem[]>)[activeCategory] || []
+  const currentPhotos: PhotoItem[] = (gallery.photos as Record<string, PhotoItem[]>)[activeCategory] || []
 
   const onSelect = useCallback(() => {
     if (!emblaApi) return
@@ -154,7 +169,7 @@ export function Projects() {
     }
   }, [lightboxIndex, nextLightbox, prevLightbox])
 
-  const currentCategoryMeta = galleryData.categories.find(
+  const currentCategoryMeta = gallery.categories.find(
     (c) => c.id === activeCategory
   )
 
@@ -181,7 +196,7 @@ export function Projects() {
         <div className="flex flex-col lg:flex-row items-center justify-between gap-4 mb-5 sm:mb-6 max-w-6xl mx-auto">
           {/* Main Category Tabs */}
           <div className="flex flex-wrap items-center justify-center gap-2 p-1.5 rounded-2xl bg-navy-800/80 backdrop-blur-xl border border-white/10 shadow-xl">
-            {galleryData.categories.map((cat) => {
+            {gallery.categories.map((cat) => {
               const IconComponent = CATEGORY_ICONS[cat.id as CategoryKey] || Sparkles
               const isSelected = activeCategory === cat.id
 
