@@ -327,17 +327,6 @@
       },
       {
         "id": "photo-28",
-        "file": "IMG-20261017-WA0070.jpg",
-        "imageUrl": "/projects/ongoing/IMG-20261017-WA0070.jpg",
-        "thumbnailUrl": "/projects/ongoing/IMG-20261017-WA0070.jpg",
-        "title": "G+3 Building External Plastering & Scaffolding",
-        "alt": "Active on-site construction progress with bamboo scaffolding for exterior cement plastering",
-        "tag": "Site Scaffolding",
-        "category": "ongoing",
-        "aspect": "portrait"
-      },
-      {
-        "id": "photo-29",
         "file": "IMG-20261017-WA0074.jpg",
         "imageUrl": "/projects/ongoing/IMG-20261017-WA0074.jpg",
         "thumbnailUrl": "/projects/ongoing/IMG-20261017-WA0074.jpg",
@@ -348,7 +337,7 @@
         "aspect": "landscape"
       },
       {
-        "id": "photo-30",
+        "id": "photo-29",
         "file": "IMG-20261017-WA0076.jpg",
         "imageUrl": "/projects/ongoing/IMG-20261017-WA0076.jpg",
         "thumbnailUrl": "/projects/ongoing/IMG-20261017-WA0076.jpg",
@@ -359,7 +348,7 @@
         "aspect": "landscape"
       },
       {
-        "id": "photo-31",
+        "id": "photo-30",
         "file": "IMG-20261017-WA0079.jpg",
         "imageUrl": "/projects/ongoing/IMG-20261017-WA0079.jpg",
         "thumbnailUrl": "/projects/ongoing/IMG-20261017-WA0079.jpg",
@@ -370,7 +359,7 @@
         "aspect": "portrait"
       },
       {
-        "id": "photo-32",
+        "id": "photo-31",
         "file": "IMG-20261017-WA0081.jpg",
         "imageUrl": "/projects/ongoing/IMG-20261017-WA0081.jpg",
         "thumbnailUrl": "/projects/ongoing/IMG-20261017-WA0081.jpg",
@@ -381,7 +370,7 @@
         "aspect": "portrait"
       },
       {
-        "id": "photo-33",
+        "id": "photo-32",
         "file": "IMG-20261017-WA0092.jpg",
         "imageUrl": "/projects/ongoing/IMG-20261017-WA0092.jpg",
         "thumbnailUrl": "/projects/ongoing/IMG-20261017-WA0092.jpg",
@@ -392,7 +381,7 @@
         "aspect": "landscape"
       },
       {
-        "id": "photo-34",
+        "id": "photo-33",
         "file": "IMG-20261017-WA0099.jpg",
         "imageUrl": "/projects/ongoing/IMG-20261017-WA0099.jpg",
         "thumbnailUrl": "/projects/ongoing/IMG-20261017-WA0099.jpg",
@@ -403,7 +392,7 @@
         "aspect": "landscape"
       },
       {
-        "id": "photo-35",
+        "id": "photo-34",
         "file": "IMG-20261017-WA0100.jpg",
         "imageUrl": "/projects/ongoing/IMG-20261017-WA0100.jpg",
         "thumbnailUrl": "/projects/ongoing/IMG-20261017-WA0100.jpg",
@@ -414,7 +403,7 @@
         "aspect": "landscape"
       },
       {
-        "id": "photo-36",
+        "id": "photo-35",
         "file": "IMG-20261017-WA0103.jpg",
         "imageUrl": "/projects/ongoing/IMG-20261017-WA0103.jpg",
         "thumbnailUrl": "/projects/ongoing/IMG-20261017-WA0103.jpg",
@@ -425,7 +414,7 @@
         "aspect": "portrait"
       },
       {
-        "id": "photo-37",
+        "id": "photo-36",
         "file": "IMG-20261017-WA0105.jpg",
         "imageUrl": "/projects/ongoing/IMG-20261017-WA0105.jpg",
         "thumbnailUrl": "/projects/ongoing/IMG-20261017-WA0105.jpg",
@@ -436,7 +425,7 @@
         "aspect": "landscape"
       },
       {
-        "id": "photo-38",
+        "id": "photo-37",
         "file": "IMG-20261017-WA0107.jpg",
         "imageUrl": "/projects/ongoing/IMG-20261017-WA0107.jpg",
         "thumbnailUrl": "/projects/ongoing/IMG-20261017-WA0107.jpg",
@@ -447,7 +436,29 @@
         "aspect": "landscape"
       },
       {
+        "id": "photo-38",
+        "file": "IMG-20261017-WA0118.jpg",
+        "imageUrl": "/projects/ongoing/IMG-20261017-WA0118.jpg",
+        "thumbnailUrl": "/projects/ongoing/IMG-20261017-WA0118.jpg",
+        "title": "Ongoing Construction Project #13",
+        "alt": "Ongoing Construction Project #13 - SR BUILDTEC",
+        "tag": "Ongoing Project",
+        "category": "ongoing",
+        "aspect": "landscape"
+      },
+      {
         "id": "photo-39",
+        "file": "IMG-20261017-WA0120.jpg",
+        "imageUrl": "/projects/ongoing/IMG-20261017-WA0120.jpg",
+        "thumbnailUrl": "/projects/ongoing/IMG-20261017-WA0120.jpg",
+        "title": "Ongoing Construction Project #14",
+        "alt": "Ongoing Construction Project #14 - SR BUILDTEC",
+        "tag": "Ongoing Project",
+        "category": "ongoing",
+        "aspect": "landscape"
+      },
+      {
+        "id": "photo-40",
         "file": "IMG-20261017-WA0153.jpg",
         "imageUrl": "/projects/ongoing/IMG-20261017-WA0153.jpg",
         "thumbnailUrl": "/projects/ongoing/IMG-20261017-WA0153.jpg",
@@ -458,7 +469,480 @@
         "aspect": "portrait"
       },
       {
-        "id": "photo-40",
+        "id": "photo-41",
+        "file": "IMG-20261017-WA0165.jpg",
+        "imageUrl": "/projects/ongoing/IMG-20261017-WA0165.jpg",
+        "thumbnailUrl": "/projects/ongoing/IMG-20261017-WA0165.jpg",
+        "title": "Ongoing Construction Project #16",
+        "alt": "Ongoing Construction Project #16 - SR BUILDTEC",
+        "tag": "Ongoing Project",
+        "category": "ongoing",
+        "aspect": "landscape"
+      },
+      {
+        "id": "photo-42",
+        "file": "IMG-20261017-WA0167.jpg",
+        "imageUrl": "/projects/ongoing/IMG-20261017-WA0167.jpg",
+        "thumbnailUrl": "/projects/ongoing/IMG-20261017-WA0167.jpg",
+        "title": "Ongoing Construction Project #17",
+        "alt": "Ongoing Construction Project #17 - SR BUILDTEC",
+        "tag": "Ongoing Project",
+        "category": "ongoing",
+        "aspect": "landscape"
+      },
+      {
+        "id": "photo-43",
+        "file": "IMG-20261020-WA0088.jpg",
+        "imageUrl": "/projects/ongoing/IMG-20261020-WA0088.jpg",
+        "thumbnailUrl": "/projects/ongoing/IMG-20261020-WA0088.jpg",
+        "title": "Ongoing Construction Project #18",
+        "alt": "Ongoing Construction Project #18 - SR BUILDTEC",
+        "tag": "Ongoing Project",
+        "category": "ongoing",
+        "aspect": "landscape"
+      },
+      {
+        "id": "photo-44",
+        "file": "IMG-20261020-WA0090.jpg",
+        "imageUrl": "/projects/ongoing/IMG-20261020-WA0090.jpg",
+        "thumbnailUrl": "/projects/ongoing/IMG-20261020-WA0090.jpg",
+        "title": "Ongoing Construction Project #19",
+        "alt": "Ongoing Construction Project #19 - SR BUILDTEC",
+        "tag": "Ongoing Project",
+        "category": "ongoing",
+        "aspect": "landscape"
+      },
+      {
+        "id": "photo-45",
+        "file": "IMG-20261020-WA0091.jpg",
+        "imageUrl": "/projects/ongoing/IMG-20261020-WA0091.jpg",
+        "thumbnailUrl": "/projects/ongoing/IMG-20261020-WA0091.jpg",
+        "title": "Ongoing Construction Project #20",
+        "alt": "Ongoing Construction Project #20 - SR BUILDTEC",
+        "tag": "Ongoing Project",
+        "category": "ongoing",
+        "aspect": "landscape"
+      },
+      {
+        "id": "photo-46",
+        "file": "IMG-20261020-WA0092.jpg",
+        "imageUrl": "/projects/ongoing/IMG-20261020-WA0092.jpg",
+        "thumbnailUrl": "/projects/ongoing/IMG-20261020-WA0092.jpg",
+        "title": "Ongoing Construction Project #21",
+        "alt": "Ongoing Construction Project #21 - SR BUILDTEC",
+        "tag": "Ongoing Project",
+        "category": "ongoing",
+        "aspect": "landscape"
+      },
+      {
+        "id": "photo-47",
+        "file": "IMG-20261020-WA0094.jpg",
+        "imageUrl": "/projects/ongoing/IMG-20261020-WA0094.jpg",
+        "thumbnailUrl": "/projects/ongoing/IMG-20261020-WA0094.jpg",
+        "title": "Ongoing Construction Project #22",
+        "alt": "Ongoing Construction Project #22 - SR BUILDTEC",
+        "tag": "Ongoing Project",
+        "category": "ongoing",
+        "aspect": "landscape"
+      },
+      {
+        "id": "photo-48",
+        "file": "IMG-20261020-WA0095.jpg",
+        "imageUrl": "/projects/ongoing/IMG-20261020-WA0095.jpg",
+        "thumbnailUrl": "/projects/ongoing/IMG-20261020-WA0095.jpg",
+        "title": "Ongoing Construction Project #23",
+        "alt": "Ongoing Construction Project #23 - SR BUILDTEC",
+        "tag": "Ongoing Project",
+        "category": "ongoing",
+        "aspect": "landscape"
+      },
+      {
+        "id": "photo-49",
+        "file": "IMG-20261020-WA0097.jpg",
+        "imageUrl": "/projects/ongoing/IMG-20261020-WA0097.jpg",
+        "thumbnailUrl": "/projects/ongoing/IMG-20261020-WA0097.jpg",
+        "title": "Ongoing Construction Project #24",
+        "alt": "Ongoing Construction Project #24 - SR BUILDTEC",
+        "tag": "Ongoing Project",
+        "category": "ongoing",
+        "aspect": "landscape"
+      },
+      {
+        "id": "photo-50",
+        "file": "IMG-20261020-WA0098.jpg",
+        "imageUrl": "/projects/ongoing/IMG-20261020-WA0098.jpg",
+        "thumbnailUrl": "/projects/ongoing/IMG-20261020-WA0098.jpg",
+        "title": "Ongoing Construction Project #25",
+        "alt": "Ongoing Construction Project #25 - SR BUILDTEC",
+        "tag": "Ongoing Project",
+        "category": "ongoing",
+        "aspect": "landscape"
+      },
+      {
+        "id": "photo-51",
+        "file": "IMG-20261020-WA0099.jpg",
+        "imageUrl": "/projects/ongoing/IMG-20261020-WA0099.jpg",
+        "thumbnailUrl": "/projects/ongoing/IMG-20261020-WA0099.jpg",
+        "title": "Ongoing Construction Project #26",
+        "alt": "Ongoing Construction Project #26 - SR BUILDTEC",
+        "tag": "Ongoing Project",
+        "category": "ongoing",
+        "aspect": "landscape"
+      },
+      {
+        "id": "photo-52",
+        "file": "IMG-20261020-WA0101.jpg",
+        "imageUrl": "/projects/ongoing/IMG-20261020-WA0101.jpg",
+        "thumbnailUrl": "/projects/ongoing/IMG-20261020-WA0101.jpg",
+        "title": "Ongoing Construction Project #27",
+        "alt": "Ongoing Construction Project #27 - SR BUILDTEC",
+        "tag": "Ongoing Project",
+        "category": "ongoing",
+        "aspect": "landscape"
+      },
+      {
+        "id": "photo-53",
+        "file": "IMG-20261020-WA0103.jpg",
+        "imageUrl": "/projects/ongoing/IMG-20261020-WA0103.jpg",
+        "thumbnailUrl": "/projects/ongoing/IMG-20261020-WA0103.jpg",
+        "title": "Ongoing Construction Project #28",
+        "alt": "Ongoing Construction Project #28 - SR BUILDTEC",
+        "tag": "Ongoing Project",
+        "category": "ongoing",
+        "aspect": "landscape"
+      },
+      {
+        "id": "photo-54",
+        "file": "IMG-20261020-WA0104.jpg",
+        "imageUrl": "/projects/ongoing/IMG-20261020-WA0104.jpg",
+        "thumbnailUrl": "/projects/ongoing/IMG-20261020-WA0104.jpg",
+        "title": "Ongoing Construction Project #29",
+        "alt": "Ongoing Construction Project #29 - SR BUILDTEC",
+        "tag": "Ongoing Project",
+        "category": "ongoing",
+        "aspect": "landscape"
+      },
+      {
+        "id": "photo-55",
+        "file": "IMG-20261020-WA0105.jpg",
+        "imageUrl": "/projects/ongoing/IMG-20261020-WA0105.jpg",
+        "thumbnailUrl": "/projects/ongoing/IMG-20261020-WA0105.jpg",
+        "title": "Ongoing Construction Project #30",
+        "alt": "Ongoing Construction Project #30 - SR BUILDTEC",
+        "tag": "Ongoing Project",
+        "category": "ongoing",
+        "aspect": "landscape"
+      },
+      {
+        "id": "photo-56",
+        "file": "IMG-20261020-WA0106.jpg",
+        "imageUrl": "/projects/ongoing/IMG-20261020-WA0106.jpg",
+        "thumbnailUrl": "/projects/ongoing/IMG-20261020-WA0106.jpg",
+        "title": "Ongoing Construction Project #31",
+        "alt": "Ongoing Construction Project #31 - SR BUILDTEC",
+        "tag": "Ongoing Project",
+        "category": "ongoing",
+        "aspect": "landscape"
+      },
+      {
+        "id": "photo-57",
+        "file": "IMG-20261020-WA0108.jpg",
+        "imageUrl": "/projects/ongoing/IMG-20261020-WA0108.jpg",
+        "thumbnailUrl": "/projects/ongoing/IMG-20261020-WA0108.jpg",
+        "title": "Ongoing Construction Project #32",
+        "alt": "Ongoing Construction Project #32 - SR BUILDTEC",
+        "tag": "Ongoing Project",
+        "category": "ongoing",
+        "aspect": "landscape"
+      },
+      {
+        "id": "photo-58",
+        "file": "IMG-20261020-WA0109.jpg",
+        "imageUrl": "/projects/ongoing/IMG-20261020-WA0109.jpg",
+        "thumbnailUrl": "/projects/ongoing/IMG-20261020-WA0109.jpg",
+        "title": "Ongoing Construction Project #33",
+        "alt": "Ongoing Construction Project #33 - SR BUILDTEC",
+        "tag": "Ongoing Project",
+        "category": "ongoing",
+        "aspect": "landscape"
+      },
+      {
+        "id": "photo-59",
+        "file": "IMG-20261020-WA0111.jpg",
+        "imageUrl": "/projects/ongoing/IMG-20261020-WA0111.jpg",
+        "thumbnailUrl": "/projects/ongoing/IMG-20261020-WA0111.jpg",
+        "title": "Ongoing Construction Project #34",
+        "alt": "Ongoing Construction Project #34 - SR BUILDTEC",
+        "tag": "Ongoing Project",
+        "category": "ongoing",
+        "aspect": "landscape"
+      },
+      {
+        "id": "photo-60",
+        "file": "IMG-20261020-WA0112.jpg",
+        "imageUrl": "/projects/ongoing/IMG-20261020-WA0112.jpg",
+        "thumbnailUrl": "/projects/ongoing/IMG-20261020-WA0112.jpg",
+        "title": "Ongoing Construction Project #35",
+        "alt": "Ongoing Construction Project #35 - SR BUILDTEC",
+        "tag": "Ongoing Project",
+        "category": "ongoing",
+        "aspect": "landscape"
+      },
+      {
+        "id": "photo-61",
+        "file": "IMG-20261020-WA0113.jpg",
+        "imageUrl": "/projects/ongoing/IMG-20261020-WA0113.jpg",
+        "thumbnailUrl": "/projects/ongoing/IMG-20261020-WA0113.jpg",
+        "title": "Ongoing Construction Project #36",
+        "alt": "Ongoing Construction Project #36 - SR BUILDTEC",
+        "tag": "Ongoing Project",
+        "category": "ongoing",
+        "aspect": "landscape"
+      },
+      {
+        "id": "photo-62",
+        "file": "IMG-20261020-WA0114.jpg",
+        "imageUrl": "/projects/ongoing/IMG-20261020-WA0114.jpg",
+        "thumbnailUrl": "/projects/ongoing/IMG-20261020-WA0114.jpg",
+        "title": "Ongoing Construction Project #37",
+        "alt": "Ongoing Construction Project #37 - SR BUILDTEC",
+        "tag": "Ongoing Project",
+        "category": "ongoing",
+        "aspect": "landscape"
+      },
+      {
+        "id": "photo-63",
+        "file": "IMG-20261020-WA0115.jpg",
+        "imageUrl": "/projects/ongoing/IMG-20261020-WA0115.jpg",
+        "thumbnailUrl": "/projects/ongoing/IMG-20261020-WA0115.jpg",
+        "title": "Ongoing Construction Project #38",
+        "alt": "Ongoing Construction Project #38 - SR BUILDTEC",
+        "tag": "Ongoing Project",
+        "category": "ongoing",
+        "aspect": "landscape"
+      },
+      {
+        "id": "photo-64",
+        "file": "IMG-20261020-WA0116.jpg",
+        "imageUrl": "/projects/ongoing/IMG-20261020-WA0116.jpg",
+        "thumbnailUrl": "/projects/ongoing/IMG-20261020-WA0116.jpg",
+        "title": "Ongoing Construction Project #39",
+        "alt": "Ongoing Construction Project #39 - SR BUILDTEC",
+        "tag": "Ongoing Project",
+        "category": "ongoing",
+        "aspect": "landscape"
+      },
+      {
+        "id": "photo-65",
+        "file": "IMG-20261020-WA0117.jpg",
+        "imageUrl": "/projects/ongoing/IMG-20261020-WA0117.jpg",
+        "thumbnailUrl": "/projects/ongoing/IMG-20261020-WA0117.jpg",
+        "title": "Ongoing Construction Project #40",
+        "alt": "Ongoing Construction Project #40 - SR BUILDTEC",
+        "tag": "Ongoing Project",
+        "category": "ongoing",
+        "aspect": "landscape"
+      },
+      {
+        "id": "photo-66",
+        "file": "IMG-20261020-WA0118.jpg",
+        "imageUrl": "/projects/ongoing/IMG-20261020-WA0118.jpg",
+        "thumbnailUrl": "/projects/ongoing/IMG-20261020-WA0118.jpg",
+        "title": "Ongoing Construction Project #41",
+        "alt": "Ongoing Construction Project #41 - SR BUILDTEC",
+        "tag": "Ongoing Project",
+        "category": "ongoing",
+        "aspect": "landscape"
+      },
+      {
+        "id": "photo-67",
+        "file": "IMG-20261020-WA0119.jpg",
+        "imageUrl": "/projects/ongoing/IMG-20261020-WA0119.jpg",
+        "thumbnailUrl": "/projects/ongoing/IMG-20261020-WA0119.jpg",
+        "title": "Ongoing Construction Project #42",
+        "alt": "Ongoing Construction Project #42 - SR BUILDTEC",
+        "tag": "Ongoing Project",
+        "category": "ongoing",
+        "aspect": "landscape"
+      },
+      {
+        "id": "photo-68",
+        "file": "IMG-20261020-WA0121.jpg",
+        "imageUrl": "/projects/ongoing/IMG-20261020-WA0121.jpg",
+        "thumbnailUrl": "/projects/ongoing/IMG-20261020-WA0121.jpg",
+        "title": "Ongoing Construction Project #43",
+        "alt": "Ongoing Construction Project #43 - SR BUILDTEC",
+        "tag": "Ongoing Project",
+        "category": "ongoing",
+        "aspect": "landscape"
+      },
+      {
+        "id": "photo-69",
+        "file": "IMG-20261020-WA0122.jpg",
+        "imageUrl": "/projects/ongoing/IMG-20261020-WA0122.jpg",
+        "thumbnailUrl": "/projects/ongoing/IMG-20261020-WA0122.jpg",
+        "title": "Ongoing Construction Project #44",
+        "alt": "Ongoing Construction Project #44 - SR BUILDTEC",
+        "tag": "Ongoing Project",
+        "category": "ongoing",
+        "aspect": "landscape"
+      },
+      {
+        "id": "photo-70",
+        "file": "IMG-20261020-WA0123.jpg",
+        "imageUrl": "/projects/ongoing/IMG-20261020-WA0123.jpg",
+        "thumbnailUrl": "/projects/ongoing/IMG-20261020-WA0123.jpg",
+        "title": "Ongoing Construction Project #45",
+        "alt": "Ongoing Construction Project #45 - SR BUILDTEC",
+        "tag": "Ongoing Project",
+        "category": "ongoing",
+        "aspect": "landscape"
+      },
+      {
+        "id": "photo-71",
+        "file": "IMG-20261020-WA0124.jpg",
+        "imageUrl": "/projects/ongoing/IMG-20261020-WA0124.jpg",
+        "thumbnailUrl": "/projects/ongoing/IMG-20261020-WA0124.jpg",
+        "title": "Ongoing Construction Project #46",
+        "alt": "Ongoing Construction Project #46 - SR BUILDTEC",
+        "tag": "Ongoing Project",
+        "category": "ongoing",
+        "aspect": "landscape"
+      },
+      {
+        "id": "photo-72",
+        "file": "IMG-20261020-WA0125.jpg",
+        "imageUrl": "/projects/ongoing/IMG-20261020-WA0125.jpg",
+        "thumbnailUrl": "/projects/ongoing/IMG-20261020-WA0125.jpg",
+        "title": "Ongoing Construction Project #47",
+        "alt": "Ongoing Construction Project #47 - SR BUILDTEC",
+        "tag": "Ongoing Project",
+        "category": "ongoing",
+        "aspect": "landscape"
+      },
+      {
+        "id": "photo-73",
+        "file": "IMG-20261020-WA0126.jpg",
+        "imageUrl": "/projects/ongoing/IMG-20261020-WA0126.jpg",
+        "thumbnailUrl": "/projects/ongoing/IMG-20261020-WA0126.jpg",
+        "title": "Ongoing Construction Project #48",
+        "alt": "Ongoing Construction Project #48 - SR BUILDTEC",
+        "tag": "Ongoing Project",
+        "category": "ongoing",
+        "aspect": "landscape"
+      },
+      {
+        "id": "photo-74",
+        "file": "IMG-20261020-WA0127.jpg",
+        "imageUrl": "/projects/ongoing/IMG-20261020-WA0127.jpg",
+        "thumbnailUrl": "/projects/ongoing/IMG-20261020-WA0127.jpg",
+        "title": "Ongoing Construction Project #49",
+        "alt": "Ongoing Construction Project #49 - SR BUILDTEC",
+        "tag": "Ongoing Project",
+        "category": "ongoing",
+        "aspect": "landscape"
+      },
+      {
+        "id": "photo-75",
+        "file": "IMG-20261020-WA0128.jpg",
+        "imageUrl": "/projects/ongoing/IMG-20261020-WA0128.jpg",
+        "thumbnailUrl": "/projects/ongoing/IMG-20261020-WA0128.jpg",
+        "title": "Ongoing Construction Project #50",
+        "alt": "Ongoing Construction Project #50 - SR BUILDTEC",
+        "tag": "Ongoing Project",
+        "category": "ongoing",
+        "aspect": "landscape"
+      },
+      {
+        "id": "photo-76",
+        "file": "IMG-20261020-WA0129.jpg",
+        "imageUrl": "/projects/ongoing/IMG-20261020-WA0129.jpg",
+        "thumbnailUrl": "/projects/ongoing/IMG-20261020-WA0129.jpg",
+        "title": "Ongoing Construction Project #51",
+        "alt": "Ongoing Construction Project #51 - SR BUILDTEC",
+        "tag": "Ongoing Project",
+        "category": "ongoing",
+        "aspect": "landscape"
+      },
+      {
+        "id": "photo-77",
+        "file": "IMG-20261020-WA0131.jpg",
+        "imageUrl": "/projects/ongoing/IMG-20261020-WA0131.jpg",
+        "thumbnailUrl": "/projects/ongoing/IMG-20261020-WA0131.jpg",
+        "title": "Ongoing Construction Project #52",
+        "alt": "Ongoing Construction Project #52 - SR BUILDTEC",
+        "tag": "Ongoing Project",
+        "category": "ongoing",
+        "aspect": "landscape"
+      },
+      {
+        "id": "photo-78",
+        "file": "IMG-20261020-WA0133.jpg",
+        "imageUrl": "/projects/ongoing/IMG-20261020-WA0133.jpg",
+        "thumbnailUrl": "/projects/ongoing/IMG-20261020-WA0133.jpg",
+        "title": "Ongoing Construction Project #53",
+        "alt": "Ongoing Construction Project #53 - SR BUILDTEC",
+        "tag": "Ongoing Project",
+        "category": "ongoing",
+        "aspect": "landscape"
+      },
+      {
+        "id": "photo-79",
+        "file": "IMG-20261020-WA0134.jpg",
+        "imageUrl": "/projects/ongoing/IMG-20261020-WA0134.jpg",
+        "thumbnailUrl": "/projects/ongoing/IMG-20261020-WA0134.jpg",
+        "title": "Ongoing Construction Project #54",
+        "alt": "Ongoing Construction Project #54 - SR BUILDTEC",
+        "tag": "Ongoing Project",
+        "category": "ongoing",
+        "aspect": "landscape"
+      },
+      {
+        "id": "photo-80",
+        "file": "IMG-20261020-WA0135.jpg",
+        "imageUrl": "/projects/ongoing/IMG-20261020-WA0135.jpg",
+        "thumbnailUrl": "/projects/ongoing/IMG-20261020-WA0135.jpg",
+        "title": "High-Rise Commercial Rooftop Tower Crane Operation",
+        "alt": "Kalpataru tower crane operations and structural steel framing overlooking city skyline",
+        "tag": "Commercial High-Rise",
+        "category": "ongoing",
+        "aspect": "landscape"
+      },
+      {
+        "id": "photo-81",
+        "file": "IMG-20261020-WA0136.jpg",
+        "imageUrl": "/projects/ongoing/IMG-20261020-WA0136.jpg",
+        "thumbnailUrl": "/projects/ongoing/IMG-20261020-WA0136.jpg",
+        "title": "Ongoing Construction Project #56",
+        "alt": "Ongoing Construction Project #56 - SR BUILDTEC",
+        "tag": "Ongoing Project",
+        "category": "ongoing",
+        "aspect": "landscape"
+      },
+      {
+        "id": "photo-82",
+        "file": "IMG-20261020-WA0137.jpg",
+        "imageUrl": "/projects/ongoing/IMG-20261020-WA0137.jpg",
+        "thumbnailUrl": "/projects/ongoing/IMG-20261020-WA0137.jpg",
+        "title": "Ongoing Construction Project #57",
+        "alt": "Ongoing Construction Project #57 - SR BUILDTEC",
+        "tag": "Ongoing Project",
+        "category": "ongoing",
+        "aspect": "landscape"
+      },
+      {
+        "id": "photo-83",
+        "file": "IMG-20261020-WA0140.jpg",
+        "imageUrl": "/projects/ongoing/IMG-20261020-WA0140.jpg",
+        "thumbnailUrl": "/projects/ongoing/IMG-20261020-WA0140.jpg",
+        "title": "Ongoing Construction Project #58",
+        "alt": "Ongoing Construction Project #58 - SR BUILDTEC",
+        "tag": "Ongoing Project",
+        "category": "ongoing",
+        "aspect": "landscape"
+      },
+      {
+        "id": "photo-84",
         "file": "WhatsApp Image 2026-10-17 at 17.27.51.jpeg",
         "imageUrl": "/projects/ongoing/WhatsApp Image 2026-10-17 at 17.27.51.jpeg",
         "thumbnailUrl": "/projects/ongoing/WhatsApp Image 2026-10-17 at 17.27.51.jpeg",
@@ -469,7 +953,7 @@
         "aspect": "landscape"
       },
       {
-        "id": "photo-41",
+        "id": "photo-85",
         "file": "WhatsApp Image 2026-10-17 at 17.27.52.jpeg",
         "imageUrl": "/projects/ongoing/WhatsApp Image 2026-10-17 at 17.27.52.jpeg",
         "thumbnailUrl": "/projects/ongoing/WhatsApp Image 2026-10-17 at 17.27.52.jpeg",
@@ -480,7 +964,7 @@
         "aspect": "landscape"
       },
       {
-        "id": "photo-42",
+        "id": "photo-86",
         "file": "WhatsApp Image 2026-10-17 at 17.32.13.jpeg",
         "imageUrl": "/projects/ongoing/WhatsApp Image 2026-10-17 at 17.32.13.jpeg",
         "thumbnailUrl": "/projects/ongoing/WhatsApp Image 2026-10-17 at 17.32.13.jpeg",
@@ -491,7 +975,7 @@
         "aspect": "landscape"
       },
       {
-        "id": "photo-43",
+        "id": "photo-87",
         "file": "WhatsApp Image 2026-10-17 at 17.32.14.jpeg",
         "imageUrl": "/projects/ongoing/WhatsApp Image 2026-10-17 at 17.32.14.jpeg",
         "thumbnailUrl": "/projects/ongoing/WhatsApp Image 2026-10-17 at 17.32.14.jpeg",
@@ -502,7 +986,7 @@
         "aspect": "landscape"
       },
       {
-        "id": "photo-44",
+        "id": "photo-88",
         "file": "IMG-20261017-WA0133.jpg",
         "imageUrl": "/projects/interiors/IMG-20261017-WA0133.jpg",
         "thumbnailUrl": "/projects/interiors/IMG-20261017-WA0133.jpg",
@@ -513,7 +997,7 @@
         "aspect": "landscape"
       },
       {
-        "id": "photo-45",
+        "id": "photo-89",
         "file": "IMG-20261017-WA0135.jpg",
         "imageUrl": "/projects/interiors/IMG-20261017-WA0135.jpg",
         "thumbnailUrl": "/projects/interiors/IMG-20261017-WA0135.jpg",
@@ -524,7 +1008,7 @@
         "aspect": "landscape"
       },
       {
-        "id": "photo-46",
+        "id": "photo-90",
         "file": "IMG-20261017-WA0136.jpg",
         "imageUrl": "/projects/interiors/IMG-20261017-WA0136.jpg",
         "thumbnailUrl": "/projects/interiors/IMG-20261017-WA0136.jpg",
@@ -535,7 +1019,7 @@
         "aspect": "portrait"
       },
       {
-        "id": "photo-47",
+        "id": "photo-91",
         "file": "IMG-20261017-WA0138.jpg",
         "imageUrl": "/projects/interiors/IMG-20261017-WA0138.jpg",
         "thumbnailUrl": "/projects/interiors/IMG-20261017-WA0138.jpg",
@@ -546,7 +1030,7 @@
         "aspect": "landscape"
       },
       {
-        "id": "photo-48",
+        "id": "photo-92",
         "file": "IMG-20261017-WA0143.jpg",
         "imageUrl": "/projects/interiors/IMG-20261017-WA0143.jpg",
         "thumbnailUrl": "/projects/interiors/IMG-20261017-WA0143.jpg",
@@ -557,7 +1041,7 @@
         "aspect": "portrait"
       },
       {
-        "id": "photo-49",
+        "id": "photo-93",
         "file": "IMG-20261017-WA0144.jpg",
         "imageUrl": "/projects/interiors/IMG-20261017-WA0144.jpg",
         "thumbnailUrl": "/projects/interiors/IMG-20261017-WA0144.jpg",
@@ -568,7 +1052,7 @@
         "aspect": "portrait"
       },
       {
-        "id": "photo-50",
+        "id": "photo-94",
         "file": "IMG-20261020-WA0016.jpg",
         "imageUrl": "/projects/interiors/IMG-20261020-WA0016.jpg",
         "thumbnailUrl": "/projects/interiors/IMG-20261020-WA0016.jpg",
@@ -579,7 +1063,7 @@
         "aspect": "landscape"
       },
       {
-        "id": "photo-51",
+        "id": "photo-95",
         "file": "IMG-20261020-WA0019.jpg",
         "imageUrl": "/projects/interiors/IMG-20261020-WA0019.jpg",
         "thumbnailUrl": "/projects/interiors/IMG-20261020-WA0019.jpg",
@@ -590,7 +1074,7 @@
         "aspect": "landscape"
       },
       {
-        "id": "photo-52",
+        "id": "photo-96",
         "file": "IMG-20261020-WA0022.jpg",
         "imageUrl": "/projects/interiors/IMG-20261020-WA0022.jpg",
         "thumbnailUrl": "/projects/interiors/IMG-20261020-WA0022.jpg",
@@ -601,7 +1085,7 @@
         "aspect": "landscape"
       },
       {
-        "id": "photo-53",
+        "id": "photo-97",
         "file": "IMG-20261020-WA0025.jpg",
         "imageUrl": "/projects/interiors/IMG-20261020-WA0025.jpg",
         "thumbnailUrl": "/projects/interiors/IMG-20261020-WA0025.jpg",
@@ -612,7 +1096,7 @@
         "aspect": "landscape"
       },
       {
-        "id": "photo-54",
+        "id": "photo-98",
         "file": "IMG-20261020-WA0026.jpg",
         "imageUrl": "/projects/interiors/IMG-20261020-WA0026.jpg",
         "thumbnailUrl": "/projects/interiors/IMG-20261020-WA0026.jpg",
@@ -623,7 +1107,7 @@
         "aspect": "landscape"
       },
       {
-        "id": "photo-55",
+        "id": "photo-99",
         "file": "IMG-20261020-WA0028.jpg",
         "imageUrl": "/projects/interiors/IMG-20261020-WA0028.jpg",
         "thumbnailUrl": "/projects/interiors/IMG-20261020-WA0028.jpg",
@@ -634,7 +1118,7 @@
         "aspect": "landscape"
       },
       {
-        "id": "photo-56",
+        "id": "photo-100",
         "file": "IMG-20261020-WA0037.jpg",
         "imageUrl": "/projects/interiors/IMG-20261020-WA0037.jpg",
         "thumbnailUrl": "/projects/interiors/IMG-20261020-WA0037.jpg",
@@ -645,7 +1129,7 @@
         "aspect": "landscape"
       },
       {
-        "id": "photo-57",
+        "id": "photo-101",
         "file": "IMG-20261020-WA0040.jpg",
         "imageUrl": "/projects/interiors/IMG-20261020-WA0040.jpg",
         "thumbnailUrl": "/projects/interiors/IMG-20261020-WA0040.jpg",
@@ -656,7 +1140,7 @@
         "aspect": "landscape"
       },
       {
-        "id": "photo-58",
+        "id": "photo-102",
         "file": "IMG-20261020-WA0041.jpg",
         "imageUrl": "/projects/interiors/IMG-20261020-WA0041.jpg",
         "thumbnailUrl": "/projects/interiors/IMG-20261020-WA0041.jpg",
@@ -667,7 +1151,7 @@
         "aspect": "landscape"
       },
       {
-        "id": "photo-59",
+        "id": "photo-103",
         "file": "IMG-20261020-WA0045.jpg",
         "imageUrl": "/projects/interiors/IMG-20261020-WA0045.jpg",
         "thumbnailUrl": "/projects/interiors/IMG-20261020-WA0045.jpg",
@@ -678,7 +1162,7 @@
         "aspect": "landscape"
       },
       {
-        "id": "photo-60",
+        "id": "photo-104",
         "file": "IMG-20261020-WA0046.jpg",
         "imageUrl": "/projects/interiors/IMG-20261020-WA0046.jpg",
         "thumbnailUrl": "/projects/interiors/IMG-20261020-WA0046.jpg",
@@ -689,7 +1173,7 @@
         "aspect": "landscape"
       },
       {
-        "id": "photo-61",
+        "id": "photo-105",
         "file": "IMG-20261020-WA0048.jpg",
         "imageUrl": "/projects/interiors/IMG-20261020-WA0048.jpg",
         "thumbnailUrl": "/projects/interiors/IMG-20261020-WA0048.jpg",
@@ -700,7 +1184,7 @@
         "aspect": "landscape"
       },
       {
-        "id": "photo-62",
+        "id": "photo-106",
         "file": "IMG-20261020-WA0050.jpg",
         "imageUrl": "/projects/interiors/IMG-20261020-WA0050.jpg",
         "thumbnailUrl": "/projects/interiors/IMG-20261020-WA0050.jpg",
@@ -711,7 +1195,7 @@
         "aspect": "landscape"
       },
       {
-        "id": "photo-63",
+        "id": "photo-107",
         "file": "IMG-20261020-WA0052.jpg",
         "imageUrl": "/projects/interiors/IMG-20261020-WA0052.jpg",
         "thumbnailUrl": "/projects/interiors/IMG-20261020-WA0052.jpg",
@@ -722,7 +1206,7 @@
         "aspect": "landscape"
       },
       {
-        "id": "photo-64",
+        "id": "photo-108",
         "file": "IMG-20261020-WA0053.jpg",
         "imageUrl": "/projects/interiors/IMG-20261020-WA0053.jpg",
         "thumbnailUrl": "/projects/interiors/IMG-20261020-WA0053.jpg",
@@ -733,7 +1217,7 @@
         "aspect": "landscape"
       },
       {
-        "id": "photo-65",
+        "id": "photo-109",
         "file": "IMG-20261020-WA0054.jpg",
         "imageUrl": "/projects/interiors/IMG-20261020-WA0054.jpg",
         "thumbnailUrl": "/projects/interiors/IMG-20261020-WA0054.jpg",
@@ -744,7 +1228,7 @@
         "aspect": "landscape"
       },
       {
-        "id": "photo-66",
+        "id": "photo-110",
         "file": "IMG-20261020-WA0055.jpg",
         "imageUrl": "/projects/interiors/IMG-20261020-WA0055.jpg",
         "thumbnailUrl": "/projects/interiors/IMG-20261020-WA0055.jpg",
@@ -755,7 +1239,7 @@
         "aspect": "landscape"
       },
       {
-        "id": "photo-67",
+        "id": "photo-111",
         "file": "IMG-20261020-WA0056.jpg",
         "imageUrl": "/projects/interiors/IMG-20261020-WA0056.jpg",
         "thumbnailUrl": "/projects/interiors/IMG-20261020-WA0056.jpg",
@@ -766,7 +1250,7 @@
         "aspect": "landscape"
       },
       {
-        "id": "photo-68",
+        "id": "photo-112",
         "file": "IMG-20261020-WA0057.jpg",
         "imageUrl": "/projects/interiors/IMG-20261020-WA0057.jpg",
         "thumbnailUrl": "/projects/interiors/IMG-20261020-WA0057.jpg",
@@ -777,7 +1261,7 @@
         "aspect": "landscape"
       },
       {
-        "id": "photo-69",
+        "id": "photo-113",
         "file": "IMG-20261020-WA0058.jpg",
         "imageUrl": "/projects/interiors/IMG-20261020-WA0058.jpg",
         "thumbnailUrl": "/projects/interiors/IMG-20261020-WA0058.jpg",
@@ -788,7 +1272,7 @@
         "aspect": "landscape"
       },
       {
-        "id": "photo-70",
+        "id": "photo-114",
         "file": "IMG-20261020-WA0059.jpg",
         "imageUrl": "/projects/interiors/IMG-20261020-WA0059.jpg",
         "thumbnailUrl": "/projects/interiors/IMG-20261020-WA0059.jpg",
@@ -799,7 +1283,7 @@
         "aspect": "landscape"
       },
       {
-        "id": "photo-71",
+        "id": "photo-115",
         "file": "IMG-20261020-WA0060.jpg",
         "imageUrl": "/projects/interiors/IMG-20261020-WA0060.jpg",
         "thumbnailUrl": "/projects/interiors/IMG-20261020-WA0060.jpg",
@@ -810,7 +1294,7 @@
         "aspect": "landscape"
       },
       {
-        "id": "photo-72",
+        "id": "photo-116",
         "file": "IMG-20261020-WA0061.jpg",
         "imageUrl": "/projects/interiors/IMG-20261020-WA0061.jpg",
         "thumbnailUrl": "/projects/interiors/IMG-20261020-WA0061.jpg",
@@ -821,7 +1305,7 @@
         "aspect": "landscape"
       },
       {
-        "id": "photo-73",
+        "id": "photo-117",
         "file": "IMG-20261020-WA0062.jpg",
         "imageUrl": "/projects/interiors/IMG-20261020-WA0062.jpg",
         "thumbnailUrl": "/projects/interiors/IMG-20261020-WA0062.jpg",
@@ -832,7 +1316,7 @@
         "aspect": "landscape"
       },
       {
-        "id": "photo-74",
+        "id": "photo-118",
         "file": "IMG-20261020-WA0063.jpg",
         "imageUrl": "/projects/interiors/IMG-20261020-WA0063.jpg",
         "thumbnailUrl": "/projects/interiors/IMG-20261020-WA0063.jpg",
@@ -843,7 +1327,7 @@
         "aspect": "landscape"
       },
       {
-        "id": "photo-75",
+        "id": "photo-119",
         "file": "IMG-20261020-WA0064.jpg",
         "imageUrl": "/projects/interiors/IMG-20261020-WA0064.jpg",
         "thumbnailUrl": "/projects/interiors/IMG-20261020-WA0064.jpg",
@@ -854,7 +1338,7 @@
         "aspect": "landscape"
       },
       {
-        "id": "photo-76",
+        "id": "photo-120",
         "file": "IMG-20261020-WA0065.jpg",
         "imageUrl": "/projects/interiors/IMG-20261020-WA0065.jpg",
         "thumbnailUrl": "/projects/interiors/IMG-20261020-WA0065.jpg",
@@ -865,7 +1349,7 @@
         "aspect": "landscape"
       },
       {
-        "id": "photo-77",
+        "id": "photo-121",
         "file": "IMG-20261020-WA0066.jpg",
         "imageUrl": "/projects/interiors/IMG-20261020-WA0066.jpg",
         "thumbnailUrl": "/projects/interiors/IMG-20261020-WA0066.jpg",
@@ -876,7 +1360,7 @@
         "aspect": "landscape"
       },
       {
-        "id": "photo-78",
+        "id": "photo-122",
         "file": "IMG-20261020-WA0067.jpg",
         "imageUrl": "/projects/interiors/IMG-20261020-WA0067.jpg",
         "thumbnailUrl": "/projects/interiors/IMG-20261020-WA0067.jpg",
@@ -887,7 +1371,7 @@
         "aspect": "landscape"
       },
       {
-        "id": "photo-79",
+        "id": "photo-123",
         "file": "IMG-20261020-WA0068.jpg",
         "imageUrl": "/projects/interiors/IMG-20261020-WA0068.jpg",
         "thumbnailUrl": "/projects/interiors/IMG-20261020-WA0068.jpg",
@@ -898,7 +1382,7 @@
         "aspect": "landscape"
       },
       {
-        "id": "photo-80",
+        "id": "photo-124",
         "file": "IMG-20261020-WA0071.jpg",
         "imageUrl": "/projects/interiors/IMG-20261020-WA0071.jpg",
         "thumbnailUrl": "/projects/interiors/IMG-20261020-WA0071.jpg",
@@ -909,7 +1393,7 @@
         "aspect": "landscape"
       },
       {
-        "id": "photo-81",
+        "id": "photo-125",
         "file": "IMG-20261020-WA0072.jpg",
         "imageUrl": "/projects/interiors/IMG-20261020-WA0072.jpg",
         "thumbnailUrl": "/projects/interiors/IMG-20261020-WA0072.jpg",
@@ -920,7 +1404,7 @@
         "aspect": "landscape"
       },
       {
-        "id": "photo-82",
+        "id": "photo-126",
         "file": "IMG-20261020-WA0073.jpg",
         "imageUrl": "/projects/interiors/IMG-20261020-WA0073.jpg",
         "thumbnailUrl": "/projects/interiors/IMG-20261020-WA0073.jpg",
@@ -931,7 +1415,7 @@
         "aspect": "landscape"
       },
       {
-        "id": "photo-83",
+        "id": "photo-127",
         "file": "IMG-20261020-WA0074.jpg",
         "imageUrl": "/projects/interiors/IMG-20261020-WA0074.jpg",
         "thumbnailUrl": "/projects/interiors/IMG-20261020-WA0074.jpg",
@@ -942,7 +1426,7 @@
         "aspect": "landscape"
       },
       {
-        "id": "photo-84",
+        "id": "photo-128",
         "file": "IMG-20261020-WA0078.jpg",
         "imageUrl": "/projects/interiors/IMG-20261020-WA0078.jpg",
         "thumbnailUrl": "/projects/interiors/IMG-20261020-WA0078.jpg",
@@ -953,7 +1437,7 @@
         "aspect": "landscape"
       },
       {
-        "id": "photo-85",
+        "id": "photo-129",
         "file": "IMG-20261020-WA0080.jpg",
         "imageUrl": "/projects/interiors/IMG-20261020-WA0080.jpg",
         "thumbnailUrl": "/projects/interiors/IMG-20261020-WA0080.jpg",
@@ -964,7 +1448,7 @@
         "aspect": "landscape"
       },
       {
-        "id": "photo-86",
+        "id": "photo-130",
         "file": "IMG-20261020-WA0082.jpg",
         "imageUrl": "/projects/interiors/IMG-20261020-WA0082.jpg",
         "thumbnailUrl": "/projects/interiors/IMG-20261020-WA0082.jpg",
@@ -975,7 +1459,7 @@
         "aspect": "landscape"
       },
       {
-        "id": "photo-87",
+        "id": "photo-131",
         "file": "IMG-20261020-WA0083.jpg",
         "imageUrl": "/projects/interiors/IMG-20261020-WA0083.jpg",
         "thumbnailUrl": "/projects/interiors/IMG-20261020-WA0083.jpg",
@@ -986,7 +1470,7 @@
         "aspect": "landscape"
       },
       {
-        "id": "photo-88",
+        "id": "photo-132",
         "file": "WhatsApp Image 2026-10-17 at 17.57.29.jpeg",
         "imageUrl": "/projects/interiors/WhatsApp Image 2026-10-17 at 17.57.29.jpeg",
         "thumbnailUrl": "/projects/interiors/WhatsApp Image 2026-10-17 at 17.57.29.jpeg",
@@ -1301,17 +1785,6 @@
       },
       {
         "id": "photo-28",
-        "file": "IMG-20261017-WA0070.jpg",
-        "imageUrl": "/projects/ongoing/IMG-20261017-WA0070.jpg",
-        "thumbnailUrl": "/projects/ongoing/IMG-20261017-WA0070.jpg",
-        "title": "G+3 Building External Plastering & Scaffolding",
-        "alt": "Active on-site construction progress with bamboo scaffolding for exterior cement plastering",
-        "tag": "Site Scaffolding",
-        "category": "ongoing",
-        "aspect": "portrait"
-      },
-      {
-        "id": "photo-29",
         "file": "IMG-20261017-WA0074.jpg",
         "imageUrl": "/projects/ongoing/IMG-20261017-WA0074.jpg",
         "thumbnailUrl": "/projects/ongoing/IMG-20261017-WA0074.jpg",
@@ -1322,7 +1795,7 @@
         "aspect": "landscape"
       },
       {
-        "id": "photo-30",
+        "id": "photo-29",
         "file": "IMG-20261017-WA0076.jpg",
         "imageUrl": "/projects/ongoing/IMG-20261017-WA0076.jpg",
         "thumbnailUrl": "/projects/ongoing/IMG-20261017-WA0076.jpg",
@@ -1333,7 +1806,7 @@
         "aspect": "landscape"
       },
       {
-        "id": "photo-31",
+        "id": "photo-30",
         "file": "IMG-20261017-WA0079.jpg",
         "imageUrl": "/projects/ongoing/IMG-20261017-WA0079.jpg",
         "thumbnailUrl": "/projects/ongoing/IMG-20261017-WA0079.jpg",
@@ -1344,7 +1817,7 @@
         "aspect": "portrait"
       },
       {
-        "id": "photo-32",
+        "id": "photo-31",
         "file": "IMG-20261017-WA0081.jpg",
         "imageUrl": "/projects/ongoing/IMG-20261017-WA0081.jpg",
         "thumbnailUrl": "/projects/ongoing/IMG-20261017-WA0081.jpg",
@@ -1355,7 +1828,7 @@
         "aspect": "portrait"
       },
       {
-        "id": "photo-33",
+        "id": "photo-32",
         "file": "IMG-20261017-WA0092.jpg",
         "imageUrl": "/projects/ongoing/IMG-20261017-WA0092.jpg",
         "thumbnailUrl": "/projects/ongoing/IMG-20261017-WA0092.jpg",
@@ -1366,7 +1839,7 @@
         "aspect": "landscape"
       },
       {
-        "id": "photo-34",
+        "id": "photo-33",
         "file": "IMG-20261017-WA0099.jpg",
         "imageUrl": "/projects/ongoing/IMG-20261017-WA0099.jpg",
         "thumbnailUrl": "/projects/ongoing/IMG-20261017-WA0099.jpg",
@@ -1377,7 +1850,7 @@
         "aspect": "landscape"
       },
       {
-        "id": "photo-35",
+        "id": "photo-34",
         "file": "IMG-20261017-WA0100.jpg",
         "imageUrl": "/projects/ongoing/IMG-20261017-WA0100.jpg",
         "thumbnailUrl": "/projects/ongoing/IMG-20261017-WA0100.jpg",
@@ -1388,7 +1861,7 @@
         "aspect": "landscape"
       },
       {
-        "id": "photo-36",
+        "id": "photo-35",
         "file": "IMG-20261017-WA0103.jpg",
         "imageUrl": "/projects/ongoing/IMG-20261017-WA0103.jpg",
         "thumbnailUrl": "/projects/ongoing/IMG-20261017-WA0103.jpg",
@@ -1399,7 +1872,7 @@
         "aspect": "portrait"
       },
       {
-        "id": "photo-37",
+        "id": "photo-36",
         "file": "IMG-20261017-WA0105.jpg",
         "imageUrl": "/projects/ongoing/IMG-20261017-WA0105.jpg",
         "thumbnailUrl": "/projects/ongoing/IMG-20261017-WA0105.jpg",
@@ -1410,7 +1883,7 @@
         "aspect": "landscape"
       },
       {
-        "id": "photo-38",
+        "id": "photo-37",
         "file": "IMG-20261017-WA0107.jpg",
         "imageUrl": "/projects/ongoing/IMG-20261017-WA0107.jpg",
         "thumbnailUrl": "/projects/ongoing/IMG-20261017-WA0107.jpg",
@@ -1421,7 +1894,29 @@
         "aspect": "landscape"
       },
       {
+        "id": "photo-38",
+        "file": "IMG-20261017-WA0118.jpg",
+        "imageUrl": "/projects/ongoing/IMG-20261017-WA0118.jpg",
+        "thumbnailUrl": "/projects/ongoing/IMG-20261017-WA0118.jpg",
+        "title": "Ongoing Construction Project #13",
+        "alt": "Ongoing Construction Project #13 - SR BUILDTEC",
+        "tag": "Ongoing Project",
+        "category": "ongoing",
+        "aspect": "landscape"
+      },
+      {
         "id": "photo-39",
+        "file": "IMG-20261017-WA0120.jpg",
+        "imageUrl": "/projects/ongoing/IMG-20261017-WA0120.jpg",
+        "thumbnailUrl": "/projects/ongoing/IMG-20261017-WA0120.jpg",
+        "title": "Ongoing Construction Project #14",
+        "alt": "Ongoing Construction Project #14 - SR BUILDTEC",
+        "tag": "Ongoing Project",
+        "category": "ongoing",
+        "aspect": "landscape"
+      },
+      {
+        "id": "photo-40",
         "file": "IMG-20261017-WA0153.jpg",
         "imageUrl": "/projects/ongoing/IMG-20261017-WA0153.jpg",
         "thumbnailUrl": "/projects/ongoing/IMG-20261017-WA0153.jpg",
@@ -1432,7 +1927,480 @@
         "aspect": "portrait"
       },
       {
-        "id": "photo-40",
+        "id": "photo-41",
+        "file": "IMG-20261017-WA0165.jpg",
+        "imageUrl": "/projects/ongoing/IMG-20261017-WA0165.jpg",
+        "thumbnailUrl": "/projects/ongoing/IMG-20261017-WA0165.jpg",
+        "title": "Ongoing Construction Project #16",
+        "alt": "Ongoing Construction Project #16 - SR BUILDTEC",
+        "tag": "Ongoing Project",
+        "category": "ongoing",
+        "aspect": "landscape"
+      },
+      {
+        "id": "photo-42",
+        "file": "IMG-20261017-WA0167.jpg",
+        "imageUrl": "/projects/ongoing/IMG-20261017-WA0167.jpg",
+        "thumbnailUrl": "/projects/ongoing/IMG-20261017-WA0167.jpg",
+        "title": "Ongoing Construction Project #17",
+        "alt": "Ongoing Construction Project #17 - SR BUILDTEC",
+        "tag": "Ongoing Project",
+        "category": "ongoing",
+        "aspect": "landscape"
+      },
+      {
+        "id": "photo-43",
+        "file": "IMG-20261020-WA0088.jpg",
+        "imageUrl": "/projects/ongoing/IMG-20261020-WA0088.jpg",
+        "thumbnailUrl": "/projects/ongoing/IMG-20261020-WA0088.jpg",
+        "title": "Ongoing Construction Project #18",
+        "alt": "Ongoing Construction Project #18 - SR BUILDTEC",
+        "tag": "Ongoing Project",
+        "category": "ongoing",
+        "aspect": "landscape"
+      },
+      {
+        "id": "photo-44",
+        "file": "IMG-20261020-WA0090.jpg",
+        "imageUrl": "/projects/ongoing/IMG-20261020-WA0090.jpg",
+        "thumbnailUrl": "/projects/ongoing/IMG-20261020-WA0090.jpg",
+        "title": "Ongoing Construction Project #19",
+        "alt": "Ongoing Construction Project #19 - SR BUILDTEC",
+        "tag": "Ongoing Project",
+        "category": "ongoing",
+        "aspect": "landscape"
+      },
+      {
+        "id": "photo-45",
+        "file": "IMG-20261020-WA0091.jpg",
+        "imageUrl": "/projects/ongoing/IMG-20261020-WA0091.jpg",
+        "thumbnailUrl": "/projects/ongoing/IMG-20261020-WA0091.jpg",
+        "title": "Ongoing Construction Project #20",
+        "alt": "Ongoing Construction Project #20 - SR BUILDTEC",
+        "tag": "Ongoing Project",
+        "category": "ongoing",
+        "aspect": "landscape"
+      },
+      {
+        "id": "photo-46",
+        "file": "IMG-20261020-WA0092.jpg",
+        "imageUrl": "/projects/ongoing/IMG-20261020-WA0092.jpg",
+        "thumbnailUrl": "/projects/ongoing/IMG-20261020-WA0092.jpg",
+        "title": "Ongoing Construction Project #21",
+        "alt": "Ongoing Construction Project #21 - SR BUILDTEC",
+        "tag": "Ongoing Project",
+        "category": "ongoing",
+        "aspect": "landscape"
+      },
+      {
+        "id": "photo-47",
+        "file": "IMG-20261020-WA0094.jpg",
+        "imageUrl": "/projects/ongoing/IMG-20261020-WA0094.jpg",
+        "thumbnailUrl": "/projects/ongoing/IMG-20261020-WA0094.jpg",
+        "title": "Ongoing Construction Project #22",
+        "alt": "Ongoing Construction Project #22 - SR BUILDTEC",
+        "tag": "Ongoing Project",
+        "category": "ongoing",
+        "aspect": "landscape"
+      },
+      {
+        "id": "photo-48",
+        "file": "IMG-20261020-WA0095.jpg",
+        "imageUrl": "/projects/ongoing/IMG-20261020-WA0095.jpg",
+        "thumbnailUrl": "/projects/ongoing/IMG-20261020-WA0095.jpg",
+        "title": "Ongoing Construction Project #23",
+        "alt": "Ongoing Construction Project #23 - SR BUILDTEC",
+        "tag": "Ongoing Project",
+        "category": "ongoing",
+        "aspect": "landscape"
+      },
+      {
+        "id": "photo-49",
+        "file": "IMG-20261020-WA0097.jpg",
+        "imageUrl": "/projects/ongoing/IMG-20261020-WA0097.jpg",
+        "thumbnailUrl": "/projects/ongoing/IMG-20261020-WA0097.jpg",
+        "title": "Ongoing Construction Project #24",
+        "alt": "Ongoing Construction Project #24 - SR BUILDTEC",
+        "tag": "Ongoing Project",
+        "category": "ongoing",
+        "aspect": "landscape"
+      },
+      {
+        "id": "photo-50",
+        "file": "IMG-20261020-WA0098.jpg",
+        "imageUrl": "/projects/ongoing/IMG-20261020-WA0098.jpg",
+        "thumbnailUrl": "/projects/ongoing/IMG-20261020-WA0098.jpg",
+        "title": "Ongoing Construction Project #25",
+        "alt": "Ongoing Construction Project #25 - SR BUILDTEC",
+        "tag": "Ongoing Project",
+        "category": "ongoing",
+        "aspect": "landscape"
+      },
+      {
+        "id": "photo-51",
+        "file": "IMG-20261020-WA0099.jpg",
+        "imageUrl": "/projects/ongoing/IMG-20261020-WA0099.jpg",
+        "thumbnailUrl": "/projects/ongoing/IMG-20261020-WA0099.jpg",
+        "title": "Ongoing Construction Project #26",
+        "alt": "Ongoing Construction Project #26 - SR BUILDTEC",
+        "tag": "Ongoing Project",
+        "category": "ongoing",
+        "aspect": "landscape"
+      },
+      {
+        "id": "photo-52",
+        "file": "IMG-20261020-WA0101.jpg",
+        "imageUrl": "/projects/ongoing/IMG-20261020-WA0101.jpg",
+        "thumbnailUrl": "/projects/ongoing/IMG-20261020-WA0101.jpg",
+        "title": "Ongoing Construction Project #27",
+        "alt": "Ongoing Construction Project #27 - SR BUILDTEC",
+        "tag": "Ongoing Project",
+        "category": "ongoing",
+        "aspect": "landscape"
+      },
+      {
+        "id": "photo-53",
+        "file": "IMG-20261020-WA0103.jpg",
+        "imageUrl": "/projects/ongoing/IMG-20261020-WA0103.jpg",
+        "thumbnailUrl": "/projects/ongoing/IMG-20261020-WA0103.jpg",
+        "title": "Ongoing Construction Project #28",
+        "alt": "Ongoing Construction Project #28 - SR BUILDTEC",
+        "tag": "Ongoing Project",
+        "category": "ongoing",
+        "aspect": "landscape"
+      },
+      {
+        "id": "photo-54",
+        "file": "IMG-20261020-WA0104.jpg",
+        "imageUrl": "/projects/ongoing/IMG-20261020-WA0104.jpg",
+        "thumbnailUrl": "/projects/ongoing/IMG-20261020-WA0104.jpg",
+        "title": "Ongoing Construction Project #29",
+        "alt": "Ongoing Construction Project #29 - SR BUILDTEC",
+        "tag": "Ongoing Project",
+        "category": "ongoing",
+        "aspect": "landscape"
+      },
+      {
+        "id": "photo-55",
+        "file": "IMG-20261020-WA0105.jpg",
+        "imageUrl": "/projects/ongoing/IMG-20261020-WA0105.jpg",
+        "thumbnailUrl": "/projects/ongoing/IMG-20261020-WA0105.jpg",
+        "title": "Ongoing Construction Project #30",
+        "alt": "Ongoing Construction Project #30 - SR BUILDTEC",
+        "tag": "Ongoing Project",
+        "category": "ongoing",
+        "aspect": "landscape"
+      },
+      {
+        "id": "photo-56",
+        "file": "IMG-20261020-WA0106.jpg",
+        "imageUrl": "/projects/ongoing/IMG-20261020-WA0106.jpg",
+        "thumbnailUrl": "/projects/ongoing/IMG-20261020-WA0106.jpg",
+        "title": "Ongoing Construction Project #31",
+        "alt": "Ongoing Construction Project #31 - SR BUILDTEC",
+        "tag": "Ongoing Project",
+        "category": "ongoing",
+        "aspect": "landscape"
+      },
+      {
+        "id": "photo-57",
+        "file": "IMG-20261020-WA0108.jpg",
+        "imageUrl": "/projects/ongoing/IMG-20261020-WA0108.jpg",
+        "thumbnailUrl": "/projects/ongoing/IMG-20261020-WA0108.jpg",
+        "title": "Ongoing Construction Project #32",
+        "alt": "Ongoing Construction Project #32 - SR BUILDTEC",
+        "tag": "Ongoing Project",
+        "category": "ongoing",
+        "aspect": "landscape"
+      },
+      {
+        "id": "photo-58",
+        "file": "IMG-20261020-WA0109.jpg",
+        "imageUrl": "/projects/ongoing/IMG-20261020-WA0109.jpg",
+        "thumbnailUrl": "/projects/ongoing/IMG-20261020-WA0109.jpg",
+        "title": "Ongoing Construction Project #33",
+        "alt": "Ongoing Construction Project #33 - SR BUILDTEC",
+        "tag": "Ongoing Project",
+        "category": "ongoing",
+        "aspect": "landscape"
+      },
+      {
+        "id": "photo-59",
+        "file": "IMG-20261020-WA0111.jpg",
+        "imageUrl": "/projects/ongoing/IMG-20261020-WA0111.jpg",
+        "thumbnailUrl": "/projects/ongoing/IMG-20261020-WA0111.jpg",
+        "title": "Ongoing Construction Project #34",
+        "alt": "Ongoing Construction Project #34 - SR BUILDTEC",
+        "tag": "Ongoing Project",
+        "category": "ongoing",
+        "aspect": "landscape"
+      },
+      {
+        "id": "photo-60",
+        "file": "IMG-20261020-WA0112.jpg",
+        "imageUrl": "/projects/ongoing/IMG-20261020-WA0112.jpg",
+        "thumbnailUrl": "/projects/ongoing/IMG-20261020-WA0112.jpg",
+        "title": "Ongoing Construction Project #35",
+        "alt": "Ongoing Construction Project #35 - SR BUILDTEC",
+        "tag": "Ongoing Project",
+        "category": "ongoing",
+        "aspect": "landscape"
+      },
+      {
+        "id": "photo-61",
+        "file": "IMG-20261020-WA0113.jpg",
+        "imageUrl": "/projects/ongoing/IMG-20261020-WA0113.jpg",
+        "thumbnailUrl": "/projects/ongoing/IMG-20261020-WA0113.jpg",
+        "title": "Ongoing Construction Project #36",
+        "alt": "Ongoing Construction Project #36 - SR BUILDTEC",
+        "tag": "Ongoing Project",
+        "category": "ongoing",
+        "aspect": "landscape"
+      },
+      {
+        "id": "photo-62",
+        "file": "IMG-20261020-WA0114.jpg",
+        "imageUrl": "/projects/ongoing/IMG-20261020-WA0114.jpg",
+        "thumbnailUrl": "/projects/ongoing/IMG-20261020-WA0114.jpg",
+        "title": "Ongoing Construction Project #37",
+        "alt": "Ongoing Construction Project #37 - SR BUILDTEC",
+        "tag": "Ongoing Project",
+        "category": "ongoing",
+        "aspect": "landscape"
+      },
+      {
+        "id": "photo-63",
+        "file": "IMG-20261020-WA0115.jpg",
+        "imageUrl": "/projects/ongoing/IMG-20261020-WA0115.jpg",
+        "thumbnailUrl": "/projects/ongoing/IMG-20261020-WA0115.jpg",
+        "title": "Ongoing Construction Project #38",
+        "alt": "Ongoing Construction Project #38 - SR BUILDTEC",
+        "tag": "Ongoing Project",
+        "category": "ongoing",
+        "aspect": "landscape"
+      },
+      {
+        "id": "photo-64",
+        "file": "IMG-20261020-WA0116.jpg",
+        "imageUrl": "/projects/ongoing/IMG-20261020-WA0116.jpg",
+        "thumbnailUrl": "/projects/ongoing/IMG-20261020-WA0116.jpg",
+        "title": "Ongoing Construction Project #39",
+        "alt": "Ongoing Construction Project #39 - SR BUILDTEC",
+        "tag": "Ongoing Project",
+        "category": "ongoing",
+        "aspect": "landscape"
+      },
+      {
+        "id": "photo-65",
+        "file": "IMG-20261020-WA0117.jpg",
+        "imageUrl": "/projects/ongoing/IMG-20261020-WA0117.jpg",
+        "thumbnailUrl": "/projects/ongoing/IMG-20261020-WA0117.jpg",
+        "title": "Ongoing Construction Project #40",
+        "alt": "Ongoing Construction Project #40 - SR BUILDTEC",
+        "tag": "Ongoing Project",
+        "category": "ongoing",
+        "aspect": "landscape"
+      },
+      {
+        "id": "photo-66",
+        "file": "IMG-20261020-WA0118.jpg",
+        "imageUrl": "/projects/ongoing/IMG-20261020-WA0118.jpg",
+        "thumbnailUrl": "/projects/ongoing/IMG-20261020-WA0118.jpg",
+        "title": "Ongoing Construction Project #41",
+        "alt": "Ongoing Construction Project #41 - SR BUILDTEC",
+        "tag": "Ongoing Project",
+        "category": "ongoing",
+        "aspect": "landscape"
+      },
+      {
+        "id": "photo-67",
+        "file": "IMG-20261020-WA0119.jpg",
+        "imageUrl": "/projects/ongoing/IMG-20261020-WA0119.jpg",
+        "thumbnailUrl": "/projects/ongoing/IMG-20261020-WA0119.jpg",
+        "title": "Ongoing Construction Project #42",
+        "alt": "Ongoing Construction Project #42 - SR BUILDTEC",
+        "tag": "Ongoing Project",
+        "category": "ongoing",
+        "aspect": "landscape"
+      },
+      {
+        "id": "photo-68",
+        "file": "IMG-20261020-WA0121.jpg",
+        "imageUrl": "/projects/ongoing/IMG-20261020-WA0121.jpg",
+        "thumbnailUrl": "/projects/ongoing/IMG-20261020-WA0121.jpg",
+        "title": "Ongoing Construction Project #43",
+        "alt": "Ongoing Construction Project #43 - SR BUILDTEC",
+        "tag": "Ongoing Project",
+        "category": "ongoing",
+        "aspect": "landscape"
+      },
+      {
+        "id": "photo-69",
+        "file": "IMG-20261020-WA0122.jpg",
+        "imageUrl": "/projects/ongoing/IMG-20261020-WA0122.jpg",
+        "thumbnailUrl": "/projects/ongoing/IMG-20261020-WA0122.jpg",
+        "title": "Ongoing Construction Project #44",
+        "alt": "Ongoing Construction Project #44 - SR BUILDTEC",
+        "tag": "Ongoing Project",
+        "category": "ongoing",
+        "aspect": "landscape"
+      },
+      {
+        "id": "photo-70",
+        "file": "IMG-20261020-WA0123.jpg",
+        "imageUrl": "/projects/ongoing/IMG-20261020-WA0123.jpg",
+        "thumbnailUrl": "/projects/ongoing/IMG-20261020-WA0123.jpg",
+        "title": "Ongoing Construction Project #45",
+        "alt": "Ongoing Construction Project #45 - SR BUILDTEC",
+        "tag": "Ongoing Project",
+        "category": "ongoing",
+        "aspect": "landscape"
+      },
+      {
+        "id": "photo-71",
+        "file": "IMG-20261020-WA0124.jpg",
+        "imageUrl": "/projects/ongoing/IMG-20261020-WA0124.jpg",
+        "thumbnailUrl": "/projects/ongoing/IMG-20261020-WA0124.jpg",
+        "title": "Ongoing Construction Project #46",
+        "alt": "Ongoing Construction Project #46 - SR BUILDTEC",
+        "tag": "Ongoing Project",
+        "category": "ongoing",
+        "aspect": "landscape"
+      },
+      {
+        "id": "photo-72",
+        "file": "IMG-20261020-WA0125.jpg",
+        "imageUrl": "/projects/ongoing/IMG-20261020-WA0125.jpg",
+        "thumbnailUrl": "/projects/ongoing/IMG-20261020-WA0125.jpg",
+        "title": "Ongoing Construction Project #47",
+        "alt": "Ongoing Construction Project #47 - SR BUILDTEC",
+        "tag": "Ongoing Project",
+        "category": "ongoing",
+        "aspect": "landscape"
+      },
+      {
+        "id": "photo-73",
+        "file": "IMG-20261020-WA0126.jpg",
+        "imageUrl": "/projects/ongoing/IMG-20261020-WA0126.jpg",
+        "thumbnailUrl": "/projects/ongoing/IMG-20261020-WA0126.jpg",
+        "title": "Ongoing Construction Project #48",
+        "alt": "Ongoing Construction Project #48 - SR BUILDTEC",
+        "tag": "Ongoing Project",
+        "category": "ongoing",
+        "aspect": "landscape"
+      },
+      {
+        "id": "photo-74",
+        "file": "IMG-20261020-WA0127.jpg",
+        "imageUrl": "/projects/ongoing/IMG-20261020-WA0127.jpg",
+        "thumbnailUrl": "/projects/ongoing/IMG-20261020-WA0127.jpg",
+        "title": "Ongoing Construction Project #49",
+        "alt": "Ongoing Construction Project #49 - SR BUILDTEC",
+        "tag": "Ongoing Project",
+        "category": "ongoing",
+        "aspect": "landscape"
+      },
+      {
+        "id": "photo-75",
+        "file": "IMG-20261020-WA0128.jpg",
+        "imageUrl": "/projects/ongoing/IMG-20261020-WA0128.jpg",
+        "thumbnailUrl": "/projects/ongoing/IMG-20261020-WA0128.jpg",
+        "title": "Ongoing Construction Project #50",
+        "alt": "Ongoing Construction Project #50 - SR BUILDTEC",
+        "tag": "Ongoing Project",
+        "category": "ongoing",
+        "aspect": "landscape"
+      },
+      {
+        "id": "photo-76",
+        "file": "IMG-20261020-WA0129.jpg",
+        "imageUrl": "/projects/ongoing/IMG-20261020-WA0129.jpg",
+        "thumbnailUrl": "/projects/ongoing/IMG-20261020-WA0129.jpg",
+        "title": "Ongoing Construction Project #51",
+        "alt": "Ongoing Construction Project #51 - SR BUILDTEC",
+        "tag": "Ongoing Project",
+        "category": "ongoing",
+        "aspect": "landscape"
+      },
+      {
+        "id": "photo-77",
+        "file": "IMG-20261020-WA0131.jpg",
+        "imageUrl": "/projects/ongoing/IMG-20261020-WA0131.jpg",
+        "thumbnailUrl": "/projects/ongoing/IMG-20261020-WA0131.jpg",
+        "title": "Ongoing Construction Project #52",
+        "alt": "Ongoing Construction Project #52 - SR BUILDTEC",
+        "tag": "Ongoing Project",
+        "category": "ongoing",
+        "aspect": "landscape"
+      },
+      {
+        "id": "photo-78",
+        "file": "IMG-20261020-WA0133.jpg",
+        "imageUrl": "/projects/ongoing/IMG-20261020-WA0133.jpg",
+        "thumbnailUrl": "/projects/ongoing/IMG-20261020-WA0133.jpg",
+        "title": "Ongoing Construction Project #53",
+        "alt": "Ongoing Construction Project #53 - SR BUILDTEC",
+        "tag": "Ongoing Project",
+        "category": "ongoing",
+        "aspect": "landscape"
+      },
+      {
+        "id": "photo-79",
+        "file": "IMG-20261020-WA0134.jpg",
+        "imageUrl": "/projects/ongoing/IMG-20261020-WA0134.jpg",
+        "thumbnailUrl": "/projects/ongoing/IMG-20261020-WA0134.jpg",
+        "title": "Ongoing Construction Project #54",
+        "alt": "Ongoing Construction Project #54 - SR BUILDTEC",
+        "tag": "Ongoing Project",
+        "category": "ongoing",
+        "aspect": "landscape"
+      },
+      {
+        "id": "photo-80",
+        "file": "IMG-20261020-WA0135.jpg",
+        "imageUrl": "/projects/ongoing/IMG-20261020-WA0135.jpg",
+        "thumbnailUrl": "/projects/ongoing/IMG-20261020-WA0135.jpg",
+        "title": "High-Rise Commercial Rooftop Tower Crane Operation",
+        "alt": "Kalpataru tower crane operations and structural steel framing overlooking city skyline",
+        "tag": "Commercial High-Rise",
+        "category": "ongoing",
+        "aspect": "landscape"
+      },
+      {
+        "id": "photo-81",
+        "file": "IMG-20261020-WA0136.jpg",
+        "imageUrl": "/projects/ongoing/IMG-20261020-WA0136.jpg",
+        "thumbnailUrl": "/projects/ongoing/IMG-20261020-WA0136.jpg",
+        "title": "Ongoing Construction Project #56",
+        "alt": "Ongoing Construction Project #56 - SR BUILDTEC",
+        "tag": "Ongoing Project",
+        "category": "ongoing",
+        "aspect": "landscape"
+      },
+      {
+        "id": "photo-82",
+        "file": "IMG-20261020-WA0137.jpg",
+        "imageUrl": "/projects/ongoing/IMG-20261020-WA0137.jpg",
+        "thumbnailUrl": "/projects/ongoing/IMG-20261020-WA0137.jpg",
+        "title": "Ongoing Construction Project #57",
+        "alt": "Ongoing Construction Project #57 - SR BUILDTEC",
+        "tag": "Ongoing Project",
+        "category": "ongoing",
+        "aspect": "landscape"
+      },
+      {
+        "id": "photo-83",
+        "file": "IMG-20261020-WA0140.jpg",
+        "imageUrl": "/projects/ongoing/IMG-20261020-WA0140.jpg",
+        "thumbnailUrl": "/projects/ongoing/IMG-20261020-WA0140.jpg",
+        "title": "Ongoing Construction Project #58",
+        "alt": "Ongoing Construction Project #58 - SR BUILDTEC",
+        "tag": "Ongoing Project",
+        "category": "ongoing",
+        "aspect": "landscape"
+      },
+      {
+        "id": "photo-84",
         "file": "WhatsApp Image 2026-10-17 at 17.27.51.jpeg",
         "imageUrl": "/projects/ongoing/WhatsApp Image 2026-10-17 at 17.27.51.jpeg",
         "thumbnailUrl": "/projects/ongoing/WhatsApp Image 2026-10-17 at 17.27.51.jpeg",
@@ -1443,7 +2411,7 @@
         "aspect": "landscape"
       },
       {
-        "id": "photo-41",
+        "id": "photo-85",
         "file": "WhatsApp Image 2026-10-17 at 17.27.52.jpeg",
         "imageUrl": "/projects/ongoing/WhatsApp Image 2026-10-17 at 17.27.52.jpeg",
         "thumbnailUrl": "/projects/ongoing/WhatsApp Image 2026-10-17 at 17.27.52.jpeg",
@@ -1454,7 +2422,7 @@
         "aspect": "landscape"
       },
       {
-        "id": "photo-42",
+        "id": "photo-86",
         "file": "WhatsApp Image 2026-10-17 at 17.32.13.jpeg",
         "imageUrl": "/projects/ongoing/WhatsApp Image 2026-10-17 at 17.32.13.jpeg",
         "thumbnailUrl": "/projects/ongoing/WhatsApp Image 2026-10-17 at 17.32.13.jpeg",
@@ -1465,7 +2433,7 @@
         "aspect": "landscape"
       },
       {
-        "id": "photo-43",
+        "id": "photo-87",
         "file": "WhatsApp Image 2026-10-17 at 17.32.14.jpeg",
         "imageUrl": "/projects/ongoing/WhatsApp Image 2026-10-17 at 17.32.14.jpeg",
         "thumbnailUrl": "/projects/ongoing/WhatsApp Image 2026-10-17 at 17.32.14.jpeg",
@@ -1478,7 +2446,7 @@
     ],
     "interiors": [
       {
-        "id": "photo-44",
+        "id": "photo-88",
         "file": "IMG-20261017-WA0133.jpg",
         "imageUrl": "/projects/interiors/IMG-20261017-WA0133.jpg",
         "thumbnailUrl": "/projects/interiors/IMG-20261017-WA0133.jpg",
@@ -1489,7 +2457,7 @@
         "aspect": "landscape"
       },
       {
-        "id": "photo-45",
+        "id": "photo-89",
         "file": "IMG-20261017-WA0135.jpg",
         "imageUrl": "/projects/interiors/IMG-20261017-WA0135.jpg",
         "thumbnailUrl": "/projects/interiors/IMG-20261017-WA0135.jpg",
@@ -1500,7 +2468,7 @@
         "aspect": "landscape"
       },
       {
-        "id": "photo-46",
+        "id": "photo-90",
         "file": "IMG-20261017-WA0136.jpg",
         "imageUrl": "/projects/interiors/IMG-20261017-WA0136.jpg",
         "thumbnailUrl": "/projects/interiors/IMG-20261017-WA0136.jpg",
@@ -1511,7 +2479,7 @@
         "aspect": "portrait"
       },
       {
-        "id": "photo-47",
+        "id": "photo-91",
         "file": "IMG-20261017-WA0138.jpg",
         "imageUrl": "/projects/interiors/IMG-20261017-WA0138.jpg",
         "thumbnailUrl": "/projects/interiors/IMG-20261017-WA0138.jpg",
@@ -1522,7 +2490,7 @@
         "aspect": "landscape"
       },
       {
-        "id": "photo-48",
+        "id": "photo-92",
         "file": "IMG-20261017-WA0143.jpg",
         "imageUrl": "/projects/interiors/IMG-20261017-WA0143.jpg",
         "thumbnailUrl": "/projects/interiors/IMG-20261017-WA0143.jpg",
@@ -1533,7 +2501,7 @@
         "aspect": "portrait"
       },
       {
-        "id": "photo-49",
+        "id": "photo-93",
         "file": "IMG-20261017-WA0144.jpg",
         "imageUrl": "/projects/interiors/IMG-20261017-WA0144.jpg",
         "thumbnailUrl": "/projects/interiors/IMG-20261017-WA0144.jpg",
@@ -1544,7 +2512,7 @@
         "aspect": "portrait"
       },
       {
-        "id": "photo-50",
+        "id": "photo-94",
         "file": "IMG-20261020-WA0016.jpg",
         "imageUrl": "/projects/interiors/IMG-20261020-WA0016.jpg",
         "thumbnailUrl": "/projects/interiors/IMG-20261020-WA0016.jpg",
@@ -1555,7 +2523,7 @@
         "aspect": "landscape"
       },
       {
-        "id": "photo-51",
+        "id": "photo-95",
         "file": "IMG-20261020-WA0019.jpg",
         "imageUrl": "/projects/interiors/IMG-20261020-WA0019.jpg",
         "thumbnailUrl": "/projects/interiors/IMG-20261020-WA0019.jpg",
@@ -1566,7 +2534,7 @@
         "aspect": "landscape"
       },
       {
-        "id": "photo-52",
+        "id": "photo-96",
         "file": "IMG-20261020-WA0022.jpg",
         "imageUrl": "/projects/interiors/IMG-20261020-WA0022.jpg",
         "thumbnailUrl": "/projects/interiors/IMG-20261020-WA0022.jpg",
@@ -1577,7 +2545,7 @@
         "aspect": "landscape"
       },
       {
-        "id": "photo-53",
+        "id": "photo-97",
         "file": "IMG-20261020-WA0025.jpg",
         "imageUrl": "/projects/interiors/IMG-20261020-WA0025.jpg",
         "thumbnailUrl": "/projects/interiors/IMG-20261020-WA0025.jpg",
@@ -1588,7 +2556,7 @@
         "aspect": "landscape"
       },
       {
-        "id": "photo-54",
+        "id": "photo-98",
         "file": "IMG-20261020-WA0026.jpg",
         "imageUrl": "/projects/interiors/IMG-20261020-WA0026.jpg",
         "thumbnailUrl": "/projects/interiors/IMG-20261020-WA0026.jpg",
@@ -1599,7 +2567,7 @@
         "aspect": "landscape"
       },
       {
-        "id": "photo-55",
+        "id": "photo-99",
         "file": "IMG-20261020-WA0028.jpg",
         "imageUrl": "/projects/interiors/IMG-20261020-WA0028.jpg",
         "thumbnailUrl": "/projects/interiors/IMG-20261020-WA0028.jpg",
@@ -1610,7 +2578,7 @@
         "aspect": "landscape"
       },
       {
-        "id": "photo-56",
+        "id": "photo-100",
         "file": "IMG-20261020-WA0037.jpg",
         "imageUrl": "/projects/interiors/IMG-20261020-WA0037.jpg",
         "thumbnailUrl": "/projects/interiors/IMG-20261020-WA0037.jpg",
@@ -1621,7 +2589,7 @@
         "aspect": "landscape"
       },
       {
-        "id": "photo-57",
+        "id": "photo-101",
         "file": "IMG-20261020-WA0040.jpg",
         "imageUrl": "/projects/interiors/IMG-20261020-WA0040.jpg",
         "thumbnailUrl": "/projects/interiors/IMG-20261020-WA0040.jpg",
@@ -1632,7 +2600,7 @@
         "aspect": "landscape"
       },
       {
-        "id": "photo-58",
+        "id": "photo-102",
         "file": "IMG-20261020-WA0041.jpg",
         "imageUrl": "/projects/interiors/IMG-20261020-WA0041.jpg",
         "thumbnailUrl": "/projects/interiors/IMG-20261020-WA0041.jpg",
@@ -1643,7 +2611,7 @@
         "aspect": "landscape"
       },
       {
-        "id": "photo-59",
+        "id": "photo-103",
         "file": "IMG-20261020-WA0045.jpg",
         "imageUrl": "/projects/interiors/IMG-20261020-WA0045.jpg",
         "thumbnailUrl": "/projects/interiors/IMG-20261020-WA0045.jpg",
@@ -1654,7 +2622,7 @@
         "aspect": "landscape"
       },
       {
-        "id": "photo-60",
+        "id": "photo-104",
         "file": "IMG-20261020-WA0046.jpg",
         "imageUrl": "/projects/interiors/IMG-20261020-WA0046.jpg",
         "thumbnailUrl": "/projects/interiors/IMG-20261020-WA0046.jpg",
@@ -1665,7 +2633,7 @@
         "aspect": "landscape"
       },
       {
-        "id": "photo-61",
+        "id": "photo-105",
         "file": "IMG-20261020-WA0048.jpg",
         "imageUrl": "/projects/interiors/IMG-20261020-WA0048.jpg",
         "thumbnailUrl": "/projects/interiors/IMG-20261020-WA0048.jpg",
@@ -1676,7 +2644,7 @@
         "aspect": "landscape"
       },
       {
-        "id": "photo-62",
+        "id": "photo-106",
         "file": "IMG-20261020-WA0050.jpg",
         "imageUrl": "/projects/interiors/IMG-20261020-WA0050.jpg",
         "thumbnailUrl": "/projects/interiors/IMG-20261020-WA0050.jpg",
@@ -1687,7 +2655,7 @@
         "aspect": "landscape"
       },
       {
-        "id": "photo-63",
+        "id": "photo-107",
         "file": "IMG-20261020-WA0052.jpg",
         "imageUrl": "/projects/interiors/IMG-20261020-WA0052.jpg",
         "thumbnailUrl": "/projects/interiors/IMG-20261020-WA0052.jpg",
@@ -1698,7 +2666,7 @@
         "aspect": "landscape"
       },
       {
-        "id": "photo-64",
+        "id": "photo-108",
         "file": "IMG-20261020-WA0053.jpg",
         "imageUrl": "/projects/interiors/IMG-20261020-WA0053.jpg",
         "thumbnailUrl": "/projects/interiors/IMG-20261020-WA0053.jpg",
@@ -1709,7 +2677,7 @@
         "aspect": "landscape"
       },
       {
-        "id": "photo-65",
+        "id": "photo-109",
         "file": "IMG-20261020-WA0054.jpg",
         "imageUrl": "/projects/interiors/IMG-20261020-WA0054.jpg",
         "thumbnailUrl": "/projects/interiors/IMG-20261020-WA0054.jpg",
@@ -1720,7 +2688,7 @@
         "aspect": "landscape"
       },
       {
-        "id": "photo-66",
+        "id": "photo-110",
         "file": "IMG-20261020-WA0055.jpg",
         "imageUrl": "/projects/interiors/IMG-20261020-WA0055.jpg",
         "thumbnailUrl": "/projects/interiors/IMG-20261020-WA0055.jpg",
@@ -1731,7 +2699,7 @@
         "aspect": "landscape"
       },
       {
-        "id": "photo-67",
+        "id": "photo-111",
         "file": "IMG-20261020-WA0056.jpg",
         "imageUrl": "/projects/interiors/IMG-20261020-WA0056.jpg",
         "thumbnailUrl": "/projects/interiors/IMG-20261020-WA0056.jpg",
@@ -1742,7 +2710,7 @@
         "aspect": "landscape"
       },
       {
-        "id": "photo-68",
+        "id": "photo-112",
         "file": "IMG-20261020-WA0057.jpg",
         "imageUrl": "/projects/interiors/IMG-20261020-WA0057.jpg",
         "thumbnailUrl": "/projects/interiors/IMG-20261020-WA0057.jpg",
@@ -1753,7 +2721,7 @@
         "aspect": "landscape"
       },
       {
-        "id": "photo-69",
+        "id": "photo-113",
         "file": "IMG-20261020-WA0058.jpg",
         "imageUrl": "/projects/interiors/IMG-20261020-WA0058.jpg",
         "thumbnailUrl": "/projects/interiors/IMG-20261020-WA0058.jpg",
@@ -1764,7 +2732,7 @@
         "aspect": "landscape"
       },
       {
-        "id": "photo-70",
+        "id": "photo-114",
         "file": "IMG-20261020-WA0059.jpg",
         "imageUrl": "/projects/interiors/IMG-20261020-WA0059.jpg",
         "thumbnailUrl": "/projects/interiors/IMG-20261020-WA0059.jpg",
@@ -1775,7 +2743,7 @@
         "aspect": "landscape"
       },
       {
-        "id": "photo-71",
+        "id": "photo-115",
         "file": "IMG-20261020-WA0060.jpg",
         "imageUrl": "/projects/interiors/IMG-20261020-WA0060.jpg",
         "thumbnailUrl": "/projects/interiors/IMG-20261020-WA0060.jpg",
@@ -1786,7 +2754,7 @@
         "aspect": "landscape"
       },
       {
-        "id": "photo-72",
+        "id": "photo-116",
         "file": "IMG-20261020-WA0061.jpg",
         "imageUrl": "/projects/interiors/IMG-20261020-WA0061.jpg",
         "thumbnailUrl": "/projects/interiors/IMG-20261020-WA0061.jpg",
@@ -1797,7 +2765,7 @@
         "aspect": "landscape"
       },
       {
-        "id": "photo-73",
+        "id": "photo-117",
         "file": "IMG-20261020-WA0062.jpg",
         "imageUrl": "/projects/interiors/IMG-20261020-WA0062.jpg",
         "thumbnailUrl": "/projects/interiors/IMG-20261020-WA0062.jpg",
@@ -1808,7 +2776,7 @@
         "aspect": "landscape"
       },
       {
-        "id": "photo-74",
+        "id": "photo-118",
         "file": "IMG-20261020-WA0063.jpg",
         "imageUrl": "/projects/interiors/IMG-20261020-WA0063.jpg",
         "thumbnailUrl": "/projects/interiors/IMG-20261020-WA0063.jpg",
@@ -1819,7 +2787,7 @@
         "aspect": "landscape"
       },
       {
-        "id": "photo-75",
+        "id": "photo-119",
         "file": "IMG-20261020-WA0064.jpg",
         "imageUrl": "/projects/interiors/IMG-20261020-WA0064.jpg",
         "thumbnailUrl": "/projects/interiors/IMG-20261020-WA0064.jpg",
@@ -1830,7 +2798,7 @@
         "aspect": "landscape"
       },
       {
-        "id": "photo-76",
+        "id": "photo-120",
         "file": "IMG-20261020-WA0065.jpg",
         "imageUrl": "/projects/interiors/IMG-20261020-WA0065.jpg",
         "thumbnailUrl": "/projects/interiors/IMG-20261020-WA0065.jpg",
@@ -1841,7 +2809,7 @@
         "aspect": "landscape"
       },
       {
-        "id": "photo-77",
+        "id": "photo-121",
         "file": "IMG-20261020-WA0066.jpg",
         "imageUrl": "/projects/interiors/IMG-20261020-WA0066.jpg",
         "thumbnailUrl": "/projects/interiors/IMG-20261020-WA0066.jpg",
@@ -1852,7 +2820,7 @@
         "aspect": "landscape"
       },
       {
-        "id": "photo-78",
+        "id": "photo-122",
         "file": "IMG-20261020-WA0067.jpg",
         "imageUrl": "/projects/interiors/IMG-20261020-WA0067.jpg",
         "thumbnailUrl": "/projects/interiors/IMG-20261020-WA0067.jpg",
@@ -1863,7 +2831,7 @@
         "aspect": "landscape"
       },
       {
-        "id": "photo-79",
+        "id": "photo-123",
         "file": "IMG-20261020-WA0068.jpg",
         "imageUrl": "/projects/interiors/IMG-20261020-WA0068.jpg",
         "thumbnailUrl": "/projects/interiors/IMG-20261020-WA0068.jpg",
@@ -1874,7 +2842,7 @@
         "aspect": "landscape"
       },
       {
-        "id": "photo-80",
+        "id": "photo-124",
         "file": "IMG-20261020-WA0071.jpg",
         "imageUrl": "/projects/interiors/IMG-20261020-WA0071.jpg",
         "thumbnailUrl": "/projects/interiors/IMG-20261020-WA0071.jpg",
@@ -1885,7 +2853,7 @@
         "aspect": "landscape"
       },
       {
-        "id": "photo-81",
+        "id": "photo-125",
         "file": "IMG-20261020-WA0072.jpg",
         "imageUrl": "/projects/interiors/IMG-20261020-WA0072.jpg",
         "thumbnailUrl": "/projects/interiors/IMG-20261020-WA0072.jpg",
@@ -1896,7 +2864,7 @@
         "aspect": "landscape"
       },
       {
-        "id": "photo-82",
+        "id": "photo-126",
         "file": "IMG-20261020-WA0073.jpg",
         "imageUrl": "/projects/interiors/IMG-20261020-WA0073.jpg",
         "thumbnailUrl": "/projects/interiors/IMG-20261020-WA0073.jpg",
@@ -1907,7 +2875,7 @@
         "aspect": "landscape"
       },
       {
-        "id": "photo-83",
+        "id": "photo-127",
         "file": "IMG-20261020-WA0074.jpg",
         "imageUrl": "/projects/interiors/IMG-20261020-WA0074.jpg",
         "thumbnailUrl": "/projects/interiors/IMG-20261020-WA0074.jpg",
@@ -1918,7 +2886,7 @@
         "aspect": "landscape"
       },
       {
-        "id": "photo-84",
+        "id": "photo-128",
         "file": "IMG-20261020-WA0078.jpg",
         "imageUrl": "/projects/interiors/IMG-20261020-WA0078.jpg",
         "thumbnailUrl": "/projects/interiors/IMG-20261020-WA0078.jpg",
@@ -1929,7 +2897,7 @@
         "aspect": "landscape"
       },
       {
-        "id": "photo-85",
+        "id": "photo-129",
         "file": "IMG-20261020-WA0080.jpg",
         "imageUrl": "/projects/interiors/IMG-20261020-WA0080.jpg",
         "thumbnailUrl": "/projects/interiors/IMG-20261020-WA0080.jpg",
@@ -1940,7 +2908,7 @@
         "aspect": "landscape"
       },
       {
-        "id": "photo-86",
+        "id": "photo-130",
         "file": "IMG-20261020-WA0082.jpg",
         "imageUrl": "/projects/interiors/IMG-20261020-WA0082.jpg",
         "thumbnailUrl": "/projects/interiors/IMG-20261020-WA0082.jpg",
@@ -1951,7 +2919,7 @@
         "aspect": "landscape"
       },
       {
-        "id": "photo-87",
+        "id": "photo-131",
         "file": "IMG-20261020-WA0083.jpg",
         "imageUrl": "/projects/interiors/IMG-20261020-WA0083.jpg",
         "thumbnailUrl": "/projects/interiors/IMG-20261020-WA0083.jpg",
@@ -1962,7 +2930,7 @@
         "aspect": "landscape"
       },
       {
-        "id": "photo-88",
+        "id": "photo-132",
         "file": "WhatsApp Image 2026-10-17 at 17.57.29.jpeg",
         "imageUrl": "/projects/interiors/WhatsApp Image 2026-10-17 at 17.57.29.jpeg",
         "thumbnailUrl": "/projects/interiors/WhatsApp Image 2026-10-17 at 17.57.29.jpeg",
