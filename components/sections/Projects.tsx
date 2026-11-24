@@ -169,10 +169,6 @@ export function Projects() {
     }
   }, [lightboxIndex, nextLightbox, prevLightbox])
 
-  const currentCategoryMeta = gallery.categories.find(
-    (c) => c.id === activeCategory
-  )
-
   const visibleGridPhotos = currentPhotos.slice(0, gridVisibleCount)
 
   return (
@@ -193,7 +189,7 @@ export function Projects() {
         />
 
         {/* Category Selector Tabs & View Switcher */}
-        <div className="flex flex-col lg:flex-row items-center justify-between gap-4 mb-5 sm:mb-6 max-w-6xl mx-auto">
+        <div className="flex flex-col lg:flex-row items-center justify-between gap-4 mb-6 sm:mb-8 max-w-6xl mx-auto">
           {/* Main Category Tabs */}
           <div className="flex flex-wrap items-center justify-center gap-2 p-1.5 rounded-2xl bg-navy-800/80 backdrop-blur-xl border border-white/10 shadow-xl">
             {gallery.categories.map((cat) => {
@@ -252,19 +248,6 @@ export function Projects() {
           </div>
         </div>
 
-        {/* Dynamic Category Tagline */}
-        {currentCategoryMeta?.tagline && (
-          <motion.p
-            key={activeCategory}
-            initial={{ opacity: 0, y: 8 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.3 }}
-            className="text-center text-slate-300 text-sm md:text-base max-w-2xl mx-auto mb-6 sm:mb-8 italic"
-          >
-            &ldquo;{currentCategoryMeta.tagline}&rdquo;
-          </motion.p>
-        )}
-
         {/* SLIDER VIEW MODE */}
         {viewMode === 'slider' ? (
           <div className="relative max-w-5xl mx-auto">
@@ -289,32 +272,11 @@ export function Projects() {
                         priority={index < 2}
                       />
 
-                      {/* Vignette Gradient */}
-                      <div className="absolute inset-0 bg-gradient-to-t from-navy-950/90 via-navy-950/20 to-black/30 opacity-70 group-hover:opacity-90 transition-opacity duration-300" />
-
-                      {/* Content Overlay */}
-                      <div className="absolute bottom-0 left-0 right-0 p-5 md:p-8 flex items-end justify-between gap-4">
-                        <div className="max-w-[80%]">
-                          <span className="inline-block px-3 py-1 rounded-full bg-primary/90 text-white text-xs font-semibold uppercase tracking-wider mb-2 shadow">
-                            {photo.tag}
-                          </span>
-                          <h4 className="text-white text-base md:text-xl font-heading font-bold drop-shadow-md line-clamp-1">
-                            {photo.title}
-                          </h4>
-                          <p className="text-slate-300 text-xs sm:text-sm mt-1 line-clamp-1">
-                            {photo.alt}
-                          </p>
+                      {/* Subtle hover expand indicator */}
+                      <div className="absolute inset-0 bg-black/20 opacity-0 group-hover:opacity-100 transition-opacity duration-300 pointer-events-none flex items-center justify-center">
+                        <div className="w-12 h-12 rounded-full bg-white/20 backdrop-blur-md border border-white/30 text-white flex items-center justify-center scale-90 group-hover:scale-100 transition-transform duration-300 shadow-xl">
+                          <Maximize2 size={20} />
                         </div>
-
-                        {/* Hover Expand Icon Badge */}
-                        <div className="w-11 h-11 md:w-12 md:h-12 rounded-full bg-white/10 backdrop-blur-md border border-white/20 text-white flex items-center justify-center group-hover:bg-primary group-hover:border-primary group-hover:scale-110 transition-all duration-300 shadow-xl flex-shrink-0">
-                          <Maximize2 size={18} />
-                        </div>
-                      </div>
-
-                      {/* Slide Index Badge */}
-                      <div className="absolute top-4 left-4 px-3 py-1 rounded-full bg-black/60 backdrop-blur-md border border-white/10 text-white/90 text-xs font-mono font-medium tracking-wider">
-                        {String(index + 1).padStart(2, '0')} / {String(currentPhotos.length).padStart(2, '0')}
                       </div>
                     </div>
                   </div>
@@ -339,7 +301,7 @@ export function Projects() {
             </button>
 
             {/* Slider Navigation Controls */}
-            <div className="flex items-center justify-between mt-8 max-w-5xl mx-auto px-2">
+            <div className="flex items-center justify-between mt-6 sm:mt-8 max-w-5xl mx-auto px-2">
               {/* Previous Button */}
               <button
                 onClick={scrollPrev}
@@ -349,23 +311,28 @@ export function Projects() {
                 <ChevronLeft size={24} />
               </button>
 
-              {/* Slide Indicator Dots */}
-              <div className="flex items-center gap-1.5 overflow-x-auto max-w-[240px] sm:max-w-md py-2 px-3 no-scrollbar">
-                {scrollSnaps.slice(0, 30).map((_, index) => (
-                  <button
-                    key={index}
-                    onClick={() => scrollTo(index)}
-                    className={`h-2 rounded-full transition-all duration-300 ${
-                      index === selectedIndex
-                        ? 'w-7 bg-primary shadow-md shadow-primary/50'
-                        : 'w-2 bg-slate-600 hover:bg-slate-400'
-                    }`}
-                    aria-label={`Go to photograph ${index + 1}`}
-                  />
-                ))}
-                {scrollSnaps.length > 30 && (
-                  <span className="text-slate-500 text-xs font-mono ml-1">+{scrollSnaps.length - 30}</span>
-                )}
+              {/* Slide Counter & Dots */}
+              <div className="flex flex-col sm:flex-row items-center gap-2 sm:gap-4">
+                <span className="text-slate-400 text-xs font-mono font-medium tracking-wider">
+                  {String(selectedIndex + 1).padStart(2, '0')} / {String(currentPhotos.length).padStart(2, '0')}
+                </span>
+                <div className="flex items-center gap-1.5 overflow-x-auto max-w-[200px] sm:max-w-md py-2 px-3 no-scrollbar">
+                  {scrollSnaps.slice(0, 30).map((_, index) => (
+                    <button
+                      key={index}
+                      onClick={() => scrollTo(index)}
+                      className={`h-2 rounded-full transition-all duration-300 ${
+                        index === selectedIndex
+                          ? 'w-7 bg-primary shadow-md shadow-primary/50'
+                          : 'w-2 bg-slate-600 hover:bg-slate-400'
+                      }`}
+                      aria-label={`Go to photograph ${index + 1}`}
+                    />
+                  ))}
+                  {scrollSnaps.length > 30 && (
+                    <span className="text-slate-500 text-xs font-mono ml-1">+{scrollSnaps.length - 30}</span>
+                  )}
+                </div>
               </div>
 
               {/* Next Button */}
@@ -396,22 +363,12 @@ export function Projects() {
                     alt={photo.alt}
                     fill
                     sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 25vw"
-                    className="object-cover transition-transform duration-500 group-hover:scale-108"
+                    className="object-cover transition-transform duration-500 group-hover:scale-105"
                   />
-                  <div className="absolute inset-0 bg-gradient-to-t from-navy-950/90 via-navy-950/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
-                  
-                  {/* Grid Item Overlay */}
-                  <div className="absolute inset-x-0 bottom-0 p-3.5 translate-y-2 group-hover:translate-y-0 opacity-0 group-hover:opacity-100 transition-all duration-300 flex items-end justify-between gap-2">
-                    <div className="max-w-[78%]">
-                      <span className="inline-block px-2 py-0.5 rounded bg-primary/90 text-white text-[10px] font-bold uppercase tracking-wider mb-1">
-                        {photo.tag}
-                      </span>
-                      <p className="text-white text-xs font-semibold line-clamp-1">
-                        {photo.title}
-                      </p>
-                    </div>
-                    <div className="w-8 h-8 rounded-full bg-white/20 backdrop-blur-md text-white flex items-center justify-center flex-shrink-0">
-                      <Maximize2 size={14} />
+                  {/* Subtle expand icon on hover */}
+                  <div className="absolute inset-0 bg-black/30 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center pointer-events-none">
+                    <div className="w-10 h-10 rounded-full bg-white/20 backdrop-blur-md border border-white/30 text-white flex items-center justify-center scale-90 group-hover:scale-100 transition-transform duration-200 shadow-lg">
+                      <Maximize2 size={16} />
                     </div>
                   </div>
                 </motion.div>
@@ -461,13 +418,7 @@ export function Projects() {
               onClick={(e) => e.stopPropagation()}
             >
               <div className="flex items-center gap-3">
-                <span className="px-3.5 py-1.5 rounded-full bg-primary/20 border border-primary/40 text-primary text-xs font-semibold uppercase tracking-wider">
-                  {currentPhotos[lightboxIndex].tag}
-                </span>
-                <span className="text-white font-heading font-semibold text-sm hidden sm:inline">
-                  {currentPhotos[lightboxIndex].title}
-                </span>
-                <span className="text-white/60 text-sm font-mono">
+                <span className="text-white/80 text-sm font-mono bg-white/10 backdrop-blur-md border border-white/15 px-3.5 py-1.5 rounded-full">
                   {String(lightboxIndex + 1).padStart(2, '0')} / {String(currentPhotos.length).padStart(2, '0')}
                 </span>
               </div>
@@ -475,7 +426,7 @@ export function Projects() {
               {/* Close Button */}
               <button
                 onClick={closeLightbox}
-                className="w-11 h-11 rounded-full bg-white/10 hover:bg-white/25 text-white flex items-center justify-center transition-colors"
+                className="w-11 h-11 rounded-full bg-white/10 hover:bg-white/25 text-white flex items-center justify-center transition-colors border border-white/15"
                 aria-label="Close fullscreen lightbox"
               >
                 <X size={22} />
